@@ -146,7 +146,7 @@
 									</li>
 									<li>
 										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".7s">
-											<img src="img/icons/robotic.png" class="icons"/> Robotica
+											<img src="img/icons/robotic.png" class="icons"/> Robótica
 										</a>
 										<ul class="dropdown" >
 									        <li><a href="courses.php" style="color: black;">
