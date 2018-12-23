@@ -53,9 +53,9 @@
 						the space telescope.</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.html">Home </a>
+							<a href="index.php">Home </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="contact.html">Contact Us</a>
+							<a href="contact.php">Contact Us</a>
 						</span>
 					</div>
 				</div>

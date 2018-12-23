@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="zxx" class="no-js">
 
 <head>
@@ -55,9 +55,9 @@
 						the space telescope.</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.html">Home </a>
+							<a href="index.php">Home </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="elements.html">Elements</a>
+							<a href="elements.php">Elements</a>
 						</span>
 					</div>
 				</div>

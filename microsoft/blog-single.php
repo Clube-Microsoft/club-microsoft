@@ -53,11 +53,11 @@
 						the space telescope.</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.html">Home </a>
+							<a href="index.php">Home </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="blog-home.html">Blog</a>
+							<a href="blog-home.php">Blog</a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="blog-single.html">Blog Details</a>
+							<a href="blog-single.php">Blog Details</a>
 						</span>
 					</div>
 				</div>
@@ -326,7 +326,7 @@
 										<img class="img-fluid" src="img/blog/pp1.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Space The Final Frontier</h6></a>
+										<a href="blog-single.php"><h6>Space The Final Frontier</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -335,7 +335,7 @@
 										<img class="img-fluid" src="img/blog/pp2.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>The Amazing Hubble</h6></a>
+										<a href="blog-single.php"><h6>The Amazing Hubble</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -344,7 +344,7 @@
 										<img class="img-fluid" src="img/blog/pp3.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Astronomy Or Astrology</h6></a>
+										<a href="blog-single.php"><h6>Astronomy Or Astrology</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>
@@ -353,7 +353,7 @@
 										<img class="img-fluid" src="img/blog/pp4.jpg" alt="">
 									</div>
 									<div class="details">
-										<a href="blog-single.html"><h6>Asteroids telescope</h6></a>
+										<a href="blog-single.php"><h6>Asteroids telescope</h6></a>
 										<p>02 Hours ago</p>
 									</div>
 								</div>

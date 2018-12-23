@@ -54,9 +54,9 @@
 						the space telescope.</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.html">Home </a>
+							<a href="index.php">Home </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="about.html">About Us</a>
+							<a href="about.php">About Us</a>
 						</span>
 					</div>
 				</div>
@@ -87,7 +87,7 @@
 							telescope. It’s exciting to think about setting up your own viewing station.
 						</p>
 					</div>
-					<a href="courses.html" class="primary-btn">Explore Courses</a>
+					<a href="courses.php" class="primary-btn">Explore Courses</a>
 				</div>
 			</div>
 		</div>

@@ -55,9 +55,9 @@
 						the space telescope.</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.html">Home </a>
+							<a href="index.php">Home </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="courses.html">Courses</a>
+							<a href="courses.php">Courses</a>
 						</span>
 					</div>
 				</div>
@@ -172,7 +172,7 @@
 							telescope. It’s exciting to think about setting up your own viewing station.
 						</p>
 					</div>
-					<a href="courses.html" class="primary-btn white">Explore Courses</a>
+					<a href="courses.php" class="primary-btn white">Explore Courses</a>
 				</div>
 				<div class="offset-lg-1 col-lg-6">
 					<div class="courses-right">
@@ -180,37 +180,37 @@
 							<div class="col-lg-6 col-md-6 col-sm-12">
 								<ul class="courses-list">
 									<li>
-										<a class="wow fadeInLeft" href="courses.html" data-wow-duration="1s" data-wow-delay=".1s">
+										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".1s">
 											<i class="fa fa-book"></i> Development
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInLeft" href="courses.html" data-wow-duration="1s" data-wow-delay=".3s">
+										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".3s">
 											<i class="fa fa-book"></i> IT & Software
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInLeft" href="courses.html" data-wow-duration="1s" data-wow-delay=".5s">
+										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".5s">
 											<i class="fa fa-book"></i> Photography
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInLeft" href="courses.html" data-wow-duration="1s" data-wow-delay=".7s">
+										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".7s">
 											<i class="fa fa-book"></i> Language
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInLeft" href="courses.html" data-wow-duration="1s" data-wow-delay=".9s">
+										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".9s">
 											<i class="fa fa-book"></i> Life Science
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInLeft" href="courses.html" data-wow-duration="1s" data-wow-delay="1.1s">
+										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay="1.1s">
 											<i class="fa fa-book"></i> Business
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInLeft" href="courses.html" data-wow-duration="1s" data-wow-delay="1.3s">
+										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay="1.3s">
 											<i class="fa fa-book"></i> Socoal Science
 										</a>
 									</li>
@@ -219,37 +219,37 @@
 							<div class="col-lg-6 col-md-6 col-sm-12">
 								<ul class="courses-list">
 									<li>
-										<a class="wow fadeInRight" href="courses.html" data-wow-duration="1s" data-wow-delay="1.3s">
+										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay="1.3s">
 											<i class="fa fa-book"></i> Data Science
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInRight" href="courses.html" data-wow-duration="1s" data-wow-delay="1.1s">
+										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay="1.1s">
 											<i class="fa fa-book"></i> Design
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInRight" href="courses.html" data-wow-duration="1s" data-wow-delay=".9s">
+										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".9s">
 											<i class="fa fa-book"></i> Training
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInRight" href="courses.html" data-wow-duration="1s" data-wow-delay=".7s">
+										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".7s">
 											<i class="fa fa-book"></i> Humanities
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInRight" href="courses.html" data-wow-duration="1s" data-wow-delay=".5s">
+										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".5s">
 											<i class="fa fa-book"></i> Marketing
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInRight" href="courses.html" data-wow-duration="1s" data-wow-delay=".3s">
+										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".3s">
 											<i class="fa fa-book"></i> Economics
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInRight" href="courses.html" data-wow-duration="1s" data-wow-delay=".1s">
+										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".1s">
 											<i class="fa fa-book"></i> Personal Dev
 										</a>
 									</li>
