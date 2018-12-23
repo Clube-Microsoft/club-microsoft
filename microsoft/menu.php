@@ -1,10 +1,8 @@
 <header id="header">
-<<<<<<< HEAD
 	<div class="container">
 		<div class="row align-items-center justify-content-between d-flex">
 			<div id="logo">
 				<a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
-=======
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
@@ -29,7 +27,6 @@
 						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</nav><!-- #nav-menu-container -->
->>>>>>> 9416bc12c590a3aa54327bd817c7b92966dab25e
 			</div>
 			<nav id="nav-menu-container">
 				<ul class="nav-menu">
