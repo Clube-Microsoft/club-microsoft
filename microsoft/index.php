@@ -293,8 +293,8 @@
 						</div>
 						<div class="align-items-center justify-content-center d-flex">
 							<a href="https://www.facebook.com/leandrojferreirap" target="blank"><i class="fa fa-facebook"></i></a>
-							<a href="https://twitter.com/leandrojfpereir"><i class="fa fa-twitter" target="blank"></i></a>
-							<a href="https://www.linkedin.com/in/leandrojfpereira/"><i class="fa fa-linkedin" target="blank"></i></a>
+							<a href="https://twitter.com/leandrojfpereir" target="blank"><i class="fa fa-twitter" target="blank"></i></a>
+							<a href="https://www.linkedin.com/in/leandrojfpereira/" target="blank"><i class="fa fa-linkedin" target="blank"></i></a>
 						</div>
 					</div>
 				</div>
