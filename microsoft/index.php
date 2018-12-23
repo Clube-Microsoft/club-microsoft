@@ -157,7 +157,7 @@
 							<div class="col-lg-6 col-md-6 col-sm-12">
 								<ul class="courses-list">
 									<li>
-										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay="1.1s">
+										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay="0.1s">
 											<img src="img/icons/office.png" class="icons"/> Office MOS
 										</a>
 										<ul class="dropdown" >
