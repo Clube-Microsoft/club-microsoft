@@ -48,10 +48,9 @@
 		<div class="container">
 			<div class="row fullscreen d-flex align-items-center justify-content-center">
 				<div class="banner-content col-lg-8 col-md-12">
-					<h1 class="wow fadeIn" data-wow-duration="4s">We Rank the Best Courses <br> on the Web</h1>
+					<h1 class="wow fadeIn" data-wow-duration="4s">Escola mais digital</h1>
 					<p class="text-white">
-						In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space
-						telescope.
+						Com foco na aprendizagem e motivação de estudo, este clube irá englobar diversas mais valias e características importantes para o teu desenvolvimento como profissional.
 					</p>
 
 					<div class="input-wrap">
@@ -60,7 +59,7 @@
 							<button type="submit" class="btn search-btn">Search</button>
 						</form>
 					</div>
-					<h4 class="text-white">Top courses</h4>
+					<h4 class="text-white">Recomendados</h4>
 
 					<div class="courses pt-20">
 						<a href="#" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Ruby
@@ -188,7 +187,7 @@
 									</li>
 									<li>
 										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".7s">
-											<img src="img/icons/robotic.png" class="icons"/> Robotica
+											<img src="img/icons/robotic.png" class="icons"/> Robótica
 										</a>
 										<ul class="dropdown" >
 									        <li><a href="courses.php" style="color: black;">
@@ -221,7 +220,7 @@
 				<div class="col-md-6">
 					<div class="feature-item">						
 						<img src="img/icons/workshop.png" class="icons_servicos"/> 
-						<h4>workshops</h4>
+						<h4>Workshops</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
 							<p>
 								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
