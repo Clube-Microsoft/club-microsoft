@@ -6,7 +6,7 @@
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li class="menu-active"><a href="index.php">Inicio</a></li>
+						<li><a href="index.php">Inicio</a></li>
 						<li><a href="about.php">About</a></li>
 						<li><a href="courses.php">Courses</a></li>
 						<li class="menu-has-children"><a href="">Pages</a>
