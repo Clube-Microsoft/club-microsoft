@@ -83,11 +83,12 @@ body {
     outline: 0 !important
 }
 
-.nav-menu a {padding: 5px 15px 5px 15px!important;}
+.nav-menu a {padding: 5px 15px 5px 15px!important;margin-right: 30px;}
 .nav-menu ul li {min-width: 100%!important;}
 .nav-menu ul {margin: 0!important;}
 .form-box {border-radius: 5px!important;}
-.search-btn {border-radius: 5px;}
+.search-btn {border-radius: 5px!important;}
+.sf-arrows .sf-with-ul:after {right: 0px!important;}
 
 hr {
     box-sizing: content-box;
