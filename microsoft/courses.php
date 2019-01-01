@@ -75,7 +75,7 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-5 about-right">
-					<h1>Categorias</h1>
+					<h1>Cursos</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
 							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think

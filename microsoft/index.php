@@ -94,7 +94,7 @@
 				</div>
 				<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
 					<h1>
-						Over 2500 Courses <br> from 5 Platform
+						Sobre Clube Microsoft
 					</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
@@ -116,7 +116,7 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-5 about-right">
-					<h1>Categorias</h1>
+					<h1>Cursos</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
 							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think
