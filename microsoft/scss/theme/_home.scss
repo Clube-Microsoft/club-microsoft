@@ -212,6 +212,7 @@
     li {
         background: #f7fafc;
         margin-bottom: 15px;
+        box-shadow: 0 0 7px 0;
         @include transition();
         &:hover {
             @extend .p1-gradient-bg;
