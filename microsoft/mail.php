@@ -1,31 +1,28 @@
 <?php
-    $to = 'demo@spondonit.com';
-    $firstname = $_POST["fname"];
+    $to = 'clube.microsoft.epb@gmail.com';
+    $name = $_POST["name"];
     $email= $_POST["email"];
+	$subject= $_POST["subject"];
     $text= $_POST["message"];
-    $phone= $_POST["phone"];
     
 
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+    $headers .= $name . "|" . $subject . "\r\n"; // Subject
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-    $message ='<table style="width:100%">
-        <tr>
-            <td>'.$firstname.'  '.$laststname.'</td>
-        </tr>
+    $message =
+	'<table style="width:100%">
+        <tr><td>Nome: '.$name.'</td></tr>
         <tr><td>Email: '.$email.'</td></tr>
-        <tr><td>phone: '.$phone.'</td></tr>
-        <tr><td>Text: '.$text.'</td></tr>
-        
+        <tr><td>Mensagem: '.$text.'</td></tr>
     </table>';
 
     if (@mail($to, $email, $message, $headers))
     {
-        echo 'The message has been sent.';
-    }else{
-        echo 'failed';
+        echo 'A mensagem foi enviada.';
+    } else {
+        echo 'Erro.';
     }
 
 ?>

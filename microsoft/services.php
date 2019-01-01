@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Contacto</title>
+	<title>Serviços</title>
 
 	<!--
 			Google Font
@@ -38,6 +38,7 @@
 </head>
 
 <body>
+
 	<?php  require_once "menu.php"; ?>
 
 
@@ -47,15 +48,15 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-							Contacta-nos
+						Os nossos serviços
 					</h1>
 					<p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
-						the space telescope.</p>
+					the space telescope.</p>
 					<div class="link-nav">
 						<span class="box">
 							<a href="index.php">Home </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="contact.php">Contacto</a>
+							<a href="about.php">About Us</a>
 						</span>
 					</div>
 				</div>
@@ -67,73 +68,69 @@
 	</section>
 	<!-- End Banner Area -->
 
-	<!-- Start contact-page Area -->
-	<section class="contact-page-area section-gap">
+
+	<!-- Start Services Area -->
+	<section class="feature-area">
 		<div class="container">
-			<div class="row">
-				<iframe class="map-wrap" style="width:100%; height: 445px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d978.203458505185!2d-8.424773584025896!3d41.53831794708731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0e2389973067be0!2sEPB+Professional+Braga+School!5e1!3m2!1sen!2spt!4v1546365222202" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				<div class="col-lg-4 d-flex flex-column address-wrap">
-					<div class="single-contact-address d-flex flex-row">
-						<div class="icon">
-							<span class="lnr lnr-home"></span>
-						</div>
-						<div class="contact-details">
-							<h5>EPB - Escola Profissional de Braga</h5>
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title text-center">
+						<h1>Serviços</h1>
+					</div>
+				</div>
+			</div>
+			<div class="feature-inner row">
+				<div class="col-md-6">
+					<div class="feature-item">						
+						<img src="img/icons/workshop.png" class="icons_servicos"/> 
+						<h4>Workshops</h4>
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
 							<p>
-								Rua Augusto Veloso, Nº 140 <br> 4705-082 Braga
+								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
 							</p>
 						</div>
 					</div>
-					<!--<div class="single-contact-address d-flex flex-row">
-						<div class="icon">
-							<span class="lnr lnr-phone-handset"></span>
-						</div>
-						<div class="contact-details">
-							<h5>00 (958) 9865 562</h5>
-							<p>Mon to Fri 9am to 6 pm</p>
-						</div>
-					</div>-->
-					<div class="single-contact-address d-flex flex-row">
-						<div class="icon">
-							<span class="lnr lnr-envelope"></span>
-						</div>
-						<div class="contact-details">
-							<h5>clube.microsoft.epb@gmail.com</h5>
-							<p>Envia-nos as tuas questões!</p>
+				</div>
+				<div class="col-md-6">
+					<div class="feature-item">
+						<img src="img/icons/palestras.png" class="icons_servicos"/> 
+						<h4>Palestras</h4>
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+							<p>
+								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-8">
-					<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
-						<div class="row">
-							<div class="col-lg-6 form-group">
-								<input name="name" placeholder="Introduz o teu nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Introduz o teu nome'"
-								 class="common-input mb-20 form-control" required="" type="text">
-
-								<input name="email" placeholder="Introduz o teu email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Introduz o teu email'" class="common-input mb-20 form-control" required="" type="email">
-
-								<input name="subject" placeholder="Introduz o assunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Introduz o assunto'"
-								 class="common-input mb-20 form-control" required="" type="text">
-							</div>
-							<div class="col-lg-6 form-group">
-								<textarea class="common-textarea form-control" name="message" placeholder="Introduz a mensagem" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Introduz a mensagem'" required=""></textarea>
-							</div>
-							<div class="col-lg-12">
-								<div class="alert-msg" style="text-align: left;"></div>
-								<button class="primary-btn" style="float: right;">Enviar</button>
-							</div>
+				<div class="col-md-6">
+					<div class="feature-item">
+						<img src="img/icons/aulasdigitais.png" class="icons_servicos"/> 
+						<h4>Aulas Digitais</h4>
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+							<p>
+								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+							</p>
 						</div>
-					</form>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="feature-item">
+						<img src="img/icons/help.png" class="icons_servicos"/> 
+						<h4>Ajuda Em Tempo Real</h4>
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+							<p>
+								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- End contact-page Area -->
+	<!-- End Services Area -->
+
 
 	<?php  require_once "footer.php"; ?>
-
 
 	<!-- ####################### Start Scroll to Top Area ####################### -->
 	<div id="back-top">

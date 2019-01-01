@@ -64,7 +64,7 @@
 			</div>
 		</div>
 		<div class="rocket-img">
-			<img src="img/rocket.png" alt="">
+			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
 	<!-- End Banner Area -->
