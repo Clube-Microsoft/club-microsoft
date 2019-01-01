@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Courses</title>
+	<title>Cursos</title>
 
 	<!--
 			Google Font
@@ -49,7 +49,7 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-						Courses
+						Cursos
 					</h1>
 					<p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
 						the space telescope.</p>
@@ -57,14 +57,14 @@
 						<span class="box">
 							<a href="index.php">Home </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="courses.php">Courses</a>
+							<a href="courses.php">Cursos</a>
 						</span>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="rocket-img">
-			<img src="img/rocket.png" alt="">
+			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
 	<!-- End Banner Area -->
