@@ -83,7 +83,7 @@ body {
     outline: 0 !important
 }
 
-.nav-menu a {padding: 5px 15px 5px 15px!important;margin-right: 30px;}
+.nav-menu a {padding: 5px 15px 5px 15px!important;}
 .nav-menu ul li {min-width: 100%!important;}
 .nav-menu ul {margin: 0!important;}
 .form-box {border-radius: 5px!important;}
