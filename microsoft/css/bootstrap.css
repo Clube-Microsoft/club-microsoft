@@ -90,7 +90,9 @@ body {
 .search-btn {border-radius: 5px!important;}
 .sf-arrows .sf-with-ul:after {right: 0px!important;}
 .courses-list li {box-shadow: 0 0 7px 0!important;}
-.dropdown li{ margin: 0!important;}
+.dropdown {box-shadow: 0 0 7px 0!important;}
+.dropdown li {margin: 0!important; box-shadow: 0 0 0 0!important;}
+.dropdown li a:hover {color: white !important}
 
 hr {
     box-sizing: content-box;
