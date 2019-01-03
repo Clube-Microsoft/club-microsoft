@@ -62,18 +62,12 @@
 					<h4 class="text-white">Recomendados</h4>
 
 					<div class="courses pt-20">
-						<a href="#" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Ruby
-							on Rails</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay=".6s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Python</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay=".9s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Marketing</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay="1.2s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">UI/UX
-							Design
-						</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay="1.5s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Android</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay="1.8s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Data
-							Science
-						</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay="2.1s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Cryptocurrency</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Microsoft Word</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay=".6s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Visual Studio</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay=".9s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Microsoft PowerPoint</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay="1.2s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">SQL Server</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay="1.5s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">GitHub</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay="1.8s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Micro:Bit</a>
 					</div>
 				</div>
 			</div>
@@ -98,9 +92,7 @@
 					</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
-							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think
-							about setting up your own viewing station. In the life of any aspiring astronomer that it is time to buy that first
-							telescope. It’s exciting to think about setting up your own viewing station.
+							!!!
 						</p>
 					</div>
 					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
@@ -119,9 +111,7 @@
 					<h1>Cursos</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
-							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think
-							about setting up your own viewing station. In the life of any aspiring astronomer that it is time to buy that first
-							telescope. It’s exciting to think about setting up your own viewing station.
+							!!!
 						</p>
 					</div>
 					<a href="courses.php" class="primary-btn white">Saber Mais</a>
@@ -223,7 +213,7 @@
 						<h4>Workshops</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
 							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+								!!!
 							</p>
 						</div>
 					</div>
@@ -234,7 +224,7 @@
 						<h4>Palestras</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+								!!!
 							</p>
 						</div>
 					</div>
@@ -245,7 +235,7 @@
 						<h4>Aulas Digitais</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+								!!!
 							</p>
 						</div>
 					</div>
@@ -256,7 +246,7 @@
 						<h4>Ajuda Em Tempo Real</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+								!!!
 							</p>
 						</div>
 					</div>
@@ -454,8 +444,8 @@
 	<?php  require_once "footer.php"; ?>
 
 	<!-- ####################### Start Scroll to Top Area ####################### -->
-	<div id="back-top">
-		<a title="Go to Top" href="#"></a>
+	<div id="back-top" style="display: none;">
+		<a title="Topo" href="#"></a>
 	</div>
 	<!-- ####################### End Scroll to Top Area ####################### -->
 

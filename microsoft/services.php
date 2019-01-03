@@ -84,7 +84,7 @@
 						<h4>Workshops</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
 							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+								!!!
 							</p>
 						</div>
 					</div>
@@ -95,7 +95,7 @@
 						<h4>Palestras</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+								!!!
 							</p>
 						</div>
 					</div>
@@ -106,7 +106,7 @@
 						<h4>Aulas Digitais</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+								!!!
 							</p>
 						</div>
 					</div>
@@ -117,7 +117,7 @@
 						<h4>Ajuda Em Tempo Real</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+								!!!
 							</p>
 						</div>
 					</div>
@@ -132,7 +132,7 @@
 
 	<!-- ####################### Start Scroll to Top Area ####################### -->
 	<div id="back-top">
-		<a title="Go to Top" href="#"></a>
+		<a title="Topo" href="#"></a>
 	</div>
 	<!-- ####################### End Scroll to Top Area ####################### -->
 

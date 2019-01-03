@@ -460,7 +460,7 @@
 
 	<!-- ####################### Start Scroll to Top Area ####################### -->
 	<div id="back-top">
-		<a title="Go to Top" href="#"></a>
+		<a title="Topo" href="#"></a>
 	</div>
 	<!-- ####################### End Scroll to Top Area ####################### -->
 

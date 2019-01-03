@@ -49,8 +49,9 @@
 					<h1 class="text-white">
 							Contacta-nos
 					</h1>
-					<p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
-						the space telescope.</p>
+					<p>
+						Entre em contacto com o clube ou visita-nos.
+					</p>
 					<div class="link-nav">
 						<span class="box">
 							<a href="index.php">Home </a>
@@ -80,7 +81,8 @@
 						<div class="contact-details">
 							<h5>EPB - Escola Profissional de Braga</h5>
 							<p>
-								Rua Augusto Veloso, Nº 140 <br> 4705-082 Braga
+								Rua Augusto Veloso, Nº 140 <br> 4705-082 Braga <br>
+								<a href="http://www.epb.pt">www.epb.pt</a>
 							</p>
 						</div>
 					</div>
@@ -137,7 +139,7 @@
 
 	<!-- ####################### Start Scroll to Top Area ####################### -->
 	<div id="back-top">
-		<a title="Go to Top" href="#"></a>
+		<a title="Topo" href="#"></a>
 	</div>
 	<!-- ####################### End Scroll to Top Area ####################### -->
 

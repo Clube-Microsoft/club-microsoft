@@ -51,8 +51,9 @@
 					<h1 class="text-white">
 						Cursos
 					</h1>
-					<p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
-						the space telescope.</p>
+					<p>
+						!!!
+					</p>
 					<div class="link-nav">
 						<span class="box">
 							<a href="index.php">Home </a>
@@ -78,9 +79,7 @@
 					<h1>Cursos</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
-							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think
-							about setting up your own viewing station. In the life of any aspiring astronomer that it is time to buy that first
-							telescope. It’s exciting to think about setting up your own viewing station.
+							!!!
 						</p>
 					</div>
 					<a href="courses.php" class="primary-btn white">Saber Mais</a>
@@ -173,7 +172,7 @@
 
 	<!-- ####################### Start Scroll to Top Area ####################### -->
 	<div id="back-top">
-		<a title="Go to Top" href="#"></a>
+		<a title="Topo" href="#"></a>
 	</div>
 	<!-- ####################### End Scroll to Top Area ####################### -->
 
