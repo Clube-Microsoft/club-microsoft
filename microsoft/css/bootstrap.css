@@ -95,7 +95,7 @@ body {
 .dropdown li a:hover {color: white !important}
 #mobile-nav ul li a:hover {color: #000!important;}
 .banner-area {background: url(../img/banner-bg.png) no-repeat bottom center!important; min-height: 400px!important;}
-.rocket-img.go-bottom {transition:all 2.5s ease-in!important;}
+.rocket-img.go-bottom {transition:all 2s ease-in!important;}
 
 
 hr {
