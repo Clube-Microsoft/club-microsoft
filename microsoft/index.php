@@ -103,7 +103,7 @@
 							telescope. It’s exciting to think about setting up your own viewing station.
 						</p>
 					</div>
-					<a href="courses.php" class="primary-btn">Explore Courses</a>
+					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
 				</div>
 			</div>
 		</div>
