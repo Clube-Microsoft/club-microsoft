@@ -152,10 +152,8 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 10) {
             $('.rocket-img').addClass('go-top');
-            $('#back-top').fadeIn(500);
         } else {
             $('.rocket-img').removeClass('go-top');
-            $('#back-top').fadeOut(500);
         }
     });
 
