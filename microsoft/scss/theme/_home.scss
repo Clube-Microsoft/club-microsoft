@@ -19,6 +19,7 @@
         bottom: 100%;
     }
     .go-bottom {
+        @include transition(all 2.5s ease-in);
         bottom: -22px;
     }
 }

@@ -50,19 +50,17 @@
 					<h1 class="text-white">
 						Os nossos serviços
 					</h1>
-					<p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
-					the space telescope.</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Home </a>
+							<a href="index.php">Início </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="about.php">About Us</a>
+							<a href="about.php">Serviços</a>
 						</span>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="rocket-img">
+		<div class="rocket-img go-bottom">
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>

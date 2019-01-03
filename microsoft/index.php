@@ -55,8 +55,8 @@
 
 					<div class="input-wrap">
 						<form action="" class="form-box d-flex justify-content-between">
-							<input type="text" placeholder="Search Courses" class="form-control" name="username">
-							<button type="submit" class="btn search-btn">Search</button>
+							<input type="text" placeholder="Pesquisar" class="form-control" name="username">
+							<button type="submit" class="btn search-btn">Pesquisar</button>
 						</form>
 					</div>
 					<h4 class="text-white">Recomendados</h4>
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="rocket-img">
+		<div class="rocket-img go-bottom">
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
@@ -129,7 +129,7 @@
 				<div class="offset-lg-1 col-lg-6">
 					<div class="courses-right">
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="col-lg-6 col-md-6 col-sm-12" style="z-index:1;">
 								<ul class="courses-list">
 									<li>
 										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".1s">
@@ -285,11 +285,12 @@
 					<div class="meta-text text-center">
 						<h4>Leandro Pereira</h4>
 						<p class="designation">Desenvolvedor Web</p>
-						<div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
 							<p>
 								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
 							</p>
-						</div>
+						</div>--> 
+
 						<div class="align-items-center justify-content-center d-flex">
 							<a href="https://www.facebook.com/leandrojferreirap" target="blank"><i class="fa fa-facebook"></i></a>
 							<a href="https://twitter.com/leandrojfpereir" target="blank"><i class="fa fa-twitter" target="blank"></i></a>
@@ -304,11 +305,12 @@
 					<div class="meta-text text-center">
 						<h4>Rúben Príncipe</h4>
 						<p class="designation">Web Designer</p>
-						<div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
 								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
 							</p>
-						</div>
+						</div>--> 
+
 						<div class="align-items-center justify-content-center d-flex">
 							<a href=" https://www.linkedin.com/in/ruben-principe/" target="blank"><i class="fa fa-linkedin"></i></a>
 						</div>
@@ -321,11 +323,11 @@
 					<div class="meta-text text-center">
 						<h4>Rui Pereira</h4>
 						<p class="designation">Consultor</p>
-						<div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
 								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
 							</p>
-						</div>
+						</div>--> 
 						<div class="align-items-center justify-content-center d-flex">
 							<a href="https://www.linkedin.com/in/rmbp-rui/" target="blank"><i class="fa fa-linkedin"></i></a>
 						</div>

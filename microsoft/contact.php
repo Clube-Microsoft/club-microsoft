@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="rocket-img">
+		<div class="rocket-img go-bottom">
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
