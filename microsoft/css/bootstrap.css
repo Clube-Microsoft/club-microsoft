@@ -96,7 +96,8 @@ body {
 #mobile-nav ul li a:hover {color: #000!important;}
 .banner-area {background: url(../img/banner-bg.png) no-repeat bottom center!important; min-height: 400px!important;}
 .rocket-img.go-bottom {transition:all 2s ease-in!important;}
-
+.courses-area{background: #edeff2!important;}
+.map-wrap{padding: 8px!important;}
 
 hr {
     box-sizing: content-box;
