@@ -52,7 +52,7 @@
 					</h1>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Início </a>
+							<a href="index.php">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="about.php">Serviços</a>
 						</span>

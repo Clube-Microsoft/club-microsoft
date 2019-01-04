@@ -101,164 +101,34 @@
 		</div>
 	</section>
 	<!-- End About Area -->
-
-
-	<!-- Start Courses Area -->
-	<section class="courses-area section-gap">
+	
+	<!-- Start About Area -->
+	<span class="anchor" id="missao"></span>
+	<section class="about-area section-gap">
 		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-5 about-right">
-					<h1>Cursos</h1>
+			<div class="row align-items-center justify-content-center">
+				<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
+					<h1>
+						A nossa missão
+					</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 						</p>
 					</div>
-					<a href="courses.php" class="primary-btn white">Saber Mais</a>
 				</div>
-				<div class="offset-lg-1 col-lg-6">
-					<div class="courses-right">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12" style="z-index:1;">
-								<ul class="courses-list">
-									<li>
-										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".1s">
-											<img src="img/icons/github.png" class="icons"/> GitHub
-										</a>
-									</li>
-									<li>
-										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".3s">
-											<img src="img/icons/linkedin.png" class="icons"/> Linkedin
-										</a>
-									</li>
-									<li>
-										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".5s">
-											<img src="img/icons/programacao.png" class="icons"/> Programação
-										</a>
-										<ul class="dropdown" >
-									        <li><a href="courses.php" style="color: black;">
-											<img src="img/icons/visualstudio.png" class="icons"/> Visual Studio</a></li>
-									        <li><a href="courses.php" style="color: black;">
-											<img src="img/icons/sql.png" class="icons"/> SQL Server</a></li>
-								      	</ul>
-									</li>
-								</ul>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12">
-								<ul class="courses-list">
-									<li>
-										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay="0.1s">
-											<img src="img/icons/office.png" class="icons"/> Office MOS
-										</a>
-										<ul class="dropdown" >
-									        <li><a href="courses.php" style="color: black;">
-												<img src="img/icons/word.png" class="icons"/> Word
-											</a></li>
-									        <li><a href="courses.php" style="color: black;">
-												<img src="img/icons/excel.png" class="icons"/> Excel
-											</a></li>
-											<li><a href="courses.php" style="color: black;">
-												<img src="img/icons/powerpoint.png" class="icons"/> PowerPoint
-											</a></li>
-											<li><a href="courses.php" style="color: black;">
-												<img src="img/icons/access.png" class="icons"/> Access
-											</a></li>
-								      	</ul>
-									</li>
-									<li>
-										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".3s">
-											<img src="img/icons/gaming.png" class="icons"/> Gaming
-										</a>
-										<ul class="dropdown" >
-									        <li><a href="courses.php" style="color: black;">
-												<img src="img/icons/minecraft.png" class="icons"/> Minecraft
-											</a></li>
-										</ul>
-									</li>
-									<li>
-										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".7s">
-											<img src="img/icons/robotic.png" class="icons"/> Robótica
-										</a>
-										<ul class="dropdown" >
-									        <li><a href="courses.php" style="color: black;">
-												<img src="img/icons/microbit.png" class="icons"/> Micro:Bit
-											</a></li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+				<div class="col-lg-5 col-md-6 about-left">
+					<img class="img-fluid" src="img/about.jpg" alt="">
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- End Courses Area -->
+	<!-- End About Area -->
 
-
-	<!--Start Feature Area -->
-	<section class="feature-area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<div class="section-title text-center">
-						<h1>Serviços</h1>
-					</div>
-				</div>
-			</div>
-			<div class="feature-inner row">
-				<div class="col-md-6">
-					<div class="feature-item">						
-						<img src="img/icons/workshop.png" class="icons_servicos"/> 
-						<h4>Workshops</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="feature-item">
-						<img src="img/icons/palestras.png" class="icons_servicos"/> 
-						<h4>Palestras</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="feature-item">
-						<img src="img/icons/aulasdigitais.png" class="icons_servicos"/> 
-						<h4>Aulas Digitais</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="feature-item">
-						<img src="img/icons/help.png" class="icons_servicos"/> 
-						<h4>Ajuda Em Tempo Real</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Feature Area -->
-
-
+	
 	<!-- Start Faculty Area -->
 	<section class="faculty-area section-gap">
+		<span class="anchor" id="membros"></span>
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
@@ -270,10 +140,10 @@
 			<div class="row justify-content-center d-flex align-items-center">
 				<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
 					<div class="thumb d-flex justify-content-center">
-						<img class="img-fluid" src="img/faculty/f1.png" alt="Leandro Pereira">
+						<img class="img-fluid wow fadeIn" data-wow-duration="1s" src="img/faculty/f1.png" alt="Leandro Pereira">
 					</div>
 					<div class="meta-text text-center">
-						<h4>Leandro Pereira</h4>
+						<h4 class="wow fadeIn" data-wow-duration="1s">Leandro Pereira</h4>
 						<p class="designation">Desenvolvedor Web</p>
 						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
 							<p>
@@ -290,10 +160,10 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
 					<div class="thumb d-flex justify-content-center">
-						<img class="img-fluid" src="img/faculty/f2.png" alt="Rúben Príncipe">
+						<img class="img-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s" src="img/faculty/f2.png" alt="Rúben Príncipe">
 					</div>
 					<div class="meta-text text-center">
-						<h4>Rúben Príncipe</h4>
+						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Rúben Príncipe</h4>
 						<p class="designation">Web Designer</p>
 						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
@@ -308,10 +178,10 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
 					<div class="thumb d-flex justify-content-center">
-						<img class="img-fluid" src="img/faculty/f3.png" alt="Rui Pereira">
+						<img class="img-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s" src="img/faculty/f3.png" alt="Rui Pereira">
 					</div>
 					<div class="meta-text text-center">
-						<h4>Rui Pereira</h4>
+						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Rui Pereira</h4>
 						<p class="designation">Consultor</p>
 						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>

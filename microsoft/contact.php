@@ -50,11 +50,11 @@
 							Contacta-nos
 					</h1>
 					<p>
-						Entre em contacto com o clube ou visita-nos.
+						Entra em contacto com o clube ou visita-nos.
 					</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Home </a>
+							<a href="index.php">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="contact.php">Contacto</a>
 						</span>

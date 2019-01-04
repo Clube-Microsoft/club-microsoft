@@ -83,6 +83,8 @@ body {
     outline: 0 !important
 }
 
+/*---------------ALTERAÇÕES---------------*/
+
 .nav-menu a {padding: 5px 15px 5px 15px!important;}
 .nav-menu ul li {min-width: 100%!important;}
 .nav-menu ul {margin: 0!important;}
@@ -97,7 +99,24 @@ body {
 .banner-area {background: url(../img/banner-bg.png) no-repeat bottom center!important; min-height: 400px!important;}
 .rocket-img.go-bottom {transition:all 2s ease-in!important;}
 .courses-area{background: #edeff2!important;}
+.feature-area{background: #edeff2!important;}
 .map-wrap{padding: 8px!important; margin-bottom: 60px!important;}
+.footer-bottom{margin-top: 40px!important;}
+.footer-area li:hover,
+li:focus-within {
+    background: none;
+    cursor: default;
+}
+.nav-menu li {
+    border-radius: 5px!important;
+}
+.nav-menu li:hover, li:focus-within {
+    background: #f7fafc;
+    cursor: pointer;
+	transition: 0.6s ease;
+}
+
+/*-------------------------------------------*/
 
 hr {
     box-sizing: content-box;
