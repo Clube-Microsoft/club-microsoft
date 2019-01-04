@@ -97,7 +97,7 @@ body {
 .banner-area {background: url(../img/banner-bg.png) no-repeat bottom center!important; min-height: 400px!important;}
 .rocket-img.go-bottom {transition:all 2s ease-in!important;}
 .courses-area{background: #edeff2!important;}
-.map-wrap{padding: 8px!important;}
+.map-wrap{padding: 8px!important; margin-bottom: 60px!important;}
 
 hr {
     box-sizing: content-box;
