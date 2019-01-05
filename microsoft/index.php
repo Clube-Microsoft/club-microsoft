@@ -101,13 +101,12 @@
 		</div>
 	</section>
 	<!-- End About Area -->
-	
-	<!-- Start About Area -->
-	<span class="anchor" id="missao"></span>
+
+	<!-- Start Missão Area -->
 	<section class="about-area section-gap">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
-				<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
+				<div class="col-lg-6 offset-md-0 col-md-12 about-left">
 					<h1>
 						A nossa missão
 					</h1>
@@ -116,16 +115,16 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 						</p>
 					</div>
+					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
 				</div>
-				<div class="col-lg-5 col-md-6 about-left">
-					<img class="img-fluid" src="img/about.jpg" alt="">
+				<div class="offset-lg-1 col-lg-5 col-md-6 about-right">
+					<img class="img-fluid" src="img/about.jpg" style="float: right;" alt="">
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- End About Area -->
+	<!-- End Missão Area -->
 
-	
 	<!-- Start Faculty Area -->
 	<section class="faculty-area section-gap">
 		<span class="anchor" id="membros"></span>
