@@ -106,7 +106,7 @@
 	<section class="about-area section-gap">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-6 offset-md-0 col-md-12 about-left">
+				<div class="col-lg-6 offset-md-0 col-md-12 about-right">
 					<h1>
 						A nossa missão
 					</h1>
