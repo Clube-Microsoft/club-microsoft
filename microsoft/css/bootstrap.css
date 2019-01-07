@@ -109,11 +109,34 @@ body {
 .nav-menu li:hover, li:focus-within {background: #f7fafc;cursor: pointer;transition: 0.6s ease;}
 .footer-area .footer-bottom p, .footer-area .footer-bottom a {color: #283367!important;}
 .home-banner-area{background-position: bottom!important;}
-
-.rocket-img {
-	bottom: -30px!important;
-	left: 49.93%!important;
+.rocket-img {bottom: -30px!important;left: 49.93%!important;}
+@media (min-width: 1200px){
+  .banner{
+    height: 900px!important;
+  }  
 }
+
+@media (min-width: 992px){
+  .banner{
+    height: 900px!important;
+  }  
+}
+
+@media (min-width: 768){
+  .banner{
+    height: 900px!important;
+  }  
+}
+
+@media (min-width: 576){
+  .banner{
+    height: 900px!important;
+  }  
+}
+
+.banner{
+    height: 900px!important;
+} 
 
 
 /*-------------------------------------------*/

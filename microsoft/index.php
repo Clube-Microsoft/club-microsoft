@@ -46,7 +46,7 @@
 	<!-- Start Banner Area -->
 	<section class="home-banner-area relative">
 		<div class="container">
-			<div class="row fullscreen d-flex align-items-center justify-content-center">
+			<div class="row d-flex align-items-center justify-content-center banner">
 				<div class="banner-content col-lg-8 col-md-12">
 					<h1 class="wow fadeIn" data-wow-duration="4s">Escola mais digital</h1>
 					<p class="text-white">
