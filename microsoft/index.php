@@ -84,7 +84,7 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-5 col-md-6 about-left">
-					<img class="img-fluid" src="img/about.jpg" alt="">
+					<img class="img-fluid" src="img/about.png" alt="Clube Microsoft" title="Clube Microsoft">
 				</div>
 				<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
 					<h1>
@@ -118,7 +118,7 @@
 					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
 				</div>
 				<div class="offset-lg-1 col-lg-5 col-md-6 about-right">
-					<img class="img-fluid" src="img/about.jpg" style="float: right;" alt="">
+					<img class="img-fluid" src="img/about.png" style="float: right;" alt="">
 				</div>
 			</div>
 		</div>
