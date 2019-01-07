@@ -73,7 +73,7 @@
 			</div>
 		</div>
 		<div class="rocket-img go-bottom">
-			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
+			<img src="img/rocket.png" alt="">
 		</div>
 	</section>
 	<!-- End Banner Area -->

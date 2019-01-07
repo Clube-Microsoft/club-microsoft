@@ -110,6 +110,12 @@ body {
 .footer-area .footer-bottom p, .footer-area .footer-bottom a {color: #283367!important;}
 .home-banner-area{background-position: bottom!important;height: 100vh;}
 
+.rocket-img {
+	bottom: -30px!important;
+	left: 49.93%!important;
+}
+
+
 /*-------------------------------------------*/
 
 hr {
