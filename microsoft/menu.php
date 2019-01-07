@@ -9,7 +9,15 @@
 					<li><a href="index.php">Início</a></li>
 					<!--<li><a href="about.php">About</a></li>-->
 					<li><a href="courses.php">Cursos</a></li>
-					<li><a href="services.php">Serviços</a></li>
+					<li class="menu-has-children">
+						<a>Serviços</a>
+						<ul>
+							<li><a href="#">Workshops</a></li>
+							<li><a href="#">Palestras</a></li>
+							<li><a href="#">Aulas Digitais</a></li>
+							<li><a href="#">Ajuda em Tempo Real</a></li>
+						</ul>
+					</li>
 					<!--<li class="menu-has-children"><a href="">Pages</a>
 						<ul>
 							<li><a href="elements.php">Elements</a></li>

@@ -94,7 +94,7 @@ body {
 .courses-list li {box-shadow: 0 0 7px 0!important;}
 .dropdown {box-shadow: 0 0 7px 0!important;}
 .dropdown li {margin: 0!important; box-shadow: 0 0 0 0!important;}
-.dropdown li a:hover {color: white !important}
+.dropdown a {color: #39cfca;}
 #mobile-nav ul li a:hover {color: #000!important;}
 .banner-area {background: url(../img/banner-bg.png) no-repeat bottom center!important; min-height: 400px!important;}
 .rocket-img.go-bottom {transition:all 2s ease-in!important;}
@@ -107,6 +107,8 @@ li:focus-within {
     background: none;
     cursor: default;
 }
+.sf-arrows .sf-with-ul:after{margin-left: 5px!important; right: 0!important; position: relative!important;}
+.nav-menu ul {padding: 0!important}
 .nav-menu li {
     border-radius: 5px!important;
 }
@@ -227,13 +229,11 @@ a:hover {
 }
 
 a:not([href]):not([tabindex]) {
-    color: inherit;
     text-decoration: none
 }
 
 a:not([href]):not([tabindex]):focus,
 a:not([href]):not([tabindex]):hover {
-    color: inherit;
     text-decoration: none
 }
 
@@ -579,10 +579,8 @@ li:focus-within a {
 ul li ul {
     background: #f7fafc;
     opacity: 0;
-    min-width: 11.4rem;
     position: absolute;
     transition: all 0.5s ease;
-    right: 1rem;
     display: none;
 }
 
