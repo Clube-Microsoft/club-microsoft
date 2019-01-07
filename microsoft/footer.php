@@ -46,7 +46,8 @@
 				</ul>
 			</div>-->
 			<div class='col-lg-4 col-md-6 single-footer-widget'>
-				<h4>Newsletter</h4>
+				<a href="http://www.epb.pt" target="_blank"><img src="img/logo_EPB.png" title="Escola Profissional de Braga" style="height: 60px; margin-top: 20%;"/></a>
+				<!--<h4>Newsletter</h4>
 				<p>Recebe as últimas novidades do clube.</p>
 				<div class='form-wrap' id='mc_embed_signup'>
 					<form target='_blank' action='https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01'
@@ -60,16 +61,16 @@
 
 						<div class='info'></div>
 					</form>
-				</div>
+				</div>-->
 			</div>
 		</div>
 		<div class='footer-bottom row align-items-center'>
 			<p class='footer-text m-0 col-lg-8 col-md-12'><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 														Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class='fa fa-heart-o' aria-hidden='true'></i> by <a href='https://colorlib.com' target='_blank'>Colorlib</a>
 														<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			<div class='col-lg-4 col-md-12'>
+			<!--<div class='col-lg-4 col-md-12'>
 				<a href="http://www.epb.pt" target="_blank"><img src="img/logo_EPB.png" title="Escola Profissional de Braga" style="height: 60px;"/></a>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </footer>

@@ -115,6 +115,10 @@ li:focus-within {
     cursor: pointer;
 	transition: 0.6s ease;
 }
+.footer-area .footer-bottom p, 
+.footer-area .footer-bottom a {
+    color: #283367!important;
+}
 
 /*-------------------------------------------*/
 
