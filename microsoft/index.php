@@ -125,6 +125,67 @@
 	</section>
 	<!-- End Missão Area -->
 
+	<!-- Start Services Area -->
+	<section class="feature-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title text-center">
+						<h1>Serviços</h1>
+					</div>
+				</div>
+			</div>
+			<div class="feature-inner row">
+				<div class="col-md-6">
+					<div class="feature-item">						
+						<img src="img/icons/workshop.png" class="icons_servicos"/> 
+						<h4>Workshops</h4>
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="feature-item">
+						<img src="img/icons/palestras.png" class="icons_servicos"/> 
+						<h4>Palestras</h4>
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="feature-item">
+						<img src="img/icons/aulasdigitais.png" class="icons_servicos"/> 
+						<h4>Aulas Digitais</h4>
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="feature-item">
+						<img src="img/icons/help.png" class="icons_servicos"/> 
+						<h4>Ajuda Em Tempo Real</h4>
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Services Area -->
+
+
 	<!-- Start Faculty Area -->
 	<section class="faculty-area section-gap">
 		<span class="anchor" id="equipa"></span>
