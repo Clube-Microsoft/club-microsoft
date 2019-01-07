@@ -108,7 +108,7 @@ body {
 .nav-menu li {border-radius: 5px!important;}
 .nav-menu li:hover, li:focus-within {background: #f7fafc;cursor: pointer;transition: 0.6s ease;}
 .footer-area .footer-bottom p, .footer-area .footer-bottom a {color: #283367!important;}
-.home-banner-area{background-position: bottom!important;height: 100vh;}
+.home-banner-area{background-position: bottom!important;}
 
 /*-------------------------------------------*/
 
