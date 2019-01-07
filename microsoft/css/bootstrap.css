@@ -112,30 +112,30 @@ body {
 .rocket-img {bottom: -30px!important;left: 49.93%!important;}
 @media (min-width: 1200px){
   .banner{
-    height: 900px!important;
+    height: 767px!important;
   }  
 }
 
 @media (min-width: 992px){
   .banner{
-    height: 900px!important;
+    height: 767px!important;
   }  
 }
 
 @media (min-width: 768){
   .banner{
-    height: 900px!important;
+    height: 767px!important;
   }  
 }
 
 @media (min-width: 576){
   .banner{
-    height: 900px!important;
+    height: 767px!important;
   }  
 }
 
 .banner{
-    height: 900px!important;
+    height: 767px!important;
 } 
 
 
