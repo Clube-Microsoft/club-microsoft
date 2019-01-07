@@ -140,7 +140,7 @@
 					<div class="feature-item">						
 						<img src="img/icons/workshop.png" class="icons_servicos"/> 
 						<h4>Workshops</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 							</p>
