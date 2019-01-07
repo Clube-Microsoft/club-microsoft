@@ -103,7 +103,7 @@
 	<!-- End About Area -->
 
 	<!-- Start Missão Area -->
-	<section class="about-area section-gap">
+	<section class="about-area section-gap section-gap1">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div id="lado-esquerdo" class="col-lg-6 offset-md-0 col-md-12 about-right">
