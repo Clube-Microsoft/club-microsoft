@@ -47,10 +47,10 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-							Contacta-nos
+							Contacte-nos
 					</h1>
 					<p>
-						Entra em contacto com o clube ou visita-nos.
+						Entre em contacto com o clube ou visite-nos.
 					</p>
 					<div class="link-nav">
 						<span class="box">

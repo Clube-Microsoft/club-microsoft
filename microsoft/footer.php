@@ -15,7 +15,7 @@
 				<ul>
 					<li><a href='index.php#missao'>A nossa missão</a></li>
 					<li><a href='index.php#equipa'>A Equipa</a></li>
-					<li><a href='contact.php'>Contacta-nos</a></li>
+					<li><a href='contact.php'>Contacte-nos</a></li>
 				</ul>
 			</div>
 			<!--<div class='col-lg-2 col-md-6 single-footer-widget'>
