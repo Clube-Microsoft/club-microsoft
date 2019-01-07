@@ -113,7 +113,12 @@ body {
 .home-banner-area{background-position: bottom!important;}
 .rocket-img {bottom: -30px!important;left: 49.93%!important;}
 .banner{min-height: 600px!important;height: 100vh!important;}
-
+@media (max-width: 1440px){
+	.banner-content{margin-top: 0!important;}
+}
+@media (max-width: 500px){
+	.banner{min-height: 500px!important;}
+}
 /*-------------------------------------------*/
 
 hr {
