@@ -106,7 +106,7 @@
 	<section class="about-area section-gap">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-6 offset-md-0 col-md-12 about-right">
+				<div id="lado-esquerdo" class="col-lg-6 offset-md-0 col-md-12 about-right">
 					<h1>
 						A nossa missão
 					</h1>
@@ -117,8 +117,8 @@
 					</div>
 					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
 				</div>
-				<div class="offset-lg-1 col-lg-5 col-md-6 about-right">
-					<img class="img-fluid" src="img/target.png" style="float: right;" alt="">
+				<div id="lado-direito" class="offset-lg-1 col-lg-5 col-md-6 about-left">
+					<img class="img-fluid" id="img_nossa_missao" src="img/target.png" style="float: right;" alt="">
 				</div>
 			</div>
 		</div>
@@ -399,6 +399,20 @@
 	<script src="js/jquery.counterup.min.js"></script>
 	<script src="js/mail-script.js"></script>
 	<script src="js/main.js"></script>
+
+<script>
+	$(window).resize(function() {
+  if ($(window).width() <= 991) {
+    $('#lado-esquerdo').remove().insertAfter($('#lado-direito'));
+    $("#img_nossa_missao").css("float", "left");
+
+  } else {
+    $('#lado-direito').remove().insertBefore($('#lado-esquerdo'));
+    $("#img_nossa_missao").css("float", "right");
+  }
+})
+</script>
+
 </body>
 
 </html>
