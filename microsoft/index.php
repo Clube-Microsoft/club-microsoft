@@ -407,7 +407,7 @@
     $("#img_nossa_missao").css("float", "left");
 
   } else {
-    $('#lado-direito').remove().insertBefore($('#lado-esquerdo'));
+    $('#lado-esquerdo').remove().insertBefore($('#lado-direito'));
     $("#img_nossa_missao").css("float", "right");
   }
 })

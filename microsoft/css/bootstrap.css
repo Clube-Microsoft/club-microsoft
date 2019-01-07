@@ -102,25 +102,12 @@ body {
 .feature-area{background: #edeff2!important;}
 .map-wrap{padding: 8px!important; margin-bottom: 60px!important;}
 .footer-bottom{margin-top: 40px!important;}
-.footer-area li:hover,
-li:focus-within {
-    background: none;
-    cursor: default;
-}
+.footer-area li:hover,li:focus-within {background: none;cursor: default;}
 .sf-arrows .sf-with-ul:after{margin-left: 5px!important; right: 0!important; position: relative!important;}
 .nav-menu ul {padding: 0!important}
-.nav-menu li {
-    border-radius: 5px!important;
-}
-.nav-menu li:hover, li:focus-within {
-    background: #f7fafc;
-    cursor: pointer;
-	transition: 0.6s ease;
-}
-.footer-area .footer-bottom p, 
-.footer-area .footer-bottom a {
-    color: #283367!important;
-}
+.nav-menu li {border-radius: 5px!important;}
+.nav-menu li:hover, li:focus-within {background: #f7fafc;cursor: pointer;transition: 0.6s ease;}
+.footer-area .footer-bottom p, .footer-area .footer-bottom a {color: #283367!important;}
 .home-banner-area{background-position: bottom!important;}
 
 /*-------------------------------------------*/
