@@ -127,12 +127,12 @@
 
 	<!-- Start Faculty Area -->
 	<section class="faculty-area section-gap">
-		<span class="anchor" id="membros"></span>
+		<span class="anchor" id="equipa"></span>
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
 					<div class="section-title text-center">
-						<h1>Membros</h1>
+						<h1>Equipa</h1>
 					</div>
 				</div>
 			</div>

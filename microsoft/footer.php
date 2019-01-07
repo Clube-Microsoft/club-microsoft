@@ -14,7 +14,7 @@
 				<h4>Sobre</h4>
 				<ul>
 					<li><a href='index.php#missao'>A nossa missão</a></li>
-					<li><a href='index.php#membros'>A Equipa</a></li>
+					<li><a href='index.php#equipa'>A Equipa</a></li>
 					<li><a href='contact.php'>Contacta-nos</a></li>
 				</ul>
 			</div>
