@@ -116,9 +116,6 @@ body {
 @media (max-width: 1440px){
 	.banner-content{margin-top: 0!important;}
 }
-@media (max-width: 500px){
-	.banner{min-height: 500px!important;}
-}
 /*-------------------------------------------*/
 
 hr {
