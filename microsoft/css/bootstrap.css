@@ -110,43 +110,10 @@ body {
 .footer-area .footer-bottom p, .footer-area .footer-bottom a {color: #283367!important;}
 .home-banner-area{background-position: bottom!important;}
 .rocket-img {bottom: -30px!important;left: 49.93%!important;}
-<<<<<<< HEAD
 .banner{
 	min-height: 600px!important;
     height: 100vh!important;
-=======
-@media (min-width: 1200px){
-  .banner{
-    height: 767px!important;
-  }  
 }
-
-@media (min-width: 992px){
-  .banner{
-    height: 767px!important;
-  }  
-}
-
-@media (min-width: 768){
-  .banner{
-    height: 767px!important;
-  }  
-}
-
-@media (min-width: 576){
-  .banner{
-    height: 767px!important;
-  }  
-}
-
-.banner{
-    height: 767px!important;
-<<<<<<< HEAD
->>>>>>> 526f33b194f3e56fdf96e2cd191d62760f685d86
-=======
->>>>>>> 526f33b194f3e56fdf96e2cd191d62760f685d86
-} 
-
 
 /*-------------------------------------------*/
 
