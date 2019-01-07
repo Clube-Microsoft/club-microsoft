@@ -118,7 +118,7 @@
 					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
 				</div>
 				<div class="offset-lg-1 col-lg-5 col-md-6 about-right">
-					<img class="img-fluid" src="img/about.png" style="float: right;" alt="">
+					<img class="img-fluid" src="img/target.png" style="float: right;" alt="">
 				</div>
 			</div>
 		</div>
