@@ -50,7 +50,7 @@
 				<div class="banner-content col-lg-8 col-md-12">
 					<h1 class="wow fadeIn" data-wow-duration="4s">Junta-te ao clube</h1>
 					<p class="text-white">
-						Com foco na aprendizagem e motivação de estudo, este clube irá englobar diversas mais valias e características importantes para o teu desenvolvimento como profissional.
+						Com foco na aprendizagem e motivação de estudo, este clube engloba diversas mais valias e características importantes para o teu desenvolvimento como profissional.
 					</p>
 
 					<div class="input-wrap">

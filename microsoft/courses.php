@@ -51,6 +51,9 @@
 					<h1 class="text-white">
 						Cursos
 					</h1>
+					<p>
+						Conhece os nossos cursos e aprende com o clube.
+					</p>
 					<div class="link-nav">
 						<span class="box">
 							<a href="index.php">Início</a>

@@ -11,7 +11,7 @@
 					<li><a href="courses.php">Cursos</a></li>
 					<li class="menu-has-children">
 						<a>Serviços</a>
-						<ul>
+						<ul class="nav-dropdown">
 							<li><a href="#">Workshops</a></li>
 							<li><a href="#">Palestras</a></li>
 							<li><a href="#">Aulas Digitais</a></li>
