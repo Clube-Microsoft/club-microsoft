@@ -402,7 +402,7 @@
 	<script src="js/main.js"></script>
 
 <script>
-	$(window).resize(function() {
+	$(function() {
   if ($(window).width() <= 991) {
     $('#lado-esquerdo').remove().insertAfter($('#lado-direito'));
     $("#img_nossa_missao").css("float", "left");
