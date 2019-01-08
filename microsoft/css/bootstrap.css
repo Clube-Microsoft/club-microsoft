@@ -113,6 +113,9 @@ body {
 .home-banner-area{background-position: bottom!important;}
 .rocket-img {margin-bottom: -8px!important;left: 49.93%!important;}
 .banner{min-height: 600px!important;height: 100vh!important;}
+#mobile-nav{padding-top: 60px!important; width: 100%!important; text-align: center!important; display: none!important;}
+body.mobile-nav-active #mobile-nav{display: block!important;}
+
 /*-------------------------------------------*/
 
 hr {

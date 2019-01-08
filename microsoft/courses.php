@@ -87,21 +87,21 @@
 							<div class="col-lg-6 col-md-6 col-sm-12">
 								<ul class="courses-list">
 									<li>
-										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".1s">
+										<a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".1s">
 											<img src="img/icons/github.png" class="icons"/> GitHub
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".3s">
+										<a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".3s">
 											<img src="img/icons/linkedin.png" class="icons"/> Linkedin
 										</a>
 									</li>
 									<li>
-										<a class="wow fadeInLeft" href="courses.php" data-wow-duration="1s" data-wow-delay=".5s">
+										<a class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
 											<img src="img/icons/programacao.png" class="icons"/> Programação
 										</a>
 										<ul class="dropdown" >
-									        <li><a href="courses.php" style="color: black;">
+									        <li><a href="" style="color: black;">
 											<img src="img/icons/visualstudio.png" class="icons"/> Visual Studio</a></li>
 									        <li><a href="courses.php" style="color: black;">
 											<img src="img/icons/sql.png" class="icons"/> SQL Server</a></li>
@@ -112,40 +112,40 @@
 							<div class="col-lg-6 col-md-6 col-sm-12">
 								<ul class="courses-list">
 									<li>
-										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay="0.1s">
+										<a class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
 											<img src="img/icons/office.png" class="icons"/> Office MOS
 										</a>
 										<ul class="dropdown" >
-									        <li><a href="courses.php" style="color: black;">
+									        <li><a href="" style="color: black;">
 												<img src="img/icons/word.png" class="icons"/> Word
 											</a></li>
-									        <li><a href="courses.php" style="color: black;">
+									        <li><a href="" style="color: black;">
 												<img src="img/icons/excel.png" class="icons"/> Excel
 											</a></li>
-											<li><a href="courses.php" style="color: black;">
+											<li><a href="" style="color: black;">
 												<img src="img/icons/powerpoint.png" class="icons"/> PowerPoint
 											</a></li>
-											<li><a href="courses.php" style="color: black;">
+											<li><a href="" style="color: black;">
 												<img src="img/icons/access.png" class="icons"/> Access
 											</a></li>
 								      	</ul>
 									</li>
 									<li>
-										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".3s">
+										<a class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
 											<img src="img/icons/gaming.png" class="icons"/> Gaming
 										</a>
 										<ul class="dropdown" >
-									        <li><a href="courses.php" style="color: black;">
+									        <li><a href="" style="color: black;">
 												<img src="img/icons/minecraft.png" class="icons"/> Minecraft
 											</a></li>
 										</ul>
 									</li>
 									<li>
-										<a class="wow fadeInRight" href="courses.php" data-wow-duration="1s" data-wow-delay=".7s">
+										<a class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".7s">
 											<img src="img/icons/robotic.png" class="icons"/> Robótica
 										</a>
 										<ul class="dropdown" >
-									        <li><a href="courses.php" style="color: black;">
+									        <li><a href="" style="color: black;">
 												<img src="img/icons/microbit.png" class="icons"/> Micro:Bit
 											</a></li>
 										</ul>
