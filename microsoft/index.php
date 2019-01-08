@@ -103,7 +103,9 @@
 	<!-- End About Area -->
 
 	<!-- Start Missão Area -->
+	<span class="anchor" id="missao"></span>
 	<section class="about-area section-gap section-gap1">
+		<span class="anchor" id="missao"></span>
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div id="lado-esquerdo" class="col-lg-6 offset-md-0 col-md-12 about-right">
@@ -115,7 +117,6 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 						</p>
 					</div>
-					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
 				</div>
 				<div id="lado-direito" class="offset-lg-1 col-lg-5 col-md-6 about-left">
 					<img class="img-fluid" id="img_nossa_missao" src="img/target.png" style="float: right;" alt="">
