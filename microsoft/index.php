@@ -48,7 +48,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center banner">
 				<div class="banner-content col-lg-8 col-md-12">
-					<h1 class="wow fadeIn" data-wow-duration="4s">Escola mais digital</h1>
+					<h1 class="wow fadeIn" data-wow-duration="4s">Junta-te ao clube</h1>
 					<p class="text-white">
 						Com foco na aprendizagem e motivação de estudo, este clube irá englobar diversas mais valias e características importantes para o teu desenvolvimento como profissional.
 					</p>
@@ -119,7 +119,9 @@
 					</div>
 				</div>
 				<div id="lado-direito" class="offset-lg-1 col-lg-5 col-md-6 about-left">
-					<img class="img-fluid" id="img_nossa_missao" src="img/target.png" style="float: right;" alt="">
+					<div id="img_nossa_missao" class="img-fluid" style="float: right;">
+						<img width="100%" src="img/target.png" alt="">
+					</div>
 				</div>
 			</div>
 		</div>
