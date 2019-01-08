@@ -95,6 +95,7 @@ body {
 .dropdown {box-shadow: 0 0 7px 0!important;}
 .dropdown li {margin: 0!important; box-shadow: 0 0 0 0!important;}
 .dropdown a {color: #39cfca;}
+.dropdown {z-index: 100;}
 #mobile-nav ul li a:hover {color: #000!important;}
 .banner-area {background: url(../img/banner-bg.png) no-repeat bottom center!important; min-height: 400px!important;}
 .rocket-img.go-bottom {transition:all 2s ease-in!important;}
