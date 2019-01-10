@@ -17,6 +17,7 @@
 							<li><a href="#">Ajuda em Tempo Real</a></li>
 						</ul>
 					</li>
+					<li><a href="#">Blog</a></li>
 					<li><a href="contact.php">Contacto</a></li>
 				</ul>
 			</nav><!-- #nav-menu-container -->
