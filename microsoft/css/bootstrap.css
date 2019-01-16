@@ -117,6 +117,15 @@ body {
 #mobile-nav{padding-top: 60px!important; width: 100%!important; text-align: center!important; display: none!important;}
 body.mobile-nav-active #mobile-nav{display: block!important;}
 .nav-dropdown{border-radius: 0px 5px 5px 5px;}
+.post-content-area .single-post {float: left;min-height: 500px;}
+.post-content-area .single-post .meta-details .tags li a {color: #777!important;}
+.post-content-area .single-post .meta-details {text-align: center!important;}
+.blog-pagination {margin: auto;}
+.posts-title{text-align: center!important;}
+.post-content-area .single-post .meta-details .tags li {margin-right: 5px;}
+.img-fluid {border: none!important; width: 100%!important;object-fit: cover;}
+.img_menu{animation: all 2s; -webkit-animation: all 2s; width: 17vw!important; max-width: 350px;}
+
 
 /*-------------------------------------------*/
 

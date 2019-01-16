@@ -63,7 +63,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="rocket-img">
+		<div class="rocket-img go-bottom">
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
@@ -130,161 +130,118 @@
 	<!-- End top-category-widget Area -->
 
 	<!-- Start post-content Area -->
-	<section class="post-content-area" style="margin-top: 10vh;">
+	<section class="post-content-area" style="padding-top: 10vh;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 posts-list">
-					<div class="single-post row">
-						<div class="col-lg-3  col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9 ">
+					<div class="single-post row col-xl-4 col-lg-6 col-12">
+						<div class="col-lg-12 col-md-12">
 							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img1.jpg" alt="">
+								<img class="img-fluid" src="img/blog/mos_blog.png" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.php"><h3>Astronomy Binoculars A Great Alternative</h3></a>
+							<a class="posts-title" href="blog-single-mos.php"><h3>Exame MOS</h3></a>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
 							</p>
-							<a href="blog-single.php" class="primary-btn">View More</a>
+							<div class="meta-details">
+							<ul class="tags">
+								<li><a href="#">Eventos</a></li>
+								<li><a href="#">Microsoft Office</a></li>
+							</ul>
+						</div>
+							<a href="blog-single.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
-					<div class="single-post row">
-						<div class="col-lg-3  col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9 ">
+					<div class="single-post row col-xl-4 col-lg-6 col-12">
+						<div class="col-lg-12 col-md-12">
 							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img2.jpg" alt="">
+								<img class="img-fluid" src="img/blog/mos_blog.png" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.php"><h3>The Basics Of Buying A Telescope</h3></a>
+							<a class="posts-title" href="blog-single-mos.php"><h3>Exame MOS</h3></a>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
 							</p>
-							<a href="blog-single.php" class="primary-btn">View More</a>
+							<div class="meta-details">
+							<ul class="tags">
+								<li><a href="#">Eventos</a></li>
+								<li><a href="#">Microsoft Office</a></li>
+							</ul>
+						</div>
+							<a href="blog-single.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
-					<div class="single-post row">
-						<div class="col-lg-3  col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9">
+					<div class="single-post row col-xl-4 col-lg-6 col-12">
+						<div class="col-lg-12 col-md-12">
 							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img3.jpg" alt="">
+								<img class="img-fluid" src="img/blog/mos_blog.png" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.php"><h3>The Glossary Of Telescopes</h3></a>
+							<a class="posts-title" href="blog-single-mos.php"><h3>Exame MOS</h3></a>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
 							</p>
-							<a href="blog-single.php" class="primary-btn">View More</a>
+							<div class="meta-details">
+							<ul class="tags">
+								<li><a href="#">Eventos</a></li>
+								<li><a href="#">Microsoft Office</a></li>
+							</ul>
+						</div>
+							<a href="blog-single.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
-					<div class="single-post row">
-						<div class="col-lg-3  col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9">
+					<div class="single-post row col-xl-4 col-lg-6 col-12">
+						<div class="col-lg-12 col-md-12">
 							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img4.jpg" alt="">
+								<img class="img-fluid" src="img/blog/mos_blog.png" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.php"><h3>The Night Sky</h3></a>
+							<a class="posts-title" href="blog-single-mos.php"><h3>Exame MOS</h3></a>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
 							</p>
-							<a href="blog-single.php" class="primary-btn">View More</a>
+							<div class="meta-details">
+							<ul class="tags">
+								<li><a href="#">Eventos</a></li>
+								<li><a href="#">Microsoft Office</a></li>
+							</ul>
+						</div>
+							<a href="blog-single.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
-					<div class="single-post row">
-						<div class="col-lg-3 col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9">
+					<div class="single-post row col-xl-4 col-lg-6 col-12">
+						<div class="col-lg-12 col-md-12">
 							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img5.jpg" alt="">
+								<img class="img-fluid" src="img/blog/mos_blog.png" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.php"><h3>Telescopes 101</h3></a>
+							<a class="posts-title" href="blog-single-mos.php"><h3>Exame MOS</h3></a>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
 							</p>
-							<a href="blog-single.php" class="primary-btn">View More</a>
+							<div class="meta-details">
+							<ul class="tags">
+								<li><a href="#">Eventos</a></li>
+								<li><a href="#">Microsoft Office</a></li>
+							</ul>
+						</div>
+							<a href="blog-single.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
-					<nav class="blog-pagination justify-content-center d-flex">
+				</div>
+				<nav class="blog-pagination justify-content-center d-flex">
 						<ul class="pagination">
 							<li class="page-item">
-								<a href="#" class="page-link" aria-label="Previous">
+								<a href="blog-home.php" class="page-link" aria-label="Previous">
 									<span aria-hidden="true">
 										<span class="lnr lnr-chevron-left"></span>
 									</span>
 								</a>
 							</li>
-							<li class="page-item"><a href="#" class="page-link">01</a></li>
-							<li class="page-item active"><a href="#" class="page-link">02</a></li>
-							<li class="page-item"><a href="#" class="page-link">03</a></li>
-							<li class="page-item"><a href="#" class="page-link">04</a></li>
-							<li class="page-item"><a href="#" class="page-link">09</a></li>
+							<li class="page-item active"><a href="blog-home.php" class="page-link">01</a></li>
 							<li class="page-item">
-								<a href="#" class="page-link" aria-label="Next">
+								<a href="blog-home.php" class="page-link" aria-label="Next">
 									<span aria-hidden="true">
 										<span class="lnr lnr-chevron-right"></span>
 									</span>
@@ -292,7 +249,6 @@
 							</li>
 						</ul>
 					</nav>
-				</div>
 				<!--<div class="col-lg-4 sidebar-widgets">
 					<div class="widget-wrap">
 						<div class="single-sidebar-widget search-widget">
