@@ -123,7 +123,7 @@ body.mobile-nav-active #mobile-nav{display: block!important;}
 .blog-pagination {margin: auto;}
 .posts-title{text-align: center!important;}
 .post-content-area .single-post .meta-details .tags li {margin-right: 5px;}
-.img-fluid {border: none!important; width: 100%!important;object-fit: cover;}
+.img-blog-post {border: none!important; width: 100%!important;object-fit: cover;}
 .img_menu{animation: all 2s; -webkit-animation: all 2s; width: 17vw!important; max-width: 350px;}
 
 

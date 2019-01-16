@@ -74,3 +74,9 @@
 		</div>
 	</div>
 </footer>
+
+<!-- ####################### Start Scroll to Top Area ####################### -->
+	<div id="back-top" style="display: none;">
+		<a title="Topo" href="#"></a>
+	</div>
+	<!-- ####################### End Scroll to Top Area ####################### -->

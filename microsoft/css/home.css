@@ -1,0 +1,434 @@
+.home-banner-area {
+  background: url(../img/header-bg.png) no-repeat top center;
+  background-size: cover;
+}
+@include media-breakpoint-down (sm) {
+  height: 900px !important;
+}
+.rocket-img {
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  @include transform(translate(-50%));
+}
+.rocket-img.go-top {
+  @include transition(all 2.5s ease-in);
+  bottom: 100%;
+}
+.rocket-img .go-bottom {
+  @include transition(all 2.5s ease-in);
+  bottom: -22px;
+}
+.banner-content {
+  text-align: center;
+  margin-top: 100px;
+}
+@media (max-width: 1440px) {
+  .banner-content {
+    margin-top: 0;
+  }
+}
+.banner-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+@media (max-width: 1024px) {
+  .banner-content h1 {
+    font-size: 38px;
+  }
+}
+@include media-breakpoint-down(md) {
+  font-size: 35px;
+}
+@include media-breakpoint-down (md) {
+  display: none;
+}
+@media (max-width: 576px) {
+  .banner-content h1 {
+    font-size: 30px;
+  }
+}
+.banner-content p {
+  max-width: 610px;
+  margin: auto;
+}
+.banner-content .input-wrap {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.banner-content .input-wrap .form-box {
+  max-width: 556px;
+  padding: 5px 0px 5px 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.banner-content .input-wrap .form-control {
+  padding: 0 20px;
+  border-radius: 0;
+  display: inline-block;
+  border: 0;
+}
+@media (max-width: 480px) {
+  .banner-content .input-wrap .form-control {
+    font-size: 13px;
+  }
+}
+.banner-content .input-wrap .form-control:focus {
+  box-shadow: none;
+}
+.banner-content .input-wrap .search-btn {
+  @extend .p1-gradient-bg;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  left: -4px;
+  font-size: 14px;
+  padding: 10px 31px;
+  border: 0;
+}
+@media (max-width: 480px) {
+  .banner-content .input-wrap .search-btn {
+    padding: 8px 16px;
+  }
+}
+.banner-content .input-wrap .search-btn:focus {
+  box-shadow: none;
+}
+.banner-content h4 {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.banner-content .courses {
+  max-width: 430px;
+  margin: 0 auto;
+}
+.banner-area {
+  background: url(../img/banner-bg.png) no-repeat top center;
+  background-size: cover;
+  min-height: 512px;
+}
+@media (max-width: 991px) {
+  .about-area .about-left {
+    margin-bottom: 50px;
+  }
+}
+.about-right h1 {
+  margin-bottom: 30px;
+}
+@media (max-width: 991px) {
+  .about-right h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .about-right h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .about-right h1 br {
+    display: none;
+  }
+}
+.about-right .primary-btn {
+  margin-top: 30px;
+}
+.about-content {
+  margin-top: 135px;
+  margin-bottom: 112px;
+  text-align: center;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .about-content {
+    margin-top: 140px;
+  }
+}
+.about-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .about-content h1 {
+    font-size: 35px;
+  }
+}
+.about-content p {
+  max-width: 615px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.about-content .box {
+  padding: 10px 18px;
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .about-content .box {
+    padding: 7px 15px;
+  }
+}
+.about-content .box i {
+  font-size: 14px;
+  margin: 5px;
+  font-weight: 600;
+}
+.about-content .box a {
+  font-size: 14px;
+  @include transition();
+}
+@media (max-width: 380px) {
+  .about-content .box a {
+    font-size: 13px;
+  }
+}
+.courses-area .courses-right {
+  padding: 40px;
+}
+@media (max-width: 1024px) {
+  .courses-area .courses-right {
+    padding: 40px 20px;
+  }
+}
+@media (max-width: 991px) {
+  .courses-area .courses-right {
+    margin-top: 60px;
+  }
+}
+.courses-list li {
+  background: #f7fafc;
+  margin-bottom: 15px;
+  box-shadow: 0 0 7px 0;
+  @include transition();
+}
+.courses-list li:hover {
+  @extend .p1-gradient-bg;
+}
+.courses-list a {
+  display: inline-block;
+  padding: 17px 20px!important;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .courses-list a {
+    padding: 17px 20px;
+  }
+}
+.courses-list i {
+  margin-right: 20px;
+}
+.feature-area {
+  padding: 150px 0 120px;
+}
+@media (max-width: 991px) {
+  .feature-area {
+    padding: 80px 0px;
+  }
+}
+.feature-item {
+  padding: 50px 40px;
+  margin-bottom: 30px;
+  @include transition;
+}
+@media (max-width: 1024px) {
+  .feature-item {
+    padding: 50px 30px;
+  }
+}
+.feature-item i {
+  font-size: 36px;
+}
+.feature-item h4 {
+  margin-top: 30px;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.feature-item p {
+  margin-bottom: 0px;
+}
+.feature-item:hover {
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+}
+.single-faculty .thumb {
+  position: relative;
+  bottom: -30px;
+}
+.single-faculty .meta-text {
+  padding: 60px 30px 40px;
+}
+@media (max-width: 1024px) {
+  .single-faculty .meta-text {
+    padding: 60px 20px 40px;
+  }
+}
+.single-faculty .meta-text h4 {
+  font-size: 21px;
+}
+.single-faculty .meta-text .designation {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.single-faculty .meta-text a {
+  font-size: 14px;
+  margin: 0 10px;
+  color: #cccccc;
+  @include transition();
+}
+.testimonials-area {
+  position: relative;
+}
+.testimonials-area .owl-thumb-item {
+  margin-right: 20px;
+  position: relative;
+}
+.testimonials-area .owl-thumb-item:last-child {
+  margin-right: 0;
+}
+.testimonials-area .owl-thumb-item.active .overlay-grad {
+  @extend .p1-gradient-bg;
+  opacity: .8;
+}
+.testimonials-area .owl-thumb-item .overlay-grad {
+  @include transition();
+  cursor: pointer;
+}
+.testimonials-area .owl-thumb-item .overlay-grad:hover {
+  @extend .p1-gradient-bg;
+  opacity: .8;
+}
+.testi-slider {
+  margin: auto;
+}
+.testi-slider .testi-item {
+  text-align: center;
+}
+.testi-slider .testi-item img {
+  width: auto;
+  margin: auto;
+}
+.testi-item {
+  margin-bottom: 50px;
+}
+.testi-item h4 {
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.testi-item .list {
+  margin-bottom: 35px;
+}
+.testi-item .list li {
+  display: inline-block;
+}
+.testi-item .list li a {
+  color: #ffc000;
+  font-size: 14px;
+}
+.testi-item p {
+  max-width: 605px;
+  margin: auto;
+}
+.contact-page-area .map-wrap {
+  margin-bottom: 120px;
+}
+@media (max-width: 991px) {
+  .contact-page-area .map-wrap {
+    margin-bottom: 50px;
+  }
+}
+.contact-page-area .contact-btns {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.contact-page-area .form-area .form-control:focus {
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+.contact-page-area .form-area input {
+  padding: 15px;
+  height: 40px;
+  line-height: 40px;
+}
+.contact-page-area .form-area input,
+.contact-page-area .form-area textarea {
+  border-radius: 0;
+  font-size: 13px !important;
+}
+.contact-page-area .form-area textarea {
+  height: 160px;
+  margin-top: 0px;
+  padding: 15px;
+}
+.contact-page-area .form-area .primary-btn {
+  border-radius: 0px;
+}
+@media (max-width: 991px) {
+  .contact-page-area .form-area .primary-btn {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .contact-page-area .form-area .form-group {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 991px) {
+  .contact-page-area .address-wrap {
+    margin-bottom: 30px;
+  }
+}
+.contact-page-area .address-wrap .single-contact-address {
+  margin-bottom: 8px;
+}
+.contact-page-area .address-wrap .single-contact-address h5 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.contact-page-area .address-wrap .single-contact-address .lnr {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+.generic-banner {
+  text-align: center;
+}
+.generic-banner .height {
+  height: 600px;
+}
+@include media-breakpoint-down (sm) {
+  height: 400px;
+}
+.generic-banner .generic-banner-content h2 {
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+@include media-breakpoint-down (md) {
+  display: none;
+}
+.generic-banner .generic-banner-content p {
+  text-align: center;
+  font-size: 16px;
+}
+@include media-breakpoint-down (md) {
+  display: none;
+}
+.section-top-border {
+  padding: 70px 0;
+  border-top: 1px dotted #eee;
+}
+.switch-wrap {
+  margin-bottom: 10px;
+}
+.switch-wrap p {
+  margin: 0;
+}

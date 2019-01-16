@@ -26,11 +26,8 @@
 </header>
 
 
-<style>
-    .img_menu{
-    	width:350px;
-    }
-    
+
+<style>    
 	@media only screen and (max-width: 881px) {
         .img_menu{
         	width:150px!important;
