@@ -100,7 +100,7 @@
 							<span class="lnr lnr-envelope"></span>
 						</div>
 						<div class="contact-details">
-							<h5>clube.microsoft.epb@gmail.com</h5>
+							<h5>clubemsepb@outlook.pt</h5>
 							<p>Envia-nos as tuas questões!</p>
 						</div>
 					</div>

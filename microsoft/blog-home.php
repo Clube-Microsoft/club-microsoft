@@ -70,7 +70,7 @@
 	<!-- End Banner Area -->
 
 	<!-- Start top-category-widget Area -->
-	<section class="top-category-widget-area pt-90 pb-90 ">
+	<!--<section class="top-category-widget-area pt-90 pb-90 ">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
@@ -126,14 +126,14 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	<!-- End top-category-widget Area -->
 
 	<!-- Start post-content Area -->
-	<section class="post-content-area">
+	<section class="post-content-area" style="margin-top: 10vh;">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 posts-list">
+				<div class="col-lg-12 posts-list">
 					<div class="single-post row">
 						<div class="col-lg-3  col-md-3 meta-details">
 							<ul class="tags">
@@ -293,7 +293,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-lg-4 sidebar-widgets">
+				<!--<div class="col-lg-4 sidebar-widgets">
 					<div class="widget-wrap">
 						<div class="single-sidebar-widget search-widget">
 							<form class="search-form" action="#">
@@ -449,7 +449,7 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</section>
