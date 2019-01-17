@@ -21,10 +21,8 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-						Blog Home
+						Blog
 					</h1>
-					<p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
-						the space telescope.</p>
 					<div class="link-nav">
 						<span class="box">
 							<a href="index.php">Home </a>

@@ -4,7 +4,7 @@
 <head>
 <?php  require_once "links.php"; ?>
 	<!-- Site Title -->
-	<title>Microsoft Office - Evento</title>
+	<title>Exame MOS - Evento</title>
 
 	
 </head>
@@ -19,17 +19,16 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-						Blog Details
+						Exame MOS
 					</h1>
-					<p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
-						the space telescope.</p>
+					<p>Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).</p>
 					<div class="link-nav">
 						<span class="box">
 							<a href="index.php">Home </a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="blog-home.php">Blog</a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="blog-single.php">Blog Details</a>
+							<a href="blog-single-mos.php">Exame MOS</a>
 						</span>
 					</div>
 				</div>
