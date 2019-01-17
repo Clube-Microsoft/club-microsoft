@@ -122,7 +122,7 @@
 								<li><a href="#">Microsoft Office</a></li>
 							</ul>
 						</div>
-							<a href="blog-single.php" class="primary-btn">Ler Mais</a>
+							<a href="blog-single-mos.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 				</div>
