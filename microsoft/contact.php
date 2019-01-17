@@ -109,11 +109,7 @@
 	<?php  require_once "footer.php"; ?>
 
 
-	<!-- ####################### Start Scroll to Top Area ####################### -->
-	<div id="back-top">
-		<a title="Topo" href="#"></a>
-	</div>
-	<!-- ####################### End Scroll to Top Area ####################### -->
+
  
 </body>
 

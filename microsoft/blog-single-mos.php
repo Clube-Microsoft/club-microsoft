@@ -49,7 +49,7 @@
 					<div class="single-post row">
 						<div class="col-lg-12">
 							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img1.jpg" alt="">
+								<img class="img-fluid img-blog-post-dentro" src="img/blog/mos_blog.png" alt="">
 							</div>
 						</div>
 						<div class="col-lg-3  col-md-3 meta-details">
@@ -96,12 +96,6 @@
 								the willpower to actually sit through a self-imposed MCSE training.
 							</div>
 							<div class="row mt-30 mb-30">
-								<div class="col-6">
-									<img class="img-fluid" src="img/blog/post-img1.jpg" alt="">
-								</div>
-								<div class="col-6">
-									<img class="img-fluid" src="img/blog/post-img2.jpg" alt="">
-								</div>
 								<div class="col-lg-12 mt-30">
 									<p>
 										MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
@@ -117,7 +111,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="navigation-area">
+					<!--<div class="navigation-area">
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
 								<div class="thumb">
@@ -420,7 +414,7 @@
 								<li><a href="#">Adventure</a></li>
 							</ul>
 						</div>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</div>
@@ -430,11 +424,7 @@
 	<?php  require_once "footer.php"; ?>
 
 
-	<!-- ####################### Start Scroll to Top Area ####################### -->
-	<div id="back-top">
-		<a title="Topo" href="#"></a>
-	</div>
-	<!-- ####################### End Scroll to Top Area ####################### -->
+
 
 </body>
 
