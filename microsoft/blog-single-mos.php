@@ -58,7 +58,7 @@
 						
 							
 						<div class="col-12">
-							<p class="excert">
+							<p class="excert-dentro">
 								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
 							</p>
 							<p>

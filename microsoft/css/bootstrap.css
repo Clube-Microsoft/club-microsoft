@@ -150,7 +150,7 @@ body.mobile-nav-active #mobile-nav{display: block!important;}
     transition: all 0.3s ease 0s;
 }
 
-@media (min-width:992px) {.excert{margin-top: 60px;}}
+@media (min-width:992px) {.excert-dentro{margin-top: 60px;}}
 
 /*-------------------------------------------*/
 
