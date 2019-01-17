@@ -11,10 +11,10 @@
 					<li class="menu-has-children">
 						<a>Serviços</a>
 						<ul class="nav-dropdown">
-							<li><a href="#">Workshops</a></li>
-							<li><a href="#">Palestras</a></li>
-							<li><a href="#">Aulas Digitais</a></li>
-							<li><a href="#">Ajuda em Tempo Real</a></li>
+							<li><a href="services.php">Workshops</a></li>
+							<li><a href="services.php">Palestras</a></li>
+							<li><a href="services.php">Aulas Digitais</a></li>
+							<li><a href="services.php">Ajuda em Tempo Real</a></li>
 						</ul>
 					</li>
 					<li><a href="blog-home.php">Blog</a></li>
