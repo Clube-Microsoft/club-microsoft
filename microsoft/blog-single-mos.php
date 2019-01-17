@@ -81,7 +81,7 @@
 							<div class="user-details row">
 								<ul class="social-links col-12">
 									<li data-href="https://clubemicrosoftepb.000webhostapp.com/blog-single-mos.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclubemicrosoftepb.000webhostapp.com%2Fblog-single-mos.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a target="_blank" href="https://twitter.com/intent/tweet?text=https://clubemicrosoftepb.000webhostapp.com/blog-single-mos.php Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist)."><i class="fa fa-twitter"></i></a></li>
 									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 								</ul>
 							</div>
@@ -96,13 +96,7 @@
 
 	<?php  require_once "footer.php"; ?>
 
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v3.2';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 
 
 </body>
