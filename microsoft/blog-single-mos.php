@@ -47,14 +47,17 @@
 				<div class="col-lg-12 posts-list">
 					<div class="single-post row">
 						<div class="col-lg-12">
-							<div class="feature-img" style="text-align: center;">
+							<div class="feature-img col-12 col-lg-8" style="float: left;">
 								<img class="img-fluid img-blog-post-dentro" src="img/blog/mos_blog.png" alt="">
+							</div>
+							<div class="col-12 col-lg-4" style="float: right;">
+								<h3 class="mt-20 mb-20">Exame MOS</h3>
+								<p class="date"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							</div>
 						</div>
 						
-							<h3 class="mt-20 mb-20">Exame MOS</h3>
-							<p class="date col-12"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
-
+							
+						<div class="col-12">
 							<p class="excert">
 								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
 							</p>
@@ -84,6 +87,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>

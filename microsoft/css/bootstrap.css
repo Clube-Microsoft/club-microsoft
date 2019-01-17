@@ -123,10 +123,34 @@ body.mobile-nav-active #mobile-nav{display: block!important;}
 .blog-pagination {margin: auto;}
 .posts-title{text-align: center!important;}
 .post-content-area .single-post .meta-details .tags li {margin-right: 5px;}
-.img-blog-post {border: none!important; width: 100%!important;object-fit: cover;}
-.img-blog-post-dentro {border: none!important; width: 60%!important;height: auto!important;}
+.img-blog-post {border: none!important; width: 100%!important;object-fit: cover; border-radius: 20px!important; }
+.img-blog-post-dentro {border: none!important; width: 100%!important;height: auto!important;border-radius: 10px!important;}
 .img_menu{animation: all 2s; -webkit-animation: all 2s; width: 17vw!important; max-width: 350px;}
 
+.meta-details-dentro{
+    text-align: left!important;
+    margin-top: 20px !important;     
+    margin-bottom: 30px;
+    float: left;}
+
+.meta-details-dentro .tags li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.meta-details-dentro .tags li a {
+    color: #777!important;
+}
+
+.meta-details-dentro .tags li a {
+    color: #222222;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+@media (min-width:992px) {.excert{margin-top: 60px;}}
 
 /*-------------------------------------------*/
 
