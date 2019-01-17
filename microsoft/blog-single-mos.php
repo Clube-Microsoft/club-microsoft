@@ -82,7 +82,9 @@
 								<ul class="social-links col-12">
 									<li data-href="https://clubemicrosoftepb.000webhostapp.com/blog-single-mos.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclubemicrosoftepb.000webhostapp.com%2Fblog-single-mos.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
 									<li><a target="_blank" href="https://twitter.com/intent/tweet?text=https://clubemicrosoftepb.000webhostapp.com/blog-single-mos.php Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist)."><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a onclick="linkedin(event, 'https://clubemicrosoftepb.000webhostapp.com/blog-single-mos.php', 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="https://plus.google.com/share?url=https://clubemicrosoftepb.000webhostapp.com/blog-single-mos.php"><i class="fa fa-google"></i></a></li>
+									<li><a target="_blank" href="whatsapp://send?text=Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist). &ndash; https://clubemicrosoftepb.000webhostapp.com/blog-single-mos.php" title="Acesse de seu smartphone para enviar por WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -96,8 +98,12 @@
 
 	<?php  require_once "footer.php"; ?>
 
-
-
+<script>
+	linkedin = function (event, s, a){
+    event.preventDefault();
+    window.open('https://www.linkedin.com/cws/share?url=' +s+ '?name=' +a, 'newwindow', 'width=680, height=450');
+};
+</script>
 
 </body>
 
