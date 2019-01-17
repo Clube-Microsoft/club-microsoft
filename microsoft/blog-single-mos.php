@@ -48,7 +48,7 @@
 				<div class="col-lg-12 posts-list">
 					<div class="single-post row">
 						<div class="col-lg-12">
-							<div class="feature-img">
+							<div class="feature-img" style="text-align: center;">
 								<img class="img-fluid img-blog-post-dentro" src="img/blog/mos_blog.png" alt="">
 							</div>
 						</div>

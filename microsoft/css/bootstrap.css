@@ -124,7 +124,7 @@ body.mobile-nav-active #mobile-nav{display: block!important;}
 .posts-title{text-align: center!important;}
 .post-content-area .single-post .meta-details .tags li {margin-right: 5px;}
 .img-blog-post {border: none!important; width: 100%!important;object-fit: cover;}
-.img-blog-post-dentro {border: none!important; width: 100%!important;height: auto!important;}
+.img-blog-post-dentro {border: none!important; width: 60%!important;height: auto!important;}
 .img_menu{animation: all 2s; -webkit-animation: all 2s; width: 17vw!important; max-width: 350px;}
 
 
