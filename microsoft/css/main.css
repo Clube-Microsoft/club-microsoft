@@ -1739,7 +1739,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
 #mobile-nav ul li a:hover {
-  color: #fff; }
+  color: #000; }
 
 #mobile-nav ul li li {
   padding-left: 30px; }
