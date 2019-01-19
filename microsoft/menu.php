@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row align-items-center justify-content-between d-flex">
 			<div id="logo">
-				<a href="index.php"><img src="img/Logo/LogoName.png" id="img_menu_desktop" alt="" title="" class="img_menu"/></a>
+				<a href="index.php" id="img_menu_desktop"><img src="img/Logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
 			</div>
 			<!--<nav id="nav-menu-container">
 				<ul class="nav-menu">
@@ -22,7 +22,7 @@
 				</ul>
 			</nav>--><!-- #nav-menu-container -->
 			<div class="topnav" id="myTopnav">
-				<a href="index.php"><img src="img/Logo/LogoName.png" id="img_menu" alt="" title="" class="img_menu"/></a>
+				<a href="index.php" style="background: none;         	display: none;" id="img_menu"><img src="img/Logo/LogoName.png" alt="" title="" class="img_menu"/></a>
 				<a href="index.php">Início</a>
 				<a href="courses.php">Cursos</a>
 				<div class="dropdown">
@@ -56,12 +56,33 @@
         }
 
         #img_menu{
-        	display: block;
+        	display: block!important;
         }
 
-        .topnav {
+		.topnav{
 			width: 100%;
 		}
+
+        .topnav.responsive {
+		    position: fixed;
+		    top: 0;
+		    padding-top: 18px;
+		    bottom: 0;
+		    left: 0;
+		    z-index: 998;
+		    background: rgba(0, 0, 0, 0.8);
+		    overflow-y: auto;
+		    transition: 0.4s;
+		    width: 100%;
+		    height: 100vh;
+		    padding: 10px 22px 10px 15px;
+		}
+
+
+		.topnav.responsive.icon{
+			  background: none;
+		}
+
 
     }
 
@@ -72,7 +93,7 @@
         }
 
         #img_menu{
-        	display: none;
+        	display: none!important;
         }
 
     }
@@ -142,7 +163,6 @@ body {margin:0;font-family:Arial}
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
   color: white;
 }
 
@@ -166,12 +186,12 @@ body {margin:0;font-family:Arial}
 }
 
 @media screen and (max-width: 881px) {
-  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-  }
+    padding: 25px;
+}
   .topnav.responsive a {
     float: none;
     display: block;
