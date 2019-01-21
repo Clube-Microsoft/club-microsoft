@@ -22,7 +22,7 @@
 				</ul>
 			</nav>--><!-- #nav-menu-container -->
 			<div class="topnav" id="myTopnav">
-				<a href="index.php" style="background: none;         	display: none;" id="img_menu"><img src="img/Logo/LogoName.png" alt="" title="" class="img_menu"/></a>
+				<a href="index.php" style="background: none; display: none;" id="img_menu"><img src="img/Logo/LogoName.png" alt="" title="" class="img_menu"/></a>
 				<a href="index.php">Início</a>
 				<a href="courses.php">Cursos</a>
 				<div class="dropdown">
