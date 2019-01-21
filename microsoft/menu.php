@@ -103,7 +103,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
@@ -111,13 +110,21 @@ body {margin:0;font-family:Arial}
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+  	font-size: 14px;
+  	border-radius: 10px;
+}
+
+.topnav a:hover{
+	background: #f7fafc;
+	color: #000;
+    cursor: pointer;
+    transition: 0.6s ease;
 }
 
 .active {
@@ -135,14 +142,14 @@ body {margin:0;font-family:Arial}
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
 
 .dropdown-content {
@@ -157,14 +164,10 @@ body {margin:0;font-family:Arial}
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  color: white;
+  border-radius: 0;
 }
 
 .dropdown-content a:hover {
