@@ -36,7 +36,8 @@
 						<a href="services.php">Ajuda em Tempo Real</a>
 					</div>
 				</div> 
-				<a href="#about">About</a>
+				<a href="blog-home.php">Blog</a>
+				<a href="contact.php">Contacto</a>
 				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 			</div>
 		</div>
