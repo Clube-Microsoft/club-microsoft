@@ -46,7 +46,16 @@
 				</ul>
 			</div>-->
 			<div class='col-lg-4 col-md-6 single-footer-widget'>
-				<a href="http://www.epb.pt" target="_blank"><img src="img/logo_EPB.png" title="Escola Profissional de Braga" style="height: 60px; margin-top: 20%;"/></a>
+
+				<h4 style="color: #fff;">Redes Sociais</h4>
+
+				<a href="https://www.facebook.com/pg/Clube-Microsoft-EPB-228620858076236" target="_blank"><img src="img/icons/facebook.png" title="Facebook Clube Microsoft EPB" style="height:35px; padding: 5px;"/></a>
+				<a href="https://www.instagram.com/clubemicrosoftepb/" target="_blank"><img src="img/icons/instagram.png" title="Instagram  Clube Microsoft EPB" style="height:35px; padding: 5px; margin-left:3%;"/></a>
+
+				<div style="clear: both;"></div>
+
+				<a href="http://www.epb.pt" target="_blank"><img src="img/logo_EPB.png" title="Escola Profissional de Braga" style="height: 60px; margin-top: 10%;"/></a>
+				
 				<!--<h4>Newsletter</h4>
 				<p>Recebe as últimas novidades do clube.</p>
 				<div class='form-wrap' id='mc_embed_signup'>
