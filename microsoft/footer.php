@@ -52,9 +52,14 @@
 				<a href="https://www.facebook.com/pg/Clube-Microsoft-EPB-228620858076236" target="_blank"><img src="img/icons/facebook.png" title="Facebook Clube Microsoft EPB" style="height:35px; padding: 5px;"/></a>
 				<a href="https://www.instagram.com/clubemicrosoftepb/" target="_blank"><img src="img/icons/instagram.png" title="Instagram  Clube Microsoft EPB" style="height:35px; padding: 5px; margin-left:3%;"/></a>
 
-				<div style="clear: both;"></div>
+				<br/>
+				<br/>
 
-				<a href="http://www.epb.pt" target="_blank"><img src="img/logo_EPB.png" title="Escola Profissional de Braga" style="height: 60px; margin-top: 10%;"/></a>
+				<p class='footer-text'>Projeto desenvolvido no âmbito do concurso <a href="https://www.sitestar.pt/" target="_blank">SiteStar6</a></p>
+								
+				<a href="https://decojovem.pt/" target="_blank"><img src="img/deco.png" title="DecoJovem" style="height: 60px; margin-top: 5%;"/></a>
+
+				<a href="http://www.epb.pt" target="_blank"><img src="img/logo_EPB.png" title="Escola Profissional de Braga" style="height: 60px; margin-top: 5%; margin-left: 3%;"/></a>
 				
 				<!--<h4>Newsletter</h4>
 				<p>Recebe as últimas novidades do clube.</p>

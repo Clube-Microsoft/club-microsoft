@@ -1,5 +1,5 @@
 <?php
-    $to = 'clubemsepb@outlook.pt';
+    $to = 'clubemicrosoft@epb.pt';
     $name = $_POST["name"];
     $email= $_POST["email"];
     $subject= $_POST["subject"];
