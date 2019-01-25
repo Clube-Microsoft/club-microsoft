@@ -18,7 +18,7 @@
 	<section class="home-banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center banner">
-				<div class="banner-content col-lg-8 col-md-12">
+				<div class="banner-content col-lg-8 col-md-12" style="background: rgba(169, 167, 167, 0.4);border-radius: 30px;padding: 70px 0;">
 					<h1 class="wow fadeIn" data-wow-duration="4s">Junta-te ao clube</h1>
 					<p class="text-white">
 						Com foco na aprendizagem e motivação de estudo, este clube engloba diversas mais valias e características importantes para o teu desenvolvimento como profissional.
