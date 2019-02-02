@@ -133,10 +133,9 @@
 								</div>
 								<h3>Palestra Segurança na Internet</h3>
 							</a>
-							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">01 fev 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
-								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
-							</p>
+                  				Esta palestra tem como objetivo sensibilizar e educar os participantes a praticarem melhores hábitos no uso da Internet. Temos uma aproximação prática para que todos possam beneficiar de novos conhecimentos.</p>
 							<div class="meta-details">
 							<ul class="tags">
 								<li><a href="#">Eventos</a></li>

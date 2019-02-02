@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-12 col-lg-4" style="float: right;">
                            <h3 class="mt-20 mb-20">Palestra Segurança na Internet</h3>
-                           <p class="date"><a href="#">02 fev 2019</a> <span class="lnr lnr-calendar-full"></span></p>
+                           <p class="date"><a href="#">01 fev 2019</a> <span class="lnr lnr-calendar-full"></span></p>
                         </div>
                      </div>
                      <div class="col-12">
@@ -60,9 +60,6 @@ Segurança... 	-do meu espaço 		...na internet.
 		-psicológica
 		-das redes sociais
                         </pre>
-                        <p>
-                          As sessões de preparação de exames planeadas e dinamizadas pelo coordenador tecnológico, estão agendas para os dias 23, 24 e 29 de janeiro e 01, 05, 06 e 07 de fevereiro, das 14h30 às 16h30, na sala Rumos (junto à Secretaria) ou na sala INF1.
-                        </p>
                         <p>
                            Esta é uma iniciativa <strong>Clube Microsoft</strong> que como tal será apresentada pelos respetivos fundadores <em>Leandro Pereira</em>, <em>Rúben Príncipe</em> e <em>Rui Pereira</em>, alunos finalistas do curso de Gestão e Programação de Sistemas Informáticos.
                         </p>
