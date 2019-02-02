@@ -2,7 +2,7 @@
 <html lang="zxx" class="no-js">
 
 <head>
-		<?php  require_once "links.php"; ?>
+	<?php  require_once "links.php"; ?>
 	<!-- Site Title -->
 	<title>Contacto</title>
 
@@ -72,7 +72,7 @@
 							<span class="lnr lnr-envelope"></span>
 						</div>
 						<div class="contact-details">
-							<h5>clubemicrosoft@epb.pt</h5>
+							<h5><a href="mailto:clubemicrosoft@epb.pt">clubemicrosoft@epb.pt</a></h5>
 							<p>Envia-nos as tuas questões!</p>
 						</div>
 					</div>
