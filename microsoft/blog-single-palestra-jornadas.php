@@ -59,7 +59,7 @@
                           As sessões de preparação de exames planeadas e dinamizadas pelo coordenador tecnológico, estão agendas para os dias 23, 24 e 29 de janeiro e 01, 05, 06 e 07 de fevereiro, das 14h30 às 16h30, na sala Rumos (junto à Secretaria) ou na sala INF1.
                         </p>
                         <p>
-                           As mobilizações à inscrição desses alunos nas sessões estão à responsabilidade dos alunos do Clube Microsoft (Leandro, Rui e Rúben – GPSI16) por forma a garantir a recolha dos inscritos junto dos diretores de turma em aula com a as respetivas turmas da sua orientação, de modo a poder reforçar algumas questões.
+                           As mobilizações à inscrição desses alunos nas sessões estão à responsabilidade dos alunos do Clube Microsoft (Leandro, Rui e Rúben – GPSI16) por forma a garantir a recolha dos inscritos junto dos diretores de turma em aula com as respetivas turmas da sua orientação, de modo a poder reforçar algumas questões.
                         </p>
                         <p>
                            Além disso, convém reforçar o valor da Certificação Microsoft que irá ser realizado nos dias 27 e 28 de fevereiro e 1 de março, de acordo com a opção de cada aluno.
