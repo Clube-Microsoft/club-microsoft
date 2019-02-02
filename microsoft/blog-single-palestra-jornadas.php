@@ -15,7 +15,7 @@
                   <h1 class="text-white">
                      Palestra Segurança na Internet
                   </h1>
-                  <p>Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).</p>
+                  <p>Esta palestra tem como objetivo sensibilizar e educar os participantes a praticarem melhores hábitos no uso da Internet. Temos uma aproximação prática para que todos possam beneficiar de novos conhecimentos.</p>
                   <div class="link-nav">
                      <span class="box">
                      <a href="index.php">Início </a>
@@ -50,19 +50,21 @@
                      </div>
                      <div class="col-12">
                         <p class="excert-dentro">
-                           Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
-                        </p>
-                        <p>
-                           Esta certificação apresenta diversas vantagens, nomeadamente o reconhecimento do sector de TI, e competências profissionais de elevado nível que irão facilitar a entrada no mercado de trabalho aquando do recrutamento das empresas.
-                        </p>
+                           Esta palestra tem como objetivo sensibilizar e educar os participantes a praticarem melhores hábitos no uso da Internet. Temos uma aproximação prática para que todos possam beneficiar de novos conhecimentos.
+						</p>
+						<p>
+                           Entre estes conhecimentos realçamos 3 importantes tópicos:
+						</p>
+						<pre>
+Segurança... 	-do meu espaço 		...na internet.
+		-psicológica
+		-das redes sociais
+                        </pre>
                         <p>
                           As sessões de preparação de exames planeadas e dinamizadas pelo coordenador tecnológico, estão agendas para os dias 23, 24 e 29 de janeiro e 01, 05, 06 e 07 de fevereiro, das 14h30 às 16h30, na sala Rumos (junto à Secretaria) ou na sala INF1.
                         </p>
                         <p>
-                           As mobilizações à inscrição desses alunos nas sessões estão à responsabilidade dos alunos do Clube Microsoft (Leandro, Rui e Rúben – GPSI16) por forma a garantir a recolha dos inscritos junto dos diretores de turma em aula com as respetivas turmas da sua orientação, de modo a poder reforçar algumas questões.
-                        </p>
-                        <p>
-                           Além disso, convém reforçar o valor da Certificação Microsoft que irá ser realizado nos dias 27 e 28 de fevereiro e 1 de março, de acordo com a opção de cada aluno.
+                           Esta é uma iniciativa <strong>Clube Microsoft</strong> que como tal será apresentada pelos respetivos fundadores <em>Leandro Pereira</em>, <em>Rúben Príncipe</em> e <em>Rui Pereira</em>, alunos finalistas do curso de Gestão e Programação de Sistemas Informáticos.
                         </p>
                         <!--<div class="quotes">
                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
@@ -72,7 +74,7 @@
                         <div class="meta-details">
                            <ul class="tags">
                               <li><a href="#">Eventos</a></li>
-                              <li><a href="#">Palestras</a></li>
+                              <li><a href="#">Palestra</a></li>
                               <li><a href="#">Segurança</a></li>
                               <li><a href="#">Internet</a></li>
                            </ul>
