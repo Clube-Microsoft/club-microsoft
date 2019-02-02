@@ -56,7 +56,7 @@
                            Esta certificação apresenta diversas vantagens, nomeadamente o reconhecimento do sector de TI, e competências profissionais de elevado nível que irão facilitar a entrada no mercado de trabalho aquando do recrutamento das empresas.
                         </p>
                         <p>
-                          As sessões de preparação de exames planeadas e dinamizadas pelo coordenador tecnológico, estão agendas para os dias 23, 24 e 29 de janeiro e 01, 05, 06 e 07 de fevereiro, das 14h30 às 16h30, na sala Rumos (junto à Secretaria) ou na sala INF1.
+                          As sessões de preparação de exames planeadas e dinamizadas pelo coordenador tecnológico, estão agendas para os dias 23, 24 e 29 de janeiro e 01, 06 e 07 de fevereiro, das 14h30 às 16h30, na sala Rumos (junto à Secretaria) ou na sala INF1.
                         </p>
                         <p>
                            As mobilizações à inscrição desses alunos nas sessões estão à responsabilidade dos alunos do Clube Microsoft (Leandro, Rui e Rúben – GPSI16) por forma a garantir a recolha dos inscritos junto dos diretores de turma em aula com a as respetivas turmas da sua orientação, de modo a poder reforçar algumas questões.
@@ -81,7 +81,7 @@
                            </ul>
                            <div class="user-details row">
                               <ul class="social-links col-12">
-                                 <li data-href="http://clubemicrosoftepb.pcriot.com/blog-single-mos.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclubemicrosoftepb.000webhostapp.com%2Fblog-single-mos.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
+                                 <li data-href="http://clubemicrosoftepb.pcriot.com/blog-single-mos.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclubemicrosoftepb.pcriot.com%2Fblog-single-mos.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
                                  <li><a target="_blank" href="https://twitter.com/intent/tweet?text=http://clubemicrosoftepb.pcriot.com/blog-single-mos.php Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist)."><i class="fa fa-twitter"></i></a></li>
                                  <li><a onclick="linkedin(event, 'http://clubemicrosoftepb.pcriot.com/blog-single-mos.php', 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                  <li><a href="https://plus.google.com/share?url=http://clubemicrosoftepb.pcriot.com/blog-single-mos.php"><i class="fa fa-google-plus"></i></a></li>

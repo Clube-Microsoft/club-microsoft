@@ -3,7 +3,7 @@
    <head>
       <?php  require_once "links.php"; ?>
       <!-- Site Title -->
-      <title>Exame MOS - Evento</title>
+      <title>Palestra Segurança na Internet - Evento</title>
    </head>
    <body>
       <?php  require_once "menu.php"; ?>
@@ -13,16 +13,16 @@
             <div class="row d-flex align-items-center justify-content-center">
                <div class="about-content col-lg-12">
                   <h1 class="text-white">
-                     Exame MOS
+                     Palestra Segurança na Internet
                   </h1>
                   <p>Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).</p>
                   <div class="link-nav">
                      <span class="box">
-                     <a href="index.php">Home </a>
+                     <a href="index.php">Início </a>
                      <i class="lnr lnr-arrow-right"></i>
                      <a href="blog-home.php">Blog</a>
                      <i class="lnr lnr-arrow-right"></i>
-                     <a href="blog-single-mos.php">Exame MOS</a>
+                     <a href="blog-single-mos.php">Palestra Segurança na Internet</a>
                      </span>
                   </div>
                </div>
@@ -41,11 +41,11 @@
                   <div class="single-post row">
                      <div class="col-lg-12">
                         <div class="feature-img col-12 col-lg-8" style="float: left;">
-                           <img class="img-fluid img-blog-post-dentro" src="img/blog/mos_blog.png" alt="">
+                           <img class="img-fluid img-blog-post-dentro" src="img/blog/palestra_jorandas_blog.png" alt="">
                         </div>
                         <div class="col-12 col-lg-4" style="float: right;">
-                           <h3 class="mt-20 mb-20">Exame MOS</h3>
-                           <p class="date"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
+                           <h3 class="mt-20 mb-20">Palestra Segurança na Internet</h3>
+                           <p class="date"><a href="#">02 fev 2019</a> <span class="lnr lnr-calendar-full"></span></p>
                         </div>
                      </div>
                      <div class="col-12">
@@ -64,11 +64,6 @@
                         <p>
                            Além disso, convém reforçar o valor da Certificação Microsoft que irá ser realizado nos dias 27 e 28 de fevereiro e 1 de março, de acordo com a opção de cada aluno.
                         </p>
-                        <p>
-                           Inscrição EPB Microsoft Academy: <a target="_blank" href="http://bit.do/epb-mos2019">http://bit.do/epb-mos2019</a></br>
-                           Registo no site CERTIPORT:  <a target="_blank" href="https://docdro.id/lwE7khP">https://docdro.id/lwE7khP</a>
-
-                        </p>
                         <!--<div class="quotes">
                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
                            on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has
@@ -77,15 +72,17 @@
                         <div class="meta-details">
                            <ul class="tags">
                               <li><a href="#">Eventos</a></li>
-                              <li><a href="#">Microsoft Office</a></li>
+                              <li><a href="#">Palestras</a></li>
+                              <li><a href="#">Segurança</a></li>
+                              <li><a href="#">Internet</a></li>
                            </ul>
                            <div class="user-details row">
                               <ul class="social-links col-12">
-                                 <li data-href="http://clubemicrosoftepb.pcriot.com/blog-single-mos.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclubemicrosoftepb.000webhostapp.com%2Fblog-single-mos.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
-                                 <li><a target="_blank" href="https://twitter.com/intent/tweet?text=http://clubemicrosoftepb.pcriot.com/blog-single-mos.php Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist)."><i class="fa fa-twitter"></i></a></li>
-                                 <li><a onclick="linkedin(event, 'http://clubemicrosoftepb.pcriot.com/blog-single-mos.php', 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                 <li><a href="https://plus.google.com/share?url=http://clubemicrosoftepb.pcriot.com/blog-single-mos.php"><i class="fa fa-google-plus"></i></a></li>
-                                 <li><a target="_blank" href="whatsapp://send?text=Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist). &ndash; http://clubemicrosoftepb.pcriot.com/blog-single-mos.php" title="Acesse de seu smartphone para enviar por WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
+                                 <li data-href="http://clubemicrosoftepb.pcriot.com/blog-single-mos.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclubemicrosoftepb.pcriot.com%2Fblog-single-palestra-jornadas.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
+                                 <li><a target="_blank" href="https://twitter.com/intent/tweet?text=http://clubemicrosoftepb.pcriot.com/blog-single-palestra-jornadas.phpEste exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist)."><i class="fa fa-twitter"></i></a></li>
+                                 <li><a onclick="linkedin(event, 'http://clubemicrosoftepb.pcriot.com/blog-single-palestra-jornadas.php', 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://plus.google.com/share?url=http://clubemicrosoftepb.pcriot.com/blog-single-palestra-jornadas.php"><i class="fa fa-google-plus"></i></a></li>
+                                 <li><a target="_blank" href="whatsapp://send?text=Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist). &ndash; http://clubemicrosoftepb.pcriot.com/blog-single-palestra-jornadas.php" title="Acesse de seu smartphone para enviar por WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
                               </ul>
                            </div>
                         </div>

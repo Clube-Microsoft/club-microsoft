@@ -106,10 +106,12 @@
 				<div class="col-lg-12 posts-list">
 					<div class="single-post row col-xl-4 col-lg-6 col-12">
 						<div class="col-lg-12 col-md-12">
-							<div class="feature-img">
-								<img class="img-fluid img-blog-post" src="img/blog/mos_blog.png" alt="">
-							</div>
-							<a class="posts-title" href="blog-single-mos.php"><h3>Exame MOS</h3></a>
+							<a class="posts-title" href="blog-single-mos.php">
+								<div class="feature-img">
+									<img class="img-fluid img-blog-post" src="img/blog/mos_blog.png" alt="">
+								</div>
+								<h3>Exame MOS</h3>
+							</a>
 							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
 								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
@@ -121,6 +123,29 @@
 							</ul>
 						</div>
 							<a href="blog-single-mos.php" class="primary-btn">Ler Mais</a>
+						</div>
+					</div>
+					<div class="single-post row col-xl-4 col-lg-6 col-12">
+						<div class="col-lg-12 col-md-12">
+							<a class="posts-title" href="blog-single-palestra-jornadas.php">
+								<div class="feature-img">
+									<img class="img-fluid img-blog-post" src="img/blog/palestra_jorandas_blog.png" alt="">
+								</div>
+								<h3>Palestra Segurança na Internet</h3>
+							</a>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
+							<p class="excert">
+								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
+							</p>
+							<div class="meta-details">
+							<ul class="tags">
+								<li><a href="#">Eventos</a></li>
+                              	<li><a href="#">Palestras</a></li>
+                              	<li><a href="#">Segurança</a></li>
+                              	<li><a href="#">Internet</a></li>
+							</ul>
+						</div>
+							<a href="blog-single-palestra-jornadas.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 				</div>
