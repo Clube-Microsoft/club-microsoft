@@ -127,11 +127,11 @@
 					</div>
 					<div class="single-post row col-xl-4 col-lg-6 col-12">
 						<div class="col-lg-12 col-md-12">
-							<a class="posts-title" href="palestra-segurança-na-internet.php">
+							<a class="posts-title" href="segurança-na-internet.php">
 								<div class="feature-img">
 									<img class="img-fluid img-blog-post" src="img/blog/palestra_jorandas_blog.png" alt="">
 								</div>
-								<h3>Palestra - Segurança na Internet</h3>
+								<h3>Segurança na Internet</h3>
 							</a>
 							<p class="date col-lg-12 col-md-12 col-6"><a href="#">01 fev 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
@@ -139,12 +139,12 @@
 							<div class="meta-details">
 							<ul class="tags">
 								<li><a href="#">Eventos</a></li>
-                              	<li><a href="#">Palestras</a></li>
+                              	<li><a href="#">Palestra</a></li>
                               	<li><a href="#">Segurança</a></li>
                               	<li><a href="#">Internet</a></li>
 							</ul>
 						</div>
-							<a href="palestra-segurança-na-internet.php" class="primary-btn">Ler Mais</a>
+							<a href="segurança-na-internet.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 				</div>
