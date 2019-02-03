@@ -25,7 +25,7 @@
 					</h1>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Home </a>
+							<a href="index.php">Início </a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="blog-home.php">Blog</a>
 						</span>
@@ -106,7 +106,7 @@
 				<div class="col-lg-12 posts-list">
 					<div class="single-post row col-xl-4 col-lg-6 col-12">
 						<div class="col-lg-12 col-md-12">
-							<a class="posts-title" href="blog-single-mos.php">
+							<a class="posts-title" href="exame-mos.php">
 								<div class="feature-img">
 									<img class="img-fluid img-blog-post" src="img/blog/mos_blog.png" alt="">
 								</div>
@@ -122,16 +122,16 @@
 								<li><a href="#">Microsoft Office</a></li>
 							</ul>
 						</div>
-							<a href="blog-single-mos.php" class="primary-btn">Ler Mais</a>
+							<a href="exame-mos.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 					<div class="single-post row col-xl-4 col-lg-6 col-12">
 						<div class="col-lg-12 col-md-12">
-							<a class="posts-title" href="blog-single-palestra-jornadas.php">
+							<a class="posts-title" href="palestra-segurança-na-internet.php">
 								<div class="feature-img">
 									<img class="img-fluid img-blog-post" src="img/blog/palestra_jorandas_blog.png" alt="">
 								</div>
-								<h3>Palestra Segurança na Internet</h3>
+								<h3>Palestra - Segurança na Internet</h3>
 							</a>
 							<p class="date col-lg-12 col-md-12 col-6"><a href="#">01 fev 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
@@ -144,7 +144,7 @@
                               	<li><a href="#">Internet</a></li>
 							</ul>
 						</div>
-							<a href="blog-single-palestra-jornadas.php" class="primary-btn">Ler Mais</a>
+							<a href="palestra-segurança-na-internet.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 				</div>
