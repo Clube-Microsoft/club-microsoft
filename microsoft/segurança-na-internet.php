@@ -3,7 +3,7 @@
    <head>
       <?php  require_once "links.php"; ?>
       <!-- Site Title -->
-      <title>Palestra Segurança na Internet - Evento</title>
+      <title>Segurança na Internet - Evento</title>
    </head>
    <body>
       <?php  require_once "menu.php"; ?>
@@ -13,7 +13,7 @@
             <div class="row d-flex align-items-center justify-content-center">
                <div class="about-content col-lg-12">
                   <h1 class="text-white">
-                     Palestra - Segurança na Internet
+                     Segurança na Internet
                   </h1>
                   <p>Esta palestra tem como objetivo sensibilizar e educar os participantes a praticarem melhores hábitos no uso da Internet. Temos uma aproximação prática para que todos possam beneficiar de novos conhecimentos.</p>
                   <div class="link-nav">
@@ -22,7 +22,7 @@
                      <i class="lnr lnr-arrow-right"></i>
                      <a href="blog-home.php">Blog</a>
                      <i class="lnr lnr-arrow-right"></i>
-                     <a href="blog-single-mos.php">Palestra Segurança na Internet</a>
+                     <a href="blog-single-mos.php">Segurança na Internet</a>
                      </span>
                   </div>
                </div>
@@ -44,7 +44,7 @@
                            <img class="img-fluid img-blog-post-dentro" src="img/blog/palestra_jorandas_blog.png" alt="">
                         </div>
                         <div class="col-12 col-lg-4" style="float: right;">
-                           <h3 class="mt-20 mb-20">Palestra Segurança na Internet</h3>
+                           <h3 class="mt-20 mb-20">Palestra - Segurança na Internet</h3>
                            <p class="date"><a href="#">01 fev 2019</a> <span class="lnr lnr-calendar-full"></span></p>
                         </div>
                      </div>
