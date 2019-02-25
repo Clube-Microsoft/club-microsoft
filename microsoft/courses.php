@@ -51,7 +51,7 @@
 					<h1>Cursos</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							Os cursos desenvolvidos pelo Clube Microsoft estão relacionados com informática nas suas mais diversas ferramentas, e visam preparar os alunos para aquisição de competências nesta área. De referir que, as tecnologias de informação são hoje em dia uma mais valia ao nível da geração de empregos e oportunidades de trabalho, por isso vem aprender connosco!
 						</p>
 					</div>
 					<a href="courses.php" class="primary-btn">Saber Mais</a>
