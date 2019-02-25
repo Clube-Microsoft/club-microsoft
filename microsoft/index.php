@@ -63,7 +63,7 @@
 					</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							O Clube Microsoft disponibiliza atividades formativas, workshops e experiências que permitam uma aprendizagem mais estimulante e apropriada nas matérias relacionadas com o ecossistema “Microsoft” instalado na EPB – Escola Profissional de Braga. Pretendemos com este projeto criar um ambiente mais unido entre os participantes deste clube e projetar a divulgação deste por toda a comunidade escolar (interna e externa).
 						</p>
 					</div>
 					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
@@ -85,7 +85,7 @@
 					</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							Com foco na aprendizagem e motivação de estudo, este clube irá englobar diversas mais valias e características importantes para o desenvolvimento de todos os alunos da comunidade escolar.
 						</p>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 						<h4>Workshops</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Serão transmitidas informações práticas através de dinâmicas de grupo, com uma duração aproximada de 2 a 3 horas, ampliando assim os conhecimentos e competências dos alunos.
 							</p>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 						<h4>Palestras</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Possuem menor duração, com cerca de 1 hora, sobre um tema específico. Apresenta menor interação prática com os alunos, mas permite a atualização de novos conceitos, e aprendizagens.
 							</p>
 						</div>
 					</div>
@@ -138,7 +138,7 @@
 						<h4>Aulas Digitais</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								É uma forma útil de obter uma aprendizagem acessível e completa, ao ritmo do aluno, integrando de forma personalizada o ensino de temáticas desde o inicial até ao avançado.
 							</p>
 						</div>
 					</div>
@@ -149,7 +149,7 @@
 						<h4>Ajuda Em Tempo Real</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								É uma grande vantagem para os alunos utilizarem esta ferramenta, uma vez que permite solicitar ajuda sobre os cursos, workshops, palestras, entre outros, de forma rápida e direta.
 							</p>
 						</div>
 					</div>
