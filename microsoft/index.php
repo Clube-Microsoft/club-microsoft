@@ -174,7 +174,7 @@
 			<div class="row justify-content-center d-flex align-items-center">
 				<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
 					<div class="thumb d-flex justify-content-center">
-						<img class="img-fluid wow fadeIn" data-wow-duration="1s" src="img/faculty/f1.png" alt="Leandro Pereira">
+						<img class="img-fluid wow fadeIn" data-wow-duration="1s" src="img/faculty/f1.jpg" alt="Leandro Pereira">
 					</div>
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s">Leandro Pereira</h4>
@@ -194,7 +194,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
 					<div class="thumb d-flex justify-content-center">
-						<img class="img-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s" src="img/faculty/f2.png" alt="Rúben Príncipe">
+						<img class="img-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s" src="img/faculty/f2.jpg" alt="Rúben Príncipe">
 					</div>
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Rúben Príncipe</h4>
@@ -212,7 +212,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
 					<div class="thumb d-flex justify-content-center">
-						<img class="img-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s" src="img/faculty/f3.png" alt="Rui Pereira">
+						<img class="img-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s" src="img/faculty/f3.jpg" alt="Rui Pereira">
 					</div>
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Rui Pereira</h4>
