@@ -116,7 +116,7 @@
 						<h4>Workshops</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
-								Serão transmitidas informações práticas através de dinâmicas de grupo, com uma duração aproximada de 2 a 3 horas, ampliando assim os conhecimentos e competências dos alunos.
+								Serão transmitidas informações práticas através de dinâmicas de grupo, com uma duração de 2 a 3 horas, ampliando assim os conhecimentos e competências dos alunos.
 							</p>
 						</div>
 					</div>

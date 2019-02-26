@@ -106,23 +106,22 @@
 				<div class="col-lg-12 posts-list">
 					<div class="single-post row col-xl-4 col-lg-6 col-12">
 						<div class="col-lg-12 col-md-12">
-							<a class="posts-title" href="exame-mos.php">
+							<a class="posts-title" href="linkedin.php">
 								<div class="feature-img">
-									<img class="img-fluid img-blog-post" src="img/blog/mos_blog.png" alt="">
+									<img class="img-fluid img-blog-post" src="img/blog/linkedin_blog.jpg" alt="">
 								</div>
-								<h3>Exame MOS</h3>
+								<h3>Linkedin</h3>
 							</a>
-							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">26 fev 2019</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert">
-								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
-							</p>
+                  				Dotar os alunos de conhecimentos e competências para a utilização eficaz do LinkedIn. No final do workshop, o aluno deverá ser capaz de formular o seu perfil de maneira a efetuar a suacandidatura às ofertas de emprego.</p>
 							<div class="meta-details">
 							<ul class="tags">
 								<li><a href="#">Eventos</a></li>
-								<li><a href="#">Microsoft Office</a></li>
+                              	<li><a href="#">WorkShop</a></li>
 							</ul>
 						</div>
-							<a href="exame-mos.php" class="primary-btn">Ler Mais</a>
+							<a href="linkedin.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 					<div class="single-post row col-xl-4 col-lg-6 col-12">
@@ -145,6 +144,27 @@
 							</ul>
 						</div>
 							<a href="segurança-na-internet.php" class="primary-btn">Ler Mais</a>
+						</div>
+					</div>
+					<div class="single-post row col-xl-4 col-lg-6 col-12">
+						<div class="col-lg-12 col-md-12">
+							<a class="posts-title" href="exame-mos.php">
+								<div class="feature-img">
+									<img class="img-fluid img-blog-post" src="img/blog/mos_blog.png" alt="">
+								</div>
+								<h3>Exame MOS</h3>
+							</a>
+							<p class="date col-lg-12 col-md-12 col-6"><a href="#">16 jan 2019</a> <span class="lnr lnr-calendar-full"></span></p>
+							<p class="excert">
+								Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist).
+							</p>
+							<div class="meta-details">
+							<ul class="tags">
+								<li><a href="#">Eventos</a></li>
+								<li><a href="#">Microsoft Office</a></li>
+							</ul>
+						</div>
+							<a href="exame-mos.php" class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 				</div>
