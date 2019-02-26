@@ -51,14 +51,14 @@
                      <div class="col-12">
                         <p class="excert-dentro">
                            Esta palestra tem como objetivo sensibilizar e educar os participantes a praticarem melhores hábitos no uso da Internet. Temos uma aproximação prática para que todos possam beneficiar de novos conhecimentos.
-						</p>
-						<p>
-                           Entre estes conhecimentos realçamos 3 importantes tópicos:
-						</p>
-						<pre>
-Segurança... 	-do meu espaço 		...na internet.
-		-psicológica
-		-das redes sociais
+      						</p>
+      						<p>
+                                 Entre estes conhecimentos realçamos 3 importantes tópicos:
+      						</p>
+      						<pre>
+                           Segurança... 	-do meu espaço 		...na internet.
+                                    		-psicológica
+                                    		-das redes sociais
                         </pre>
                         <p>
                            Esta é uma iniciativa <strong>Clube Microsoft</strong> que como tal será apresentada pelos respetivos fundadores <em>Leandro Pereira</em>, <em>Rúben Príncipe</em> e <em>Rui Pereira</em>, alunos finalistas do curso de Gestão e Programação de Sistemas Informáticos.
@@ -77,11 +77,11 @@ Segurança... 	-do meu espaço 		...na internet.
                            </ul>
                            <div class="user-details row">
                               <ul class="social-links col-12">
-                                 <li data-href="http://clubemicrosoftepb.pcriot.com/segurança-na-internet.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclubemicrosoftepb.pcriot.com%2Fsegurança-na-internet.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
-                                 <li><a target="_blank" href="https://twitter.com/intent/tweet?text=http://clubemicrosoftepb.pcriot.com/segurança-na-internet.phpEste exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist)."><i class="fa fa-twitter"></i></a></li>
-                                 <li><a onclick="linkedin(event, 'http://clubemicrosoftepb.pcriot.com/segurança-na-internet.php', 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                 <li><a href="https://plus.google.com/share?url=http://clubemicrosoftepb.pcriot.com/segurança-na-internet.php"><i class="fa fa-google-plus"></i></a></li>
-                                 <li><a target="_blank" href="whatsapp://send?text=Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist). &ndash; http://clubemicrosoftepb.pcriot.com/segurança-na-internet.php" title="Acesse de seu smartphone para enviar por WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
+                                 <li data-href="http://epbclubemicrosoft.com/segurança-na-internet.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fepbclubemicrosoft.com%2Fsegurança-na-internet.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
+                                 <li><a target="_blank" href="https://twitter.com/intent/tweet?text=http://epbclubemicrosoft.com/segurança-na-internet.phpEste exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist)."><i class="fa fa-twitter"></i></a></li>
+                                 <li><a onclick="linkedin(event, 'http://epbclubemicrosoft.com/segurança-na-internet.php', 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://plus.google.com/share?url=http://epbclubemicrosoft.com/segurança-na-internet.php"><i class="fa fa-google-plus"></i></a></li>
+                                 <li><a target="_blank" href="whatsapp://send?text=Este exame pode ser feito por qualquer aluno da EPB - Escola Profissional de Braga sem qualquer custo, podendo ser fornecido uma certificação em MOS (Microsoft Office Specialist). &ndash; http://epbclubemicrosoft.com/segurança-na-internet.php" title="Acesse de seu smartphone para enviar por WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
                               </ul>
                            </div>
                         </div>
