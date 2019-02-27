@@ -25,7 +25,7 @@
 				<a href="index.php" style="background: none; display: none;" id="img_menu"><img src="img/Logo/LogoName.png" alt="" title="" class="img_menu"/></a>
 				<a href="index.php">Início</a>
 				<a href="courses.php">Cursos</a>
-				<div class="dropdown">
+				<div class="dropdown" style="background: none;">
 					<button class="dropbtn">Serviços 
 						<i class="fa fa-caret-down"></i>
 					</button>

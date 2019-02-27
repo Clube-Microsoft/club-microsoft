@@ -198,6 +198,12 @@
     margin-top: 60px;
   }
 }
+
+.dropdown .courses-list li {  background: #f7fafc;
+  margin-bottom: 0px;
+  box-shadow: 0 0 7px 0;
+  @include transition();
+}
 .courses-list li {
   background: #f7fafc;
   margin-bottom: 15px;

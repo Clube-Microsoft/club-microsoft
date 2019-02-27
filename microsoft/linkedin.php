@@ -60,7 +60,7 @@
                         <div class="meta-details">
                            <ul class="tags">
                               <li><a href="#">Eventos</a></li>
-                              <li><a href="#">WorkShop</a></li>
+                              <li><a href="#">Workshop</a></li>
                            <div class="user-details row">
                               <ul class="social-links col-12">
                                  <li data-href="http://epbclubemicrosoft.com/linkedin.php"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%epbclubemicrosoft.com%2linkedin.php%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>

@@ -118,7 +118,7 @@
 							<div class="meta-details">
 							<ul class="tags">
 								<li><a href="#">Eventos</a></li>
-                              	<li><a href="#">WorkShop</a></li>
+                              	<li><a href="#">Workshop</a></li>
 							</ul>
 						</div>
 							<a href="linkedin.php" class="primary-btn">Ler Mais</a>

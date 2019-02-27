@@ -75,7 +75,7 @@
 										<a class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
 											<img src="img/icons/programacao.png" class="icons"/> Programação
 										</a>
-										<ul class="dropdown" >
+										<ul class="dropdown">
 									        <li><a href="" style="color: black;">
 											<img src="img/icons/visualstudio.png" class="icons"/> Visual Studio</a></li>
 									        <li><a href="courses.php" style="color: black;">
