@@ -54,9 +54,9 @@
 					<div class="feature-item">						
 						<img src="img/icons/workshop.png" class="icons_servicos"/> 
 						<h4>Workshops</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Serão transmitidas informações práticas através de dinâmicas de grupo, com uma duração de 2 a 3 horas, ampliando assim os conhecimentos e competências dos alunos.
 							</p>
 						</div>
 					</div>
@@ -67,7 +67,7 @@
 						<h4>Palestras</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Possuem menor duração, com cerca de 1 hora, sobre um tema específico. Apresenta menor interação prática com os alunos, mas permite a atualização de novos conceitos, e aprendizagens.
 							</p>
 						</div>
 					</div>
@@ -78,7 +78,7 @@
 						<h4>Aulas Digitais</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								É uma forma útil de obter uma aprendizagem acessível e completa, ao ritmo do aluno, integrando de forma personalizada o ensino de temáticas desde o inicial até ao avançado.
 							</p>
 						</div>
 					</div>
@@ -89,7 +89,7 @@
 						<h4>Ajuda Em Tempo Real</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								É uma grande vantagem para os alunos utilizarem esta ferramenta, uma vez que permite solicitar ajuda sobre os cursos, workshops, palestras, entre outros, de forma rápida e direta.
 							</p>
 						</div>
 					</div>
