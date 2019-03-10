@@ -13,8 +13,8 @@ if($_POST){
 		$subject 	= utf8_decode($_POST['subject']);
 		$message 	= utf8_decode($_POST['message']);
 		$assunto 	= 'EPB Clube Microsoft | Formulário de contacto';
-		$emailcontact = 'contacto@epbclubemicrosoft.pt';
-		$nomecontact = 'Clube Microsoft Contacto';
+		$emailcontact = 'suporte@epbclubemicrosoft.pt';
+		$nomecontact = 'Suporte Clube Microsoft';
 
 		require_once('phpmailer/PHPMailer/class.phpmailer.php');
 
@@ -25,8 +25,8 @@ if($_POST){
 		$Email->Host = 'iberweb33a.ibername.com'; //Servidor de envio # verificar qual o host correto com a hospedagem as vezes fica como smtp.
 		$Email->Port = '465'; // Porta de envio
 		$Email->SMTPSecure = 'ssl';
-		$Email->Username = 'contacto@epbclubemicrosoft.pt'; //e-mail que será autenticado
-		$Email->Password = 'Contacto.1234'; // senha do email
+		$Email->Username = 'suporte@epbclubemicrosoft.pt'; //e-mail que será autenticado
+		$Email->Password = 'Suporte.1234'; // senha do email
 		// ativa o envio de e-mails em HTML, se false, desativa.
 		$Email->IsHTML(true); 
 		// email do remetente da mensagem
