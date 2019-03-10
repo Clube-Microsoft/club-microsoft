@@ -13,28 +13,32 @@ if($_POST){
 		$subject 	= utf8_decode($_POST['subject']);
 		$message 	= utf8_decode($_POST['message']);
 		$assunto 	= 'EPB Clube Microsoft | Formulário de contacto';
-		
-		
+		$emailcontact = 'contacto@epbclubemicrosoft.pt';
+		$nomecontact = 'Clube Microsoft Contacto';
+
 		require_once('phpmailer/PHPMailer/class.phpmailer.php');
 
 		$Email = new PHPMailer();
-		$Email->SetLanguage("br");
+		$Email->SetLanguage("pt");
 		$Email->IsSMTP(); // Habilita o SMTP 
 		$Email->SMTPAuth = true; //Ativa e-mail autenticado
 		$Email->Host = 'iberweb33a.ibername.com'; //Servidor de envio # verificar qual o host correto com a hospedagem as vezes fica como smtp.
-		$Email->Port = '587'; // Porta de envio
-		$Email->SMTPSecure = 'tls';
-		$Email->Username = 'ajaraujo@epbclubemicrosoft.pt'; //e-mail que será autenticado
-		$Email->Password = '+o4}@W8^{X@#'; // senha do email
+		$Email->Port = '465'; // Porta de envio
+		$Email->SMTPSecure = 'ssl';
+		$Email->Username = 'contacto@epbclubemicrosoft.pt'; //e-mail que será autenticado
+		$Email->Password = 'Contacto.1234'; // senha do email
 		// ativa o envio de e-mails em HTML, se false, desativa.
 		$Email->IsHTML(true); 
 		// email do remetente da mensagem
-		$Email->From = $email;
+		$Email->From = $emailcontact;
+		//$Email->From = $email;
 		//$Email->SMTPDebug = 2; //mostra erros mais detalhados caso houver
 		// nome do remetente do email
-		$Email->FromName = ($nome);
+		$Email->FromName = ($nomecontact);
+		//$Email->FromName = ($nome);
 		// Endereço de destino do emaail, ou seja, pra onde você quer que a mensagem do formulário vá?
-		$Email->AddReplyTo($email, $nome);
+		$Email->AddReplyTo($emailcontact, $nomecontact);
+		//$Email->AddReplyTo($email, $nome);
 		$Email->AddAddress("clubemicrosoft@epb.pt"); //  para quem será enviada a mensagem
 		//$Email->AddCC('antonioaraujo@professores.epb.pt', 'Antonio Jose Araujo'); // Copia
 		//$Email->AddBCC('email@hotmail.com.br', 'Nome da pessoa'); // Cópia Oculta
