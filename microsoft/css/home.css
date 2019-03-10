@@ -5,6 +5,12 @@
 @include media-breakpoint-down (sm) {
   height: 900px !important;
 }
+.courses-list .dropdown a:hover {
+	color: #fff!important;
+}
+.dropdown li {
+	box-shadow: 0 0 0 0!important;
+}
 .dropdown-content {
     display: none;
     position: absolute;
