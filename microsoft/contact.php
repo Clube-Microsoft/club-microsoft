@@ -5,15 +5,12 @@
 	<?php  require_once "links.php"; ?>
 	<!-- Site Title -->
 	<title>Contacto</title>
-
-	 
+    <script src="jsx/sweetalert.js"></script>
 </head>
 
 <body>
 	<?php  require_once "menu.php"; ?>
-
-
-	<!-- Start Banner Area -->
+    <!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -78,10 +75,10 @@
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
+						<form action="" method="post" enctype="multipart/form-data" class="form form-area">
 						<div class="row">
 							<div class="col-lg-6 form-group">
-								<input name="name" placeholder="Introduz o teu nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Introduz o teu nome'"
+								<input name="nome" placeholder="Introduz o teu nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Introduz o teu nome'"
 								 class="common-input mb-20 form-control" required="" type="text">
 
 								<input name="email" placeholder="Introduz o teu email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
@@ -96,10 +93,12 @@
 							</div>
 							<div class="col-lg-12">
 								<div class="alert-msg" style="text-align: left;"></div>
-								<button class="primary-btn" style="float: right;">Enviar</button>
+								<button type="submit" class="primary-btn" style="float: right;" id="btn-contato">Enviar</button>
+				  <div class="loading" style="float: left;margin-left:20px;"></div>
 							</div>
 						</div>
 					</form>
+					<div class="mostrar"></div>
 				</div>
 			</div>
 		</div>
@@ -107,10 +106,24 @@
 	<!-- End contact-page Area -->
 
 	<?php  require_once "footer.php"; ?>
-
-
-
- 
+	
+<script>
+	$(function(){
+		$('.form').submit(function(){
+			$('.loading').html("<img src='loading.gif' width='45'>");
+			$.ajax({
+				url: 'send-form.php',
+				type: 'POST',
+				data: $('.form').serialize(),
+				success: function(data){
+					$('.mostrar').html(data);
+					$('.loading').hide();
+					$('.form')[0].reset();
+				}
+			});
+			return false;
+		});
+	});
+</script>
 </body>
-
 </html>
