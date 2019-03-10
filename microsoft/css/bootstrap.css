@@ -582,10 +582,9 @@ mark {
 }
 
 .img-fluid {
-    width: 163px;
-    height: 163px;
+    width: 50%;
     border: solid 7px rgba(243,246,248,.94);
-    border-radius: 100px;
+    border-radius: 100%;
     box-shadow: 0px 0px 7px 0px;
 }
 
@@ -1418,7 +1417,7 @@ pre code {
     .col-lg-5 {
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
-        max-width: 41.666667%
+        max-width: 41.666667%;
     }
     .col-lg-6 {
         -ms-flex: 0 0 50%;
