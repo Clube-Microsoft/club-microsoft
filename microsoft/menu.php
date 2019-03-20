@@ -4,6 +4,8 @@
 			<div id="logo">
 				<a href="index.php" id="img_menu_desktop"><img src="img/Logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
 			</div>
+      <?php session_start();
+?>
 			<!--<nav id="nav-menu-container">
 				<ul class="nav-menu">
 					<li><a href="index.php">Início</a></li>
@@ -43,6 +45,7 @@
 		</div>
 	</div>
 </header>
+
 
 
 
