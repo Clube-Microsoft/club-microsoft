@@ -17,7 +17,7 @@ $result = mysqli_query($conn, $query);
 $row = mysqli_num_rows($result);
 
 if($row == 1) {
-	$_SESSION['nome'] = $nome;
+	$_SESSION['admin'] = $nome;
 	header('Location: admin.php');
 	exit();
 } else {

@@ -5,6 +5,7 @@
 				<a href="index.php" id="img_menu_desktop"><img src="img/Logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
 			</div>
       <?php session_start();
+      include('conexao.php');
 ?>
 			<!--<nav id="nav-menu-container">
 				<ul class="nav-menu">
@@ -24,6 +25,9 @@
 				</ul>
 			</nav>--><!-- #nav-menu-container -->
 			<div class="topnav" id="myTopnav">
+        <?php
+                if (!isset($_SESSION['admin'])) {
+                    ?>
 				<a href="index.php" style="background: none; display: none;" id="img_menu"><img src="img/Logo/LogoName.png" alt="" title="" class="img_menu"/></a>
 				<a href="index.php">Início</a>
 				<a href="courses.php">Cursos</a>
@@ -41,10 +45,36 @@
 				<a href="blog-home.php">Blog</a>
 				<a href="contact.php">Contacto</a>
 				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                            <?php
+                } else {
+                    ?>
+                    <a href="index.php" style="background: none; display: none;" id="img_menu"><img src="img/Logo/LogoName.png" alt="" title="" class="img_menu"/></a>
+        <a href="index.php">Início</a>
+        <a href="courses.php">Cursos</a>
+        <div class="dropdown" style="background: none;">
+          <button class="dropbtn">Serviços 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="services.php">Workshops</a>
+            <a href="services.php">Palestras</a>
+            <a href="services.php">Aulas Digitais</a>
+            <a href="services.php">Ajuda em Tempo Real</a>
+          </div>
+        </div> 
+        <a href="blog-home.php">Blog</a>
+        <a href="contact.php">Contacto</a>
+        <a href="logout.php">Sair</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                            <?php
+                }?>
+
 			</div>
 		</div>
 	</div>
 </header>
+
+             
 
 
 

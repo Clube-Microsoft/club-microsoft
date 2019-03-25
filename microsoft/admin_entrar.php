@@ -6,9 +6,19 @@
 
   <!-- Site Title -->
   <title>Clube Microsoft</title>
-
+<style>
+  #header {
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    background: rgba(0, 0, 0, 0.47843137254901963);
+}
+</style>
 </head>
-
 <body>
 
   <?php  require_once "menu.php"; ?>

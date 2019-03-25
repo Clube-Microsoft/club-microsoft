@@ -6,72 +6,48 @@
 
   <!-- Site Title -->
   <title>Clube Microsoft</title>
+<style>
+  #header {
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    background: rgba(0, 0, 0, 0.47843137254901963);
+}
+</style>
 
 </head>
-
 <body>
 
-  <?php  require_once "menu.php"; ?>
-
-<?php session_start();
-include('conexao.php');
+  <?php  require_once "menu.php"; 
 
 if(!$_SESSION['admin']) {
-	header('Location: iniciar.php');
+	header('Location: admin_entrar.php');
 	exit();
 }
 ?>
 
-	<div class="container-fluid">
-        <div class="ro  w main-top-w3l py-2">
-
-            <div class="col-lg-8 header-right mt-lg-0 mt-2">
-                <!-- header lists -->
-                <?php
-                if (!isset($_SESSION['admin'])) {
-                    ?>
-                    <ul>
-                        <li class="text-center border-right text-white">
-                            <a href="iniciar.php" data-toggle="modal" data-target="#exampleModal" class="text-white">
-                                <i class="fas fa-sign-in-alt mr-2"></i> Log In </a>
-                        </li>
-                        <li class="text-center text-white">
-                            <a href="registar.php" data-toggle="modal" data-target="#exampleModal2" class="text-white">
-                                <i class="fas fa-sign-out-alt mr-2"></i>Register </a>
-                        </li>
-                    </ul>
-                    <?php
-                } else {
-                    ?>
-                      <ul>
-                      <li class="text-center text-white">
-                        <a data-toggle="modal" data-target="" class="text-white">
-                        <?php echo $_SESSION['admin']; ?>
-                      </a>
-                      </li>
-                        <li class="text-center text-white">
-                          <a href="logout.php" data-toggle="modal" data-target="#exampleModal2" class="text-white">
-                            <i class="fas fa-sign-out-alt mr-2"></i>Sair </a>
-                        </li>
-                        </ul>
-                    <?php
-                }?>
-					<!-- //header lists -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="Categorias">
+	
+<div id="Add_Post" class="Seccoes">
+         <div class="limiter">
+            <div class="container-login100">
+               <div class="wrap-login100">
+                  <div class="return_table js-tilt" id="Mostrar_Post" data-tilt style="width: 100%">
                      <?php 
-                        $sql      = "SELECT * FROM categoria";
-                        $consulta = mysqli_query($conexao, $sql);
+                        $sql      = "SELECT * FROM blog_post";
+                        $consulta = mysqli_query($conn, $sql);
                         
                         if ($consulta->num_rows > 0) {
                         while($row = $consulta->fetch_assoc()) {
-                             echo " <table><tr>
-                                       <td>" . $row["NomeCategoria"] . "</td></tr></table>";?>
-                    	 <div style="clear: both;"></div>
+                             echo "<div style='width: 75%; float: left;''><p>" . $row["Titulo"] . "</p></div>";?>
+                     <div style="width: 25%; float: right;">
+                        <input type="image" name="img_btn_edit_post" <?php echo "id='".$row["Id_Post"]."'" ?> src="img/icons/edit.png" Class="icons_admin_trash" />
+                        <input type="image" name="img_btn_trash_post" <?php echo "id='".$row["Id_Post"]."'" ?> src="img/icons/trash.png" Class="icons_admin_edit" />
+                     </div>
+                     <div style="clear: both;"></div>
                      <?php
                         }
                         } else {
@@ -79,125 +55,53 @@ if(!$_SESSION['admin']) {
                         }
                         
                         ?>
-              
-                        <?php
-                    if(isset($_SESSION['cat_nao_enviada'])):
-                    ?>
-                    <div class="notification is-danger">
-                      <p>ERRO: Não enviada!</p>
-                    </div>
-                    <?php
-                    endif;
-                    unset($_SESSION['cat_nao_enviada']);
-                    ?>
-                     <form action="categoria_add.php" id="categoria" method="post">
-                        <p>
-                        Adicionar Categorias
-                        </p>
-                   
-                           <input type="text" name="txt_Categoria" id="txt_Categoria" placeholder="Categoria">
-
-                       
-               
-                           <button type="submit" id="btn_cat" name="btn_cat">
-                           Enviar
-                           </button>
-                     </form>       
-	</div>
-		<div style="clear: both;"></div>
-<br>
-
-		<div id="SCategorias">
-                     <?php 
-                        $sql      = "SELECT scategoria.IdSCategoria, scategoria.NomeSCategoria, categoria.NomeCategoria
-                        FROM (scategoria
-                        INNER JOIN categoria ON scategoria.IdCategoria = categoria.IdCategoria)";
-                        $consulta = mysqli_query($conexao, $sql);
-                        
-                        if ($consulta->num_rows > 0) {
-                        while($row = $consulta->fetch_assoc()) {
-                             echo " <table><tr>
-                                       <td>" . $row["NomeCategoria"] . "</td>
-                                       <td>" . $row["NomeSCategoria"] . "</td></tr></table>";
-                        }
-                        } else {
-                        echo "Sem Dados";
-                        }
-                        
-                        ?>
-              
-                        <?php
-                    if(isset($_SESSION['scat_nao_enviada'])):
-                    ?>
-                    <div class="notification is-danger">
-                      <p>ERRO: Não enviada!</p>
-                    </div>
-                    <?php
-                    endif;
-                    unset($_SESSION['scat_nao_enviada']);
-                    ?>
-                     <form action="scategoria_add.php" id="scategoria" method="post">
-                        <p>
-                        Adicionar Sub Categorias
-                        </p>
-
-                         <?php 
-                           $sql = "SELECT * FROM categoria";
-                           $result = mysqli_query($conexao, $sql);
-                           
-                           echo "<select id='NomeCategoria' name='NomeCategoria'>";
-                           while ($row = mysqli_fetch_array($result)) {
-                               echo "<option value='" . $row['IdCategoria'] . "'>" . $row['NomeCategoria'] . "</option>";
-                           }
-                           echo "</select>";
-                           ?> 
-                   
-                           <input type="text" name="txt_sCategoria" id="txt_sCategoria" placeholder="Sub Categoria">
-
-                       
-               
-                           <button type="submit" id="btn_scat" name="btn_scat">
-                           Enviar
-                           </button>
-                     </form>       
-	</div>
-		<div style="clear: both;"></div>
-<br>
-	<style>
-		table{
-			width: 30%;
-		}
-
-		td{
-			width: 20%;
-			border: solid thin;
-		}
-	</style>
-
-	<div id="Produtos">
-                     <?php 
-                        $sql      = "SELECT produtos.IdProduto, produtos.NomeProduto, produtos.Preco, produtos.Descricao, scategoria.NomeSCategoria, categoria.NomeCategoria 
-	                        FROM ((produtos
-	                        INNER JOIN categoria ON produtos.IdCategoria = categoria.IdCategoria)
-	                        INNER JOIN scategoria ON produtos.IdSCategoria = scategoria.IdSCategoria)";
-                        $consulta = mysqli_query($conexao, $sql);
-                        
-                        if ($consulta->num_rows > 0) {
-                        while($row = $consulta->fetch_assoc()) {
-                             echo " <table><tr>
-                                       <td>" . $row["NomeCategoria"] . "</td>
-                                       <td>" . $row["NomeSCategoria"] . "</td>
-                                       <td>" . $row["NomeProduto"] . "</td>
-                                       <td>" . $row["Descricao"] . "</td>
-                                       <td>" . $row["Preco"] . "€</td>
-                                       </tr></table>";
-                        }
-                        } else {
-                        echo "Sem Dados";
-                        }
-                        
-                        ?>
-              
+                  </div>
+                  <div  class="login100-form validate-form" style="width: 100%">
+                    
+                     <form enctype="multipart/form-data" action="add_post.php" id="enviar_Post" method="Post">
+                      <input type="text" name="txt_Id_Post" id="txt_Id_Post" style="display: none;">
+                        <span class="login100-form-title">
+                        Adicionar Post
+                        </span>
+                        <div class="wrap-input100 validate-input">
+                           <input class="input100" type="text" name="txt_Titulo_Post" id="txt_Titulo_Post" placeholder="Titulo">
+                           <span class="focus-input100"></span>
+                           <span class="symbol-input100">
+                           <i class="fas fa-heading"></i>
+                           </span>
+                        </div>
+                         <div class="wrap-input100 validate-input">
+                           <textarea class="input100" name="txt_Texto_Pequeno_Post" id="txt_Texto_Pequeno_Post" placeholder="Texto Pequeno"></textarea>
+                           <span class="focus-input100"></span>
+                           <span class="symbol-input100">
+                           <i class="far fa-paragraph"></i>
+                           </span>
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                           <textarea name="txt_Texto_Grande_Post" id="txt_Texto_Grande_Post" placeholder="Texto Grande"></textarea>
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                           <input class="input100" type="date" size="60" name="Data_Post" id="Data_Post" />
+                           <span class="focus-input100"></span>
+                           <span class="symbol-input100">
+                           <i class="far fa-calendar-day"></i>
+                           </span>
+                        </div>
+                         <div class="wrap-input100 validate-input">
+                           <input class="input100" type="file" name="arquivo_Post" id="arquivo_Post" />
+                           <span class="focus-input100"></span>
+                           <span class="symbol-input100">
+                           <i class="fas fa-image"></i>
+                           </span>
+                        </div>
+                        <div class="table-responsive">
+                          <table class="table table-bordered" id="dynamic_field">
+                            <tr>
+                              <td><input type="text" name="hastag[]" placeholder="hastag" class="form-control name_list" /></td>
+                              <td><button type="button" name="add_hastag" id="add_hastag" class="btn btn-success">Add More</button></td>
+                            </tr>
+                          </table>
+                        </div>
                         <?php
                     if(isset($_SESSION['produto_nao_enviado'])):
                     ?>
@@ -206,43 +110,53 @@ if(!$_SESSION['admin']) {
                     endif;
                     unset($_SESSION['produto_nao_enviado']);
                     ?>
-                     <form enctype="multipart/form-data" action="produto_add.php" id="produto" method="post">
-                        <p>
-                        Adicionar Produtos
-                        </p>
-
-                         <?php 
-                           $sql = "SELECT * FROM categoria";
-                           $result = mysqli_query($conexao, $sql);
-                           
-                           echo "<select id='NomeCategoria' name='NomeCategoria'>";
-                           while ($row = mysqli_fetch_array($result)) {
-                               echo "<option value='" . $row['IdCategoria'] . "'>" . $row['NomeCategoria'] . "</option>";
-                           }
-                           echo "</select>";
-							?>  <?php 
-                           $sql = "SELECT * FROM scategoria";
-                           $result = mysqli_query($conexao, $sql);
-                           
-                           echo "<select id='NomeSCategoria' name='NomeSCategoria'>";
-                           while ($row = mysqli_fetch_array($result)) {
-                               echo "<option value='" . $row['IdSCategoria'] . "'>" . $row['NomeSCategoria'] . "</option>";
-                           }
-                           echo "</select>";
-                           ?> 
-                   
-                           <input type="text" name="txt_NProduto" id="txt_NProduto" placeholder="Nome Produto">
-                           <input type="text" name="txt_DProduto" id="txt_DProduto" placeholder="Descrição Produto">
-                           <input type="text" name="txt_PProduto" id="txt_PProduto" placeholder="Proço Produto">
-                           <input type="file" name="arquivo" multiple="multiple" />
-                       
-               
-                           <button type="submit" id="btn_produto" name="btn_produto">
-                           Enviar
+                        <p id="resultado"></p>
+                        <div class="container-login100-form-btn">
+                           <button type="submit" id="btn_form_Post" name="btn_form_Post" class="login100-form-btn">
+                           Enviar Post
                            </button>
-                     </form>       
-	</div>
-
+                     </form>
+                     </div>
+                     <form action="/" id="enviar_Post_edit">
+                        <button type="submit" id="btn_form_Post_editar" name="btn_form_Post_editar" class="login100-form-btn" style="display: none;">
+                        Editar Post
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	<script src="https://cloud.tinymce.com/5/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'#txt_Texto_Grande_Post' });</script>
+<script>
+$(document).ready(function(){
+  var i=1;
+  $('#add_hastag').click(function(){
+    i++;
+    $('#dynamic_field').append('<tr id="row'+i+'"><td><input type="text" name="hastag[]" placeholder="hastag" class="form-control name_list" /></td><td><button type="button" name="remove_hastag" id="'+i+'" class="btn btn-danger btn_remove">X</button></td></tr>');
+  });
+  
+  $(document).on('click', '.btn_remove', function(){
+    var button_id = $(this).attr("id"); 
+    $('#row'+button_id+'').remove();
+  });
+  
+  $('#submit').click(function(){    
+    $.ajax({
+      url:"name.php",
+      method:"POST",
+      data:$('#add_name').serialize(),
+      success:function(data)
+      {
+        alert(data);
+        $('#add_name')[0].reset();
+      }
+    });
+  });
+  
+});
+</script>
 </body>
 </html>
 

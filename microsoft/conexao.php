@@ -1,5 +1,6 @@
 <?php
-	$hn = '188.93.230.40';
+	//$hn = '188.93.230.40';
+	$hn = 'localhost';
 	$db = 'epbclube_microsoft';
 	$un = 'epbclube_admin';
 	$pw = 'C|M5!2018';
