@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include('conexao.php');
 
 
@@ -57,10 +58,9 @@ if (isset($_FILES['arquivo_Post']['name']) && $_FILES['arquivo_Post']['error'] =
                                 if (trim($_POST["hastag"][$i] != '')) {
                                     $sql1 = "INSERT INTO hastags(Hastag, Id_Post) VALUES('" . mysqli_real_escape_string($conn, $_POST["hastag"][$i]) . "', '$Id_Post')";
                                     mysqli_query($conn, $sql1);
-                                    header('Location: admin.php');
+                                    header("Location: admin.php");
                                 }
                             }
-                            echo "Data Inserted";
                         } else {
                             echo "Please Enter Name";
                         }

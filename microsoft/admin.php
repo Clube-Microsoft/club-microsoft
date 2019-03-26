@@ -1,11 +1,12 @@
- <!DOCTYPE html>
+<? ob_start();?>
+<!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
-<head>  
-    <?php  require_once "links.php"; ?>
-
+<head>
+    <?php require_once "links.php";?>
   <!-- Site Title -->
-  <title>Clube Microsoft</title>
+  <title>Blog</title>
+
 <style>
   #header {
     padding: 20px 0;
@@ -22,11 +23,14 @@
 </head>
 <body>
 
-  <?php  require_once "menu.php"; 
 
-if(!$_SESSION['admin']) {
-	header('Location: admin_entrar.php');
-	exit();
+
+<?php session_start();
+include('conexao.php');
+
+if(!$_SESSION["admin"]) {
+  header("Location: admin_entrar.php");
+  exit();
 }
 ?>
 
@@ -35,9 +39,15 @@ if(!$_SESSION['admin']) {
          <div class="limiter">
             <div class="container-login100">
                <div class="wrap-login100">
+                            
+                        <span class="login100-form-title">
+                        Adicionar Post<br>
+                         <h4><a href="logout.php">Sair</a></h4>
+                        </span>
+
                   <div class="return_table js-tilt" id="Mostrar_Post" data-tilt style="width: 100%">
                      <?php 
-                        $sql      = "SELECT * FROM blog_post";
+                        $sql      = "SELECT * FROM blog_post ORDER BY blog_post.Data DESC";
                         $consulta = mysqli_query($conn, $sql);
                         
                         if ($consulta->num_rows > 0) {
@@ -60,9 +70,7 @@ if(!$_SESSION['admin']) {
                     
                      <form enctype="multipart/form-data" action="add_post.php" id="enviar_Post" method="Post">
                       <input type="text" name="txt_Id_Post" id="txt_Id_Post" style="display: none;">
-                        <span class="login100-form-title">
-                        Adicionar Post
-                        </span>
+                        
                         <div class="wrap-input100 validate-input">
                            <input class="input100" type="text" name="txt_Titulo_Post" id="txt_Titulo_Post" placeholder="Titulo">
                            <span class="focus-input100"></span>
@@ -103,12 +111,12 @@ if(!$_SESSION['admin']) {
                           </table>
                         </div>
                         <?php
-                    if(isset($_SESSION['produto_nao_enviado'])):
+                    if(isset($_SESSION["produto_nao_enviado"])):
                     ?>
                       <p>ERRO: Não enviada!</p>
                     <?php
                     endif;
-                    unset($_SESSION['produto_nao_enviado']);
+                    unset($_SESSION["produto_nao_enviado"]);
                     ?>
                         <p id="resultado"></p>
                         <div class="container-login100-form-btn">

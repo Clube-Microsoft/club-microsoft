@@ -6,8 +6,7 @@
 	$pw = 'C|M5!2018';
 
 		$conn = new mysqli($hn, $un, $pw, $db);
-	if ($conn->connect_error)
+	if ($conn->connect_error){
 	    die("Erro Fatal");
-
+	}
 ?>
-

@@ -21,7 +21,9 @@
 </head>
 <body>
 
-  <?php  require_once "menu.php"; ?>
+  <?php
+  session_start();
+    require_once "menu.php"; ?>
 
    	<div class="limiter">
 		<div class="container-login100" style="height: 100vh;">
@@ -35,14 +37,14 @@
 						Admin Entrar
 					</span>
 					<?php
-                    if(isset($_SESSION['nao_autenticado'])):
+                    if(isset($_SESSION["nao_autenticado"])):
                     ?>
                     <div class="notification is-danger">
                       <p>ERRO: Admin inválido.</p>
                     </div>
                     <?php
                     endif;
-                    unset($_SESSION['nao_autenticado']);
+                    unset($_SESSION["nao_autenticado"]);
                     ?>
 					<div class="wrap-input100 validate-input">
 						<input class="input100" type="text" name="nome" placeholder="Nome" required>

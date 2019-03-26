@@ -11,7 +11,8 @@
 
 <body>
 
-	<?php  require_once "menu.php"; ?>
+	<?php  require_once "menu.php";
+	include('conexao.php'); ?>
 
 
 
@@ -46,7 +47,7 @@
 			<div class="row">
 				<div class="col-lg-12 posts-list">
 					<?php 
-	                    $sql      = "SELECT * FROM blog_post ORDER BY blog_post.Data DESC";
+                        $sql      = "SELECT * FROM blog_post ORDER BY blog_post.Data DESC";
 	                    $consulta = mysqli_query($conn, $sql);
 	                    
 	                    if ($consulta->num_rows > 0) {

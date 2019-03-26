@@ -87,10 +87,10 @@
       <!-- End post-content Area -->
       
       <?php
-                                       }
-                                       } else {
-                                       echo "Sem Dados";
-                                       } require_once "footer.php"; ?>
+         }
+         } else {
+         echo "Sem Dados";
+         } require_once "footer.php"; ?>
       <script>
          linkedin = function (event, s, a){
             event.preventDefault();
