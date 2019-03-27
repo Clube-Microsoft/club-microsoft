@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row align-items-center justify-content-between d-flex">
          <div id="logo">
-            <a href="index.php" id="img_menu_desktop"><img src="img/Logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
+            <a href="index.php" id="img_menu_desktop"><img src="img/logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
          </div>
          <!--<nav id="nav-menu-container">
             <ul class="nav-menu">
@@ -24,7 +24,7 @@
             <!-- #nav-menu-container -->
          <div class="topnav" id="myTopnav">
 
-            <a href="index.php" style="background: none; display: none;" id="img_menu"><img src="img/Logo/LogoName.png" alt="" title="" class="img_menu"/></a>
+            <a href="index.php" style="background: none; display: none;" id="img_menu"><img src="img/logo/LogoName.png" alt="" title="" class="img_menu"/></a>
             <a href="index.php">Início</a>
             <a href="courses.php">Cursos</a>
             <div class="dropdown" style="background: none;">

@@ -43,8 +43,8 @@ if (isset($_FILES['arquivo_Post']['name']) && $_FILES['arquivo_Post']['error'] =
         
         // tenta mover o arquivo para o destino
         if (move_uploaded_file($arquivo_tmp, $destino)) {
-            $sql = "INSERT INTO blog_post (Titulo, Texto_Pequeno, Texto_Grande, Data, Img_Post) VALUES ('$Titulo', '$Texto_Pequeno', '$Texto_Grande', '$Data', '$novoNome')";
-            if (mysqli_query($conn, $sql)) {
+            $sql1 = "INSERT INTO blog_post (Titulo, Texto_Pequeno, Texto_Grande, Data, Img_Post) VALUES ('$Titulo', '$Texto_Pequeno', '$Texto_Grande', '$Data', '$novoNome')";
+            if (mysqli_query($conn, $sql1)) {
                 
                 $sql2      = "SELECT * FROM blog_post where Titulo = '$Titulo'";
                 $consulta1 = mysqli_query($conn, $sql2);
@@ -53,25 +53,22 @@ if (isset($_FILES['arquivo_Post']['name']) && $_FILES['arquivo_Post']['error'] =
                     while ($row1 = $consulta1->fetch_assoc()) {
                         
                         $Id_Post = $row1['Id_Post'];
-                        if ($number > 0) {
+                        
                             for ($i = 0; $i < $number; $i++) {
                                 if (trim($_POST["hastag"][$i] != '')) {
                                     $sql1 = "INSERT INTO hastags(Hastag, Id_Post) VALUES('" . mysqli_real_escape_string($conn, $_POST["hastag"][$i]) . "', '$Id_Post')";
                                     mysqli_query($conn, $sql1);
                                     header("Location: admin.php");
+                                }else {
+                                    echo "Erro ao inserir hastags";
                                 }
                             }
-                        } else {
-                            echo "Please Enter Name";
-                        }
-                        
                     }
                 } else {
                     echo "Sem Dados";
-                }
-                
+                }    
             } else {
-                echo "Please Enter Name";
+                echo "Erro ao inserir Post";
             }
         } else {
             $_SESSION['produto_nao_enviado'] = true;
