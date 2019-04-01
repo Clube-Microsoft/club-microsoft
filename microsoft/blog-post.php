@@ -65,14 +65,30 @@
                         </p>
                         <div class="meta-details">
                            <ul class="tags">
-                              <li><a href="#">Eventos</a></li>
-                              <li><a href="#">Microsoft Office</a></li>
+                              <?php
+                              $Id_Post = $row['Id_Post']; 
+
+                             $sql1      = "SELECT * FROM hastags WHERE Id_Post = '$Id_Post' ORDER BY `hastags`.`Hastag` ASC";
+                             $consulta1 = mysqli_query($conn, $sql1);
+                             
+                             if ($consulta1->num_rows > 0) {
+                             while($row1 = $consulta1->fetch_assoc()) {
+                             ?>
+
+                        <li><a href='#'><?php echo $row1['Hastag']; ?></a></li>
+
+                                 <?php
+                             }
+                             } else {
+                             echo "";
+                             }
+                             ?>
                            </ul>
                            <div class="user-details row">
                               <ul class="social-links col-12">
                                  <li <?php echo "data-href='http://epbclubemicrosoft.com/blog-post.php?post=$Titulo'"; ?>><a target="_blank" <?php echo "href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fepbclubemicrosoft.com%2Fblog-post.php?post=$Titulo%2F&amp;src=sdkpreparse'";?> class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
                                  <li><a target="_blank"  <?php echo " href='https://twitter.com/intent/tweet?text=http://epbclubemicrosoft.com/blog-post.php?post=$Titulo ".$row['Texto_Pequeno']."'";?>><i class="fa fa-twitter"></i></a></li>
-                                 <li><a onclick="linkedin(event, <?php echo " 'http://epbclubemicrosoft.com/blog-post.php?post=$Titulo'";?>, 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                 <li><a onclick="linkedin(event, <?php echo "'http://epbclubemicrosoft.com/blog-post.php?post=$Titulo'";?>, 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                  <!--<li><a href="https://plus.google.com/share?url=http://epbclubemicrosoft.com/exame-mos.php"><i class="fa fa-google-plus"></i></a></li>-->
                                  <li><a target="_blank" <?php echo "href='whatsapp://send?text=".$row['Texto_Pequeno']." &ndash; http://epbclubemicrosoft.com/blog-post.php?post=$Titulo'"?> title="Acesse de seu smartphone para enviar por WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
                               </ul>
