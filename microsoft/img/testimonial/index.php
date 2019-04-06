@@ -1,7 +1,4 @@
- <!DOCTYPE html>
-<html lang="zxx" class="no-js">
-
-<head>	
+ 	
 		<?php  require_once "links.php"; ?>
 
 	<!-- Site Title -->

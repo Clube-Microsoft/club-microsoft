@@ -1,8 +1,4 @@
-<? ob_start();?>
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
 
-<head>
     <?php require_once "links.php";?>
   <!-- Site Title -->
   <title>Blog</title>
@@ -25,14 +21,20 @@
 
 
 
-<?php session_start();
+ <?php
+    session_start();
 include('conexao.php');
 
 if(!$_SESSION["admin"]) {
   header("Location: admin_entrar.php");
   exit();
-}
+} 
+
+include('menu_admin.php');
+
+
 ?>
+
 
 	
 <div id="Add_Post" class="Seccoes">
@@ -42,7 +44,6 @@ if(!$_SESSION["admin"]) {
                             
                         <span class="login100-form-title">
                         Adicionar Post<br>
-                         <h4><a href="logout.php">Sair</a></h4>
                         </span>
 
                   <div class="return_table js-tilt" id="Mostrar_Post" data-tilt style="width: 100%">
