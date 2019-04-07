@@ -94,8 +94,8 @@ body {
 .courses-list li {box-shadow: 0 0 7px 0!important;}
 /*.dropdown {box-shadow: 0 0 7px 0!important;}
 .dropdown li {margin: 0!important; box-shadow: 0 0 0 0!important;}
-.dropdown a {color: #39cfca;}*/
-.dropdown {z-index: 2;background: white;box-shadow: 0 0 7px 0;}
+.dropdown a {color: #39cfca;}
+.dropdown {z-index: 2;background: white;box-shadow: 0 0 7px 0;}*/
 .courses-list .dropdown li {margin-bottom: 0;}
 #mobile-nav ul li a:hover {color: #000!important;}
 .banner-area {background: url(../img/banner-bg.png) no-repeat bottom center!important; min-height: 400px!important;}
