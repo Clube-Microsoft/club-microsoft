@@ -13,7 +13,9 @@
             echo'
         <script>
             $(document).ready(function(){
-                swal("O Post foi Apagado com Sucesso.")
+
+                swal("Apagado!", "O post foi apagado!", "success");
+            
             });
         </script>';
 
@@ -21,7 +23,7 @@
             echo'
             <script>
                 $(document).ready(function(){
-                    swal("O Post NÃO foi Apagado com Sucesso");
+                    swal("Não Apagado!", "O post não foi apagado!", "error");
                 });
             </script>';
 
@@ -32,7 +34,7 @@
             echo'
         <script>
             $(document).ready(function(){
-                swal("O Post NÃO foi Apagado com Sucesso");
+                swal("Não Apagado!", "O post não foi apagado!", "error");
             });
         </script>';
 
