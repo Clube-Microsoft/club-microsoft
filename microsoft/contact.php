@@ -20,9 +20,9 @@
 					</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Início</a>
+							<a href="index">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="contact.php">Contacto</a>
+							<a href="contact">Contacto</a>
 						</span>
 					</div>
 				</div>

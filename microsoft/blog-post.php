@@ -3,9 +3,9 @@
    <?php 
          require_once "conexao.php";
 
-         $Titulo = $_GET['post'];
+         $Url_Clean = $_GET['p'];
 
-    $sql      = "SELECT * FROM blog_post where Titulo = '$Titulo'";
+    $sql      = "SELECT * FROM blog_post where Url_Clean = '$Url_Clean'";
     $consulta = mysqli_query($conn, $sql);
     
     if ($consulta->num_rows > 0) {
@@ -29,11 +29,11 @@
                   <p><?php echo $row['Texto_Pequeno']; ?></p>
                   <div class="link-nav">
                      <span class="box">
-                     <a href="index.php">Início </a>
+                     <a href="index">Início </a>
                      <i class="lnr lnr-arrow-right"></i>
-                     <a href="blog.php">Blog</a>
+                     <a href="blog">Blog</a>
                      <i class="lnr lnr-arrow-right"></i>
-                     <a <?php echo "href='blog-post.php?post=$Titulo'"; ?>><?php echo $row['Titulo']; ?></a>
+                     <a <?php echo "href='blog-post?p=$Url_Clean'"; ?>><?php echo $row['Titulo']; ?></a>
                      </span>
                   </div>
                </div>
@@ -86,11 +86,11 @@
                            </ul>
                            <div class="user-details row">
                               <ul class="social-links col-12">
-                                 <li <?php echo "data-href='http://epbclubemicrosoft.com/blog-post.php?post=$Titulo'"; ?>><a target="_blank" <?php echo "href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fepbclubemicrosoft.com%2Fblog-post.php?post=$Titulo%2F&amp;src=sdkpreparse'";?> class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
-                                 <li><a target="_blank"  <?php echo " href='https://twitter.com/intent/tweet?text=http://epbclubemicrosoft.com/blog-post.php?post=$Titulo ".$row['Texto_Pequeno']."'";?>><i class="fa fa-twitter"></i></a></li>
-                                 <li><a onclick="linkedin(event, <?php echo "'http://epbclubemicrosoft.com/blog-post.php?post=$Titulo'";?>, 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                 <!--<li><a href="https://plus.google.com/share?url=http://epbclubemicrosoft.com/exame-mos.php"><i class="fa fa-google-plus"></i></a></li>-->
-                                 <li><a target="_blank" <?php echo "href='whatsapp://send?text=".$row['Texto_Pequeno']." &ndash; http://epbclubemicrosoft.com/blog-post.php?post=$Titulo'"?> title="Acesse de seu smartphone para enviar por WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
+                                 <li <?php echo "data-href='http://epbclubemicrosoft.com/blog-post?p=$Url_Clean'"; ?>><a target="_blank" <?php echo "href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fepbclubemicrosoft.com%2Fblog-post?p=$Url_Clean%2F&amp;src=sdkpreparse'";?> class="fb-xfbml-parse-ignore"><i class="fa fa-facebook"></i></a></li>
+                                 <li><a target="_blank"  <?php echo " href='https://twitter.com/intent/tweet?text=http://epbclubemicrosoft.com/blog-post?p=$Url_Clean ".$row['Texto_Pequeno']."'";?>><i class="fa fa-twitter"></i></a></li>
+                                 <li><a onclick="linkedin(event, <?php echo "'http://epbclubemicrosoft.com/blog-post?p=$Url_Clean'";?>, 'Clube Microsoft');return false;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                 <!--<li><a href="https://plus.google.com/share?url=http://epbclubemicrosoft.com/blog-post?p=$Url_Clean"><i class="fa fa-google-plus"></i></a></li>-->
+                                 <li><a target="_blank" <?php echo "href='whatsapp://send?text=".$row['Texto_Pequeno']." &ndash; http://epbclubemicrosoft.com/blog-post?p=$Url_Clean'"?> title="Acesse de seu smartphone para enviar por WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
                               </ul>
                            </div>
                         </div>

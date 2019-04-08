@@ -23,9 +23,9 @@
 					</h1>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Início </a>
+							<a href="index">Início </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="blog.php">Blog</a>
+							<a href="blog">Blog</a>
 						</span>
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 	                    ?>
 					<div class="single-post row col-xl-4 col-lg-6 col-12">
 						<div class="col-lg-12 col-md-12">
-							<a class="posts-title" <?php echo "href='blog-post.php?post=" .$row['Titulo']."'"; ?>>
+							<a class="posts-title" <?php echo "href='blog-post?p=" .$row['Url_Clean']."'"; ?>>
 								<div class="feature-img" style="min-height: 27vh;">
 									<img class="img-fluid img-blog-post"  <?php echo "src='img/blog/ ".$row['Img_Post']."'"; ?> alt="">
 								</div>
@@ -84,7 +84,7 @@
 			                    ?>
 							</ul>
 						</div>
-							<a <?php echo "href='blog-post.php?post=" .$row['Titulo']."'"; ?>  class="primary-btn">Ler Mais</a>
+							<a <?php echo "href='blog-post?p=" .$row['Url_Clean']."'"; ?>  class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 					<?php
@@ -97,15 +97,15 @@
 				<nav class="blog-pagination justify-content-center d-flex">
 						<ul class="pagination">
 							<li class="page-item">
-								<a href="blog.php" class="page-link" aria-label="Previous">
+								<a href="blog" class="page-link" aria-label="Previous">
 									<span aria-hidden="true">
 										<span class="lnr lnr-chevron-left"></span>
 									</span>
 								</a>
 							</li>
-							<li class="page-item active"><a href="blog.php" class="page-link">01</a></li>
+							<li class="page-item active"><a href="blog" class="page-link">01</a></li>
 							<li class="page-item">
-								<a href="blog.php" class="page-link" aria-label="Next">
+								<a href="blog" class="page-link" aria-label="Next">
 									<span aria-hidden="true">
 										<span class="lnr lnr-chevron-right"></span>
 									</span>

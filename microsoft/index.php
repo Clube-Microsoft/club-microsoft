@@ -63,7 +63,7 @@
 							O Clube Microsoft disponibiliza atividades formativas, workshops e experiências que permitam uma aprendizagem mais estimulante e apropriada nas matérias relacionadas com o ecossistema “Microsoft” instalado na EPB – Escola Profissional de Braga. Pretendemos com este projeto criar um ambiente mais unido entre os participantes deste clube e projetar a divulgação deste por toda a comunidade escolar (interna e externa).
 						</p>
 					</div>
-					<a href="courses.php" class="primary-btn">Explorar Cursos</a>
+					<a href="courses" class="primary-btn">Explorar Cursos</a>
 				</div>
 			</div>
 		</div>

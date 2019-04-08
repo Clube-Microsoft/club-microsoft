@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row align-items-center justify-content-between d-flex">
          <div id="logo">
-            <a href="index.php" id="img_menu_desktop"><img src="img/logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
+            <a href="index" id="img_menu_desktop"><img src="img/logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
          </div>
          <!--<nav id="nav-menu-container">
             <ul class="nav-menu">
@@ -23,22 +23,22 @@
             </nav>-->
             <!-- #nav-menu-container -->
          <div class="topnav" id="myTopnav">
-            <a href="index.php" style="background: none; display: none;" id="img_menu"><img src="img/logo/LogoName.png" alt="" title="" class="img_menu"/></a>
-            <a href="index.php">Início</a>
-            <a href="courses.php">Cursos</a>
+            <a href="index" style="background: none; display: none;" id="img_menu"><img src="img/logo/LogoName.png" alt="" title="" class="img_menu"/></a>
+            <a href="index">Início</a>
+            <a href="courses">Cursos</a>
             <div class="dropdown" style="background: none;">
                <button class="dropbtn">Serviços 
                <i class="fa fa-caret-down"></i>
                </button>
                <div class="dropdown-content">
-                  <a href="services.php">Workshops</a>
-                  <a href="services.php">Palestras</a>
-                  <a href="services.php">Aulas Digitais</a>
-                  <a href="services.php">Ajuda em Tempo Real</a>
+                  <a href="services">Workshops</a>
+                  <a href="services">Palestras</a>
+                  <a href="services">Aulas Digitais</a>
+                  <a href="services">Ajuda em Tempo Real</a>
                </div>
             </div>
-            <a href="blog.php">Blog</a>
-            <a href="contact.php">Contacto</a>
+            <a href="blog">Blog</a>
+            <a href="contact">Contacto</a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
          </div>

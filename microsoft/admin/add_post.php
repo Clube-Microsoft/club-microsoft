@@ -10,7 +10,11 @@ $Data          = $_POST['Data_Post'];
 
 $number = count($_POST["hastag"]);
 
+$titulo_sem_acentos = strtolower( preg_replace("[^a-zA-Z0-9-]", "-", 
+strtr(utf8_decode(trim($Titulo)), utf8_decode("áàãâéêíóôõúüñçÁÀÃÂÉÊÍÓÔÕÚÜÑÇ"),
+"aaaaeeiooouuncAAAAEEIOOOUUNC-")) );
 
+$titulo_novo = preg_replace('/[ -]+/' , '-' , $titulo_sem_acentos);
 
 
 // verifica se foi enviado um arquivo
@@ -43,7 +47,7 @@ if (isset($_FILES['arquivo_Post']['name']) && $_FILES['arquivo_Post']['error'] =
         
         // tenta mover o arquivo para o destino
         if (move_uploaded_file($arquivo_tmp, $destino)) {
-            $sql1 = "INSERT INTO blog_post (Titulo, Texto_Pequeno, Texto_Grande, Data, Img_Post) VALUES ('$Titulo', '$Texto_Pequeno', '$Texto_Grande', '$Data', '$novoNome')";
+            $sql1 = "INSERT INTO blog_post (Titulo, Url_Clean,Texto_Pequeno, Texto_Grande, Data, Img_Post) VALUES ('$Titulo', '$titulo_novo', '$Texto_Pequeno', '$Texto_Grande', '$Data', '$novoNome')";
             if (mysqli_query($conn, $sql1)) {
                 
                 $sql2      = "SELECT * FROM blog_post where Titulo = '$Titulo'";
