@@ -37,7 +37,7 @@
                   <a href="services">Ajuda em Tempo Real</a>
                </div>
             </div>
-            <a href="blog">Blog</a>
+            <a href="blog?pag=0">Blog</a>
             <a href="contact">Contacto</a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 

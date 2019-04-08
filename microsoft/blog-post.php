@@ -31,7 +31,7 @@
                      <span class="box">
                      <a href="index">Início </a>
                      <i class="lnr lnr-arrow-right"></i>
-                     <a href="blog">Blog</a>
+                     <a href="blog?pag=0">Blog</a>
                      <i class="lnr lnr-arrow-right"></i>
                      <a <?php echo "href='blog-post?p=$Url_Clean'"; ?>><?php echo $row['Titulo']; ?></a>
                      </span>

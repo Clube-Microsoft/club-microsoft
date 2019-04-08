@@ -8,8 +8,14 @@
 
 <body>
 
-	<?php  require_once "menu.php";
-	include('conexao.php'); ?>
+	<?php  
+		require_once "menu.php";
+		include('conexao.php'); 
+		//numero de itens por pag
+		$posts_pag = 9;
+		//pag atual
+		$pag = intval($_GET['pag']);
+	?>
 
 
 
@@ -25,7 +31,7 @@
 						<span class="box">
 							<a href="index">Início </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="blog">Blog</a>
+							<a href="blog?pag=0">Blog</a>
 						</span>
 					</div>
 				</div>
@@ -44,9 +50,17 @@
 			<div class="row">
 				<div class="col-lg-12 posts-list">
 					<?php 
-                        $sql      = "SELECT * FROM blog_post ORDER BY blog_post.Data DESC";
+                        $sql      = "SELECT * FROM blog_post ORDER BY blog_post.Data DESC LIMIT $pag, $posts_pag ";
 	                    $consulta = mysqli_query($conn, $sql);
+                        $sql1      = "SELECT * FROM blog_post";
+	                    $consulta1 = mysqli_query($conn, $sql1);
 	                    
+	                    //sabe quantos posts existem
+	                    $post_total = $consulta1->num_rows;
+
+	                    //definir numero de pags
+	                    $num_pags = ceil($post_total/$posts_pag);
+
 	                    if ($consulta->num_rows > 0) {
 	                    while($row = $consulta->fetch_assoc()) {
 	                    ?>
@@ -88,24 +102,26 @@
 						</div>
 					</div>
 					<?php
-                    }
-                    } else {
-                    echo "Sem Dados";
-                    }
-                    ?>
+                    }?>
 				</div>
 				<nav class="blog-pagination justify-content-center d-flex">
 						<ul class="pagination">
 							<li class="page-item">
-								<a href="blog" class="page-link" aria-label="Previous">
+								<a href="blog?pag=0" class="page-link" aria-label="Previous">
 									<span aria-hidden="true">
 										<span class="lnr lnr-chevron-left"></span>
 									</span>
 								</a>
 							</li>
-							<li class="page-item active"><a href="blog" class="page-link">01</a></li>
+							<?php for($i = 0; $i<$num_pags; $i++){
+								$ativo = "";
+								if($pag == $i)
+									$ativo = "active" ?>
+								<li class="page-item <?php echo $ativo ?>"><a href="blog?pag=<?php echo $i; ?>" class="page-link"><?php echo $i+1; ?></a></li>
+							<?php } ?>
+							
 							<li class="page-item">
-								<a href="blog" class="page-link" aria-label="Next">
+								<a href="blog?pag=<?php echo $num_pags-1; ?>" class="page-link" aria-label="Next">
 									<span aria-hidden="true">
 										<span class="lnr lnr-chevron-right"></span>
 									</span>
@@ -113,7 +129,11 @@
 							</li>
 						</ul>
 					</nav>
-
+			<?php
+            } else {
+            echo "Sem Dados";
+            }
+            ?>
 			</div>
 		</div>
 	</section>
