@@ -8,7 +8,15 @@
 
 <body>
 
-	<?php  require_once "menu.php"; ?>
+	<?php
+
+	require_once "menu.php";
+	require_once "conexao.php"; 
+
+	$sql_estat_index = "INSERT INTO estat_index (n_estatic) values (1)";
+    mysqli_query($conn, $sql_estat_index);
+
+	?>
 
 
 	<!-- Start Banner Area -->
@@ -113,7 +121,7 @@
 						<h4>Workshops</h4>
 						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
-								Serão transmitidas informações práticas através de dinâmicas de grupo, com uma duração de 2 a 3 horas, ampliando assim os conhecimentos e competências dos alunos.
+								Serão transmitidas informações práticas através de dinâmicas de grupo, com uma duração de até 3 horas, ampliando assim os conhecimentos e competências dos alunos.
 							</p>
 						</div>
 					</div>
@@ -175,7 +183,7 @@
 					</div>
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s">Leandro Pereira</h4>
-						<p class="designation">Desenvolvedor Web</p>
+						<p class="designation">Fundador | Desenvolvedor Web</p>
 						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
 							<p>
 								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
@@ -196,7 +204,7 @@
 					</div>
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Rúben Príncipe</h4>
-						<p class="designation">Web Designer</p>
+						<p class="designation">Fundador | Web Designer</p>
 						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
 							<p>
 								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
@@ -214,7 +222,7 @@
 					</div>
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Rui Pereira</h4>
-						<p class="designation">Consultor</p>
+						<p class="designation">Fundador | Consultor</p>
 						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 							<p>
 								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.

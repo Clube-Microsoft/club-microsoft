@@ -11,6 +11,11 @@
 	<?php  
 		require_once "menu.php";
 		include('conexao.php'); 
+
+		$sql_estat_blog = "INSERT INTO estat_blog (n_estatic) values (1)";
+    	mysqli_query($conn, $sql_estat_blog);
+
+
 		//numero de itens por pag
 		$posts_pag = 9;
 		//pag atual
@@ -53,11 +58,13 @@
 			<div class="row">
 				<div class="col-lg-12 posts-list">
 					<?php 
-                        $sql      = "SELECT * FROM blog_post ORDER BY blog_post.Data DESC LIMIT $num_posts, $posts_pag ";
+                        $sql      = "SELECT Id_Post, Titulo, Url_Clean, Texto_Pequeno, Texto_Grande, Img_Post, date_format(Data, '%d/%m/%Y') AS Data  FROM blog_post ORDER BY blog_post.Data DESC LIMIT $num_posts, $posts_pag ";
 	                    $consulta = mysqli_query($conn, $sql);
                         $sql1      = "SELECT * FROM blog_post";
 	                    $consulta1 = mysqli_query($conn, $sql1);
-	                    
+	                   	$sql2      = "SELECT date_format(Data, '%d/%m/%Y') AS Data FROM blog_post";
+	                    $consulta2 = mysqli_query($conn, $sql2);
+
 	                    //sabe quantos posts existem
 	                    $post_total = $consulta1->num_rows;
 
@@ -70,7 +77,7 @@
 					<div class="single-post row col-xl-4 col-lg-6 col-12">
 						<div class="col-lg-12 col-md-12">
 							<a class="posts-title" <?php echo "href='blog-post?p=" .$row['Url_Clean']."'"; ?>>
-								<div class="feature-img" style="min-height: 27vh; max-height: 27vh;">
+								<div class="feature-img" style="height: 27vh;">
 									<img class="img-fluid img-blog-post"  <?php echo "src='img/blog/ ".$row['Img_Post']."'"; ?> alt="">
 								</div>
 								<h3 style="min-height: 60px;"><?php echo $row['Titulo']; ?></h3>
@@ -79,6 +86,7 @@
 							<p class="excert" style="min-height: 120px;">
                   				<?php echo $row['Texto_Pequeno']; ?>
                   				</p>
+                  			<a <?php echo "href='blog-post?p=" .$row['Url_Clean']."'"; ?>  class="primary-btn">Ler Mais</a>
 							<div class="meta-details">
 							<ul class="tags">
 								<?php
@@ -101,7 +109,6 @@
 			                    ?>
 							</ul>
 						</div>
-							<a <?php echo "href='blog-post?p=" .$row['Url_Clean']."'"; ?>  class="primary-btn">Ler Mais</a>
 						</div>
 					</div>
 					<?php
@@ -134,7 +141,7 @@
 					</nav>
 			<?php
             } else {
-            echo "Sem Dados";
+            echo "Sem Posts";
             }
             ?>
 			</div>

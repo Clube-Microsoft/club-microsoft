@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/normalize.css">
 
 	<!--
 			Scripts

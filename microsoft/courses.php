@@ -51,7 +51,7 @@
 							Os cursos desenvolvidos pelo Clube Microsoft estão relacionados com informática nas suas mais diversas ferramentas, e visam preparar os alunos para aquisição de competências nesta área. De referir que, as tecnologias de informação são hoje em dia uma mais valia ao nível da geração de empregos e oportunidades de trabalho, por isso vem aprender connosco!
 						</p>
 					</div>
-					<a href="courses.php" class="primary-btn">Saber Mais</a>
+					<!--<a href="courses.php" class="primary-btn">Saber Mais</a>-->
 				</div>
 				<div class="offset-lg-1 col-lg-6">
 					<div class="courses-right">

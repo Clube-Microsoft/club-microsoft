@@ -7,28 +7,13 @@
         
          <div class="topnav" id="myTopnav">
 
-             <a href="../index.php" style="background: none; display: none;" id="img_menu"><img src="img/logo/LogoName.png" alt="" title="" class="img_menu"/></a>
-            <a href="../index.php">Início</a>
-            <a href="../courses.php">Cursos</a>
-            <div class="dropdown" style="background: none;">
-               <button class="dropbtn">Serviços 
-               <i class="fa fa-caret-down"></i>
-               </button>
-               <div class="dropdown-content">
-                  <a href="../services.php">Workshops</a>
-                  <a href="../services.php">Palestras</a>
-                  <a href="../services.php">Aulas Digitais</a>
-                  <a href="../services.php">Ajuda em Tempo Real</a>
-               </div>
-            </div>
-            <a href="../blog.php">Blog</a>
-            <a href="../contact.php">Contacto</a>
+             <a href="/" style="background: none; display: none;" id="img_menu"><img src="img/logo/LogoName.png" alt="" title="" class="img_menu"/></a>
             <div class="dropdown" style="background: none;">
                <button class="dropbtn">Administrador 
                <i class="fa fa-caret-down"></i>
                </button>
                <div class="dropdown-content">
-                  <a href="admin.php">Publicar Post</a>
+                  <a href="post.php">Publicar Post</a>
                </div>
             </div>
             <a href="logout.php">Sair da Administração</a>

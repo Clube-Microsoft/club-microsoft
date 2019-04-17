@@ -5,7 +5,7 @@
 
          $Url_Clean = $_GET['p'];
 
-    $sql      = "SELECT * FROM blog_post where Url_Clean = '$Url_Clean'";
+    $sql      = "SELECT Id_Post, Titulo, Url_Clean, Texto_Pequeno, Texto_Grande, Img_Post, date_format(Data, '%d/%m/%Y') AS Data  FROM blog_post where Url_Clean = '$Url_Clean'";
     $consulta = mysqli_query($conn, $sql);
     
     if ($consulta->num_rows > 0) {
@@ -59,7 +59,7 @@
                            <p class="date"><a href="#"><?php echo $row['Data']; ?></a> <span class="lnr lnr-calendar-full"></span></p>
                         </div>
                      </div>
-                     <div class="col-12">
+                     <div class="col-12" style="position: unset;">
                         <p class="excert-dentro">
                            <?php echo $row['Texto_Grande']; ?>
                         </p>

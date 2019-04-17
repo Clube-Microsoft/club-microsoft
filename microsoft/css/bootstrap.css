@@ -120,14 +120,15 @@ body.mobile-nav-active #mobile-nav{display: block!important;}
 .nav-dropdown{border-radius: 0px 5px 5px 5px;}
 .post-content-area .single-post {float: left;min-height: 550px;}
 .post-content-area .single-post .meta-details .tags li a {color: #777!important;}
-.post-content-area .single-post .meta-details {text-align: center!important;}
+.post-content-area .single-post .meta-details {text-align: center!important; height: 15px;}
 .blog-pagination {margin: auto;}
 .single-post{margin:auto!important;margin-bottom: 50px!important;display: table!important;}
 .posts-title{text-align: center!important;}
 .post-content-area .single-post .meta-details .tags li {margin-right: 5px;}
-.img-blog-post {border: none!important; width: 100%!important;object-fit: cover; border-radius: 20px!important; }
+.img-blog-post {border: none!important;margin:0 auto!important; width: auto!important; max-width: 100%!important;height: 100%!important;object-fit: cover; border-radius: 20px!important; }
 .img-blog-post-dentro {border: none!important; width: 100%!important;height: auto!important;border-radius: 10px!important;}
 .img_menu{animation: all 2s; -webkit-animation: all 2s; width: 17vw!important; max-width: 350px;}
+
 
 .meta-details-dentro{
     text-align: left!important;
@@ -160,6 +161,8 @@ body.mobile-nav-active #mobile-nav{display: block!important;}
     }
 
 @media (min-width:992px) {.excert-dentro{margin-top: 60px;}}
+
+
 
 /*-------------------------------------------*/
 
@@ -1742,16 +1745,16 @@ pre code {
 .table th {
     padding: .75rem;
     vertical-align: top;
-    border-top: 1px solid #dee2e6
+    /*border-top: 1px solid #dee2e6*/
 }
 
 .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6
+    /*border-bottom: 2px solid #dee2e6*/
 }
 
 .table tbody+tbody {
-    border-top: 2px solid #dee2e6
+   /* border-top: 2px solid #dee2e6*/
 }
 
 .table .table {
@@ -1764,24 +1767,24 @@ pre code {
 }
 
 .table-bordered {
-    border: 1px solid #dee2e6
+    /*border: 1px solid #dee2e6*/
 }
 
 .table-bordered td,
 .table-bordered th {
-    border: 1px solid #dee2e6
+    /*border: 1px solid #dee2e6*/
 }
 
 .table-bordered thead td,
 .table-bordered thead th {
-    border-bottom-width: 2px
+    /*border-bottom-width: 2px*/
 }
 
 .table-borderless tbody+tbody,
 .table-borderless td,
 .table-borderless th,
 .table-borderless thead th {
-    border: 0
+    /*border: 0*/
 }
 
 .table-striped tbody tr:nth-of-type(odd) {

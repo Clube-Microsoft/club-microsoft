@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row align-items-center justify-content-between d-flex">
          <div id="logo">
-            <a href="index" id="img_menu_desktop"><img src="img/logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
+            <a href="/" id="img_menu_desktop"><img src="img/logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
          </div>
          <!--<nav id="nav-menu-container">
             <ul class="nav-menu">
@@ -23,8 +23,8 @@
             </nav>-->
             <!-- #nav-menu-container -->
          <div class="topnav" id="myTopnav">
-            <a href="index" style="background: none; display: none;" id="img_menu"><img src="img/logo/LogoName.png" alt="" title="" class="img_menu"/></a>
-            <a href="index">Início</a>
+            <a href="/" style="background: none; display: none;" id="img_menu"><img src="img/logo/LogoName.png" alt="" title="" class="img_menu"/></a>
+            <a href="/">Início</a>
             <a href="courses">Cursos</a>
             <div class="dropdown" style="background: none;">
                <button class="dropbtn">Serviços 

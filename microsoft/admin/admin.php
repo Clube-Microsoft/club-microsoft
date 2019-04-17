@@ -40,97 +40,50 @@ include('menu_admin.php');
 <div id="Add_Post" class="Seccoes">
          <div class="limiter">
             <div class="container-login100">
-               <div class="wrap-login100">
-                            
-                        <span class="login100-form-title">
-                        Adicionar Post<br>
-                        </span>
-
-                  <div class="return_table js-tilt" id="Mostrar_Post" data-tilt style="width: 100%">
+                             <div class="wrap-login100">
+                  <span class="login100-form-title">
+                  Estatística<br>
+                  </span>
+                  <div class="return_table js-tilt" id="Mostrar_Estatisticas" data-tilt style="width: 100%; text-align: center;">
                      <?php 
-                        $sql      = "SELECT * FROM blog_post ORDER BY blog_post.Data DESC";
+                      /*SELECT DISTINCT extract(MONTH from estat_index.data)  Mes, extract(YEAR from estat_index.data)  Ano, COUNT(DISTINCT estat_index.data) AS numero_de_pessoas_index,
+                        extract(MONTH from estat_blog.data)  Mes, extract(YEAR from estat_blog.data)  Ano, COUNT(DISTINCT estat_blog.data) AS numero_de_pessoas_blog
+                        FROM estat_index, estat_blog
+                        WHERE estat_index.data and estat_blog.data
+                        group by  extract(MONTH from estat_index.data), extract(MONTH from estat_blog.data)
+                        ORDER BY estat_index.data ASC*/
+
+                        $sql      = "SELECT DISTINCT extract(MONTH from estat_index.data)  Mes, extract(YEAR from estat_index.data)  Ano, COUNT(DISTINCT estat_index.data) AS id_estat_index
+                        FROM estat_index
+                        WHERE estat_index.data
+                        group by  extract(MONTH from estat_index.data)
+                        ORDER BY estat_index.data ASC";
+
+
                         $consulta = mysqli_query($conn, $sql);
-                        
-                        if ($consulta->num_rows > 0) {
-                        while($row = $consulta->fetch_assoc()) {
-                             echo "<div style='width: 75%; float: left;''><p>" . $row["Titulo"] . "</p></div>";?>
-                     <div style="width: 25%; float: right;">
-                        <input type="image" name="img_btn_edit_post" <?php echo "id='".$row["Id_Post"]."'" ?> src="../img/icons/edit.png" Class="icons_admin_trash" />
-                        <input type="image" name="img_btn_trash_post" <?php echo "id='".$row["Id_Post"]."'" ?> src="../img/icons/trash.png" Class="icons_admin_edit" />
-                     </div>
-                     <div style="clear: both;"></div>
-                     <?php
-                        }
-                        } else {
-                        echo "Sem Dados";
-                        }
-                        
-                        ?>
-                  </div>
-                  <div  class="login100-form validate-form" style="width: 100%">
-                    
-                     <form enctype="multipart/form-data" action="add_post.php" id="enviar_Post" method="Post">
-                      <input type="text" name="txt_Id_Post" id="txt_Id_Post" style="display: none;">
-                        
-                        <div class="wrap-input100 validate-input">
-                           <input class="input100" type="text" name="txt_Titulo_Post" id="txt_Titulo_Post" placeholder="Titulo">
-                           <span class="focus-input100"></span>
-                           <span class="symbol-input100">
-                           <i class="fas fa-heading"></i>
-                           </span>
-                        </div>
-                         <div class="wrap-input100 validate-input">
-                           <textarea class="input100" name="txt_Texto_Pequeno_Post" id="txt_Texto_Pequeno_Post" placeholder="Texto Pequeno"></textarea>
-                           <span class="focus-input100"></span>
-                           <span class="symbol-input100">
-                           <i class="far fa-paragraph"></i>
-                           </span>
-                        </div>
-                        <div class="wrap-input100 validate-input">
-                           <textarea name="txt_Texto_Grande_Post" id="txt_Texto_Grande_Post" placeholder="Texto Grande"></textarea>
-                        </div>
-                        <div class="wrap-input100 validate-input">
-                           <input class="input100" type="date" size="60" name="Data_Post" id="Data_Post" />
-                           <span class="focus-input100"></span>
-                           <span class="symbol-input100">
-                           <i class="far fa-calendar-day"></i>
-                           </span>
-                        </div>
-                         <div class="wrap-input100 validate-input">
-                           <input class="input100" type="file" name="arquivo_Post" id="arquivo_Post" />
-                           <span class="focus-input100"></span>
-                           <span class="symbol-input100">
-                           <i class="fas fa-image"></i>
-                           </span>
-                        </div>
-                        <div class="table-responsive">
-                          <table class="table table-bordered" id="dynamic_field">
-                            <tr>
-                              <td><input type="text" name="hastag[]" placeholder="hastag" class="form-control name_list" /></td>
-                              <td><button type="button" name="add_hastag" id="add_hastag" class="btn btn-success">Add More</button></td>
-                            </tr>
-                          </table>
-                        </div>
+                         
+                        if ($consulta->num_rows >= 1) {?>
+                     <table style="width: 100%;">
+                        <tr>
+                           <th>Ano</th>
+                           <th>Mês</th>
+                           <th>Index</th>
+                        </tr>
+                        <?php while($row = $consulta->fetch_assoc()) { ?>
+                        <tr>
+                           <td><?php echo $row["Ano"] ?></td>
+                           <td><?php echo $row["Mes"] ?></td>
+                           <td><?php echo $row["id_estat_index"] ?></td>
+                        </tr>
+                        <div style="clear: both;"></div>
                         <?php
-                    if(isset($_SESSION["produto_nao_enviado"])):
-                    ?>
-                      <p>ERRO: Não enviada!</p>
-                    <?php
-                    endif;
-                    unset($_SESSION["produto_nao_enviado"]);
-                    ?>
-                        <div class="mostrar"></div>
-                        <div class="container-login100-form-btn">
-                           <button type="submit" id="btn_form_Post" name="btn_form_Post" class="login100-form-btn">
-                           Enviar Post
-                           </button>
-                     </form>
-                     </div>
-                     <form action="/" id="enviar_Post_edit">
-                        <button type="submit" id="btn_form_Post_editar" name="btn_form_Post_editar" class="login100-form-btn" style="display: none;">
-                        Editar Post
-                        </button>
-                     </form>
+                           }
+                           echo "</table>";
+                           } else {
+                           echo "Sem Dados";
+                           }
+                           
+                           ?>
                   </div>
                </div>
             </div>
