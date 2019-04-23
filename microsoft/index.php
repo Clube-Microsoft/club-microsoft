@@ -12,6 +12,7 @@
 
 	require_once "menu.php";
 	require_once "conexao.php"; 
+	require_once "bbot/bbot.php"; 
 
 	$sql_estat_index = "INSERT INTO estat_index (n_estatic) values (1)";
     mysqli_query($conn, $sql_estat_index);

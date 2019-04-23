@@ -1,24 +1,22 @@
 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="icon" href="imagens/Logo/pequeno.png" type="image/png">
-      <link rel="stylesheet" type="text/css" href="Content/Style_Bot.css">
-      <link rel="stylesheet" type="text/css" href="Content/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="bbot/Content/Style_Bot.css">
 
 
       <?php
          require_once 'login_bd.php';
          ?>
       <div id="div_icon_chat" class="div_icon_chat">
-         <img src="Imagens/Icons/chat.png" style="height: 8vh;" />
+         <img src="bbot/Imagens/Icons/chat.png" style="height: 8vh;" />
       </div>
       <div id="div_chat" class="div_chat">
          <div class="div_nome_chat">
-            <img src="Imagens/Logo/pequeno.png" style="height: 4vh; max-height: 25px; margin-top: -13px; margin-left: 20px;" />
-            <h3 style="display: inline; line-height: 44px; margin-left: 6px;">Bryan</h3>
-            <img id="img_cancel" src="Imagens/Icons/cancel1.png" class="img_cancel" />
+            <img src="bbot/Imagens/Logo/pequeno.png" style="height: 4vh; max-height: 25px; margin-top: -13px; margin-left: 20px;" />
+            <h3 style="display: inline; line-height: 44px!important; margin-left: 6px;">Bryan</h3>
+            <img id="img_cancel" src="bbot/Imagens/Icons/cancel1.png" class="img_cancel" />
          </div>
          <div id="div_msgs" class="div_conversa">
             <p class='p_assistente'>Olá, sou o Bryan o assistente Virtual da B-bot.</p>
+            <div style='clear: both'></div>
             <p class='p_assistente'>Qual o seu nome?</p>
             <div style='clear: both'></div>
          </div>
@@ -26,22 +24,22 @@
             <form action="/" id="enviar_nome">
                <input type="text" id="txt_msg_nome" name="txt_msg_nome" Class="txt_mensagens_chat" autocomplete="off" />
                <span class="floating-label">Escreva seu Nome</span>
-               <input type="image" name="img_btn_nome" src="Imagens/Icons/send_button.png" Class="icons_enviar" />
+               <input type="image" name="img_btn_nome" src="bbot/Imagens/Icons/send_button.png" Class="icons_enviar" />
             </form>
             <form action="/" id="enviar_email" style="display: none;">
                <input type="email" id="txt_msg_email" name="txt_msg_email" Class="txt_mensagens_chat" autocomplete="off" />
                <span class="floating-label">Escreva seu Email</span>
-               <input type="image" name="img_btn_email" src="Imagens/Icons/send_button.png" Class="icons_enviar" />
+               <input type="image" name="img_btn_email" src="bbot/Imagens/Icons/send_button.png" Class="icons_enviar" />
             </form>
             <form action="/" id="enviar_cat" style="display: none;"> 
                <input type="text" id="txt_msg_cat" name="txt_msg_cat" Class="txt_mensagens_chat" autocomplete="off" />
                <span class="floating-label">Escreva Categoria</span>
-               <input type="image" name="img_btn_cat" src="Imagens/Icons/send_button.png" Class="icons_enviar" />
+               <input type="image" name="img_btn_cat" src="bbot/Imagens/Icons/send_button.png" Class="icons_enviar" />
             </form>
             <form action="/" id="enviar_sub_cat" style="display: none;"> 
                <input type="text" id="txt_msg_sub_cat" name="txt_msg_sub_cat" Class="txt_mensagens_chat" autocomplete="off" />
                <span class="floating-label">Escreva Sub Categoria</span>
-               <input type="image" name="img_btn_sub_cat" src="Imagens/Icons/send_button.png" Class="icons_enviar" />
+               <input type="image" name="img_btn_sub_cat" src="bbot/Imagens/Icons/send_button.png" Class="icons_enviar" />
             </form>
             <form action="/" id="button_sim" style="display: none;">
                <input type="submit" name="txt_sim" value="Sim" Class="btn_enviar_mail_chat" />
@@ -50,18 +48,9 @@
                <input type="submit" name="txt_nao" value="Não" Class="btn_enviar_mail_chat" />
             </form>
          </div>
-         <p style="position: fixed; bottom: 1.5vh; right: 2.7%">Powered by <a href="https://www.bbot.pt/" target="_blank">B-Bot</a></p>
+         <p style="position: fixed;bottom: 2.5vh;left: 19.7%;">Powered by <a href="https://www.bbot.pt/" target="_blank">B-Bot</a></p>
       </div>
-      <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js" ></script>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <link rel="stylesheet" href="Content/Style_footer.css" />
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-
+     
 
       <script>
 
@@ -102,7 +91,7 @@
                });
 
                $("#div_msgs").delay(1000).queue(function (next) {
-                  $(this).append("<p class='p_assistente'>Não te preocupes, não envio spam! <img src='Imagens/Emojis/linguadefora.png' style='width:32px' /></p><div style='clear: both'></div>");
+                  $(this).append("<p class='p_assistente'>Não te preocupes, não envio spam! <img src='bbot/Imagens/Emojis/linguadefora.png' style='width:32px' /></p><div style='clear: both'></div>");
                   next();
                });
                $(".div_conversa").stop().animate({

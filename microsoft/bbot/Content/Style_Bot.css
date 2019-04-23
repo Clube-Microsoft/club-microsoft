@@ -2,6 +2,9 @@
     outline:none;
 }
 
+.div_chat, .div_icon_chat {
+    z-index: 100;
+}
 @media (min-width: 1200px) {
     .p_assistente {
         max-width: 80%;
@@ -27,7 +30,7 @@
         visibility: visible;
         position: fixed;
         bottom: 2vh;
-        right: 2%;
+        left: 2%;
     }
 
     .div_chat {
@@ -37,7 +40,7 @@
         position: fixed;
         background: white;
         bottom: 2vh;
-        right: 2%;
+        left: 2%;
         height: 57vh;
         max-height: 363px;
         max-width: 346px;
@@ -86,7 +89,7 @@
         float: right;
         /* margin-top: -1vh; */
         position: fixed;
-        right: 2%;
+        left: 27%;
         bottom: 45px;
     }
 
@@ -130,7 +133,7 @@
 
     .txt_mensagens_chat:focus ~ .floating-label,
     .txt_mensagens_chat:not(:focus):valid ~ .floating-label {
-        bottom: 50px;
+        bottom: 45px;
         left: 5px;
         font-size: 11px;
         opacity: 1;
@@ -171,7 +174,7 @@
         visibility: visible;
         position: fixed;
         bottom: 2vh;
-        right: 2%;
+        left: 2%;
     }
 
     .div_chat {
@@ -182,7 +185,7 @@
         position: fixed;
         background: white;
         bottom: 2vh;
-        right: 2%;
+        left: 2%;
         height: 57vh;
         max-height: 363px;
         /* border: solid thin black; */
@@ -239,7 +242,7 @@
         float: right;
         /* margin-top: -1vh; */
         position: fixed;
-        right: 2%;
+        left: 27%;
         bottom: 45px;
     }
 
@@ -273,7 +276,7 @@
 
     .txt_mensagens_chat:focus ~ .floating-label,
     .txt_mensagens_chat:not(:focus):valid ~ .floating-label {
-        bottom: 51px;
+        bottom: 45px;
         left: 5px;
         font-size: 11px;
         opacity: 1;
