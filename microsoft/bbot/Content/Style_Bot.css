@@ -1,0 +1,295 @@
+﻿.txt_mensagens_chat:focus{
+    outline:none;
+}
+
+@media (min-width: 1200px) {
+    .p_assistente {
+        max-width: 80%;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #ccc;
+        float: left;
+    }
+
+    .p_cliente {
+        max-width: 80%;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #0094ff;
+        float: right;
+    }
+
+    .div_icon_chat {
+        visibility: visible;
+        position: fixed;
+        bottom: 2vh;
+        right: 2%;
+    }
+
+    .div_chat {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 1s linear;
+        position: fixed;
+        background: white;
+        bottom: 2vh;
+        right: 2%;
+        height: 57vh;
+        max-height: 363px;
+        max-width: 346px;
+        width: 96%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 100px 1px;
+    }
+
+    .div_nome_chat {
+        height: 7vh;
+        max-height: 44px;
+        /*border-bottom: solid thin black;*/
+        background: #ccc;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .div_conversa {
+        height: 38.3vh;
+        max-height: 251px;
+        overflow: auto;
+        padding: 15px;
+    }
+
+    .div_escrever_mensagem_chat {
+        height: 7vh;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        border-top: solid thin;
+    }
+
+    .txt_mensagens_chat {
+        position: fixed;
+        bottom: 32px;
+        width: 309px;
+        max-width: 400px;
+        height: 50px;
+        padding: 10px;
+        /* background-color: transparent; */
+        /* border-top: solid thin black !important; */
+        border: none;
+        font-size: 2vh;
+    }
+
+    .icons_enviar {
+        width: 30px;
+        float: right;
+        /* margin-top: -1vh; */
+        position: fixed;
+        right: 2%;
+        bottom: 45px;
+    }
+
+    .img_cancel {
+        height: 15px;
+        /* position: fixed; */
+        float: right;
+        /* right: 2.5%; */
+        /* bottom: 55vh; */
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    div.Desaparecer {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    div.Aparecer {
+        display: block !important;
+        visibility: visible !important;
+    }
+
+    .btn_enviar_mail_chat {
+        background-color: transparent;
+        color: #233fff;
+        text-align: center;
+        margin: 0 15px;
+        /* margin-top: -3vh; */
+        /* margin-bottom: 2vh; */
+        /* height: 7vh; */
+        min-height: 40px;
+        float: left;
+        width: 10%;
+        min-width: 100px;
+        border: solid #233fff 2px;
+        display: block;
+        padding: 6px;
+        box-shadow: 0 0 8px 0;
+    }
+
+    .txt_mensagens_chat:focus ~ .floating-label,
+    .txt_mensagens_chat:not(:focus):valid ~ .floating-label {
+        bottom: 50px;
+        left: 5px;
+        font-size: 11px;
+        opacity: 1;
+    }
+
+    .floating-label {
+        position: absolute;
+        pointer-events: none;
+        left: 11px;
+        bottom: 34px;
+        transition: 0.2s ease all;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .p_assistente {
+        max-width: 80%;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #ccc;
+        float: left;
+    }
+
+    .p_cliente {
+        max-width: 80%;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #0094ff;
+        float: right;
+    }
+
+    .div_icon_chat {
+        visibility: visible;
+        position: fixed;
+        bottom: 2vh;
+        right: 2%;
+    }
+
+    .div_chat {
+        text-align: left;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 1s linear;
+        position: fixed;
+        background: white;
+        bottom: 2vh;
+        right: 2%;
+        height: 57vh;
+        max-height: 363px;
+        /* border: solid thin black; */
+        max-width: 346px;
+        width: 96%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 100px 1px;
+    }
+
+    .div_nome_chat {
+        height: 7vh;
+        max-height: 44px;
+        /*border-bottom: solid thin black;*/
+        background: #ccc;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .div_conversa {
+        height: 38.3vh;
+        max-height: 251px;
+        /* width: auto; */
+        overflow: auto;
+        padding: 15px;
+    }
+
+    .div_escrever_mensagem_chat {
+        height: 7vh;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        border-top: solid thin;
+    }
+    
+    .div_final {
+        height: 7vh;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .txt_mensagens_chat {
+        position: fixed;
+        bottom: 32px;
+        width: 309px;
+        max-width: 400px;
+        height: 50px;
+        padding: 10px;
+        /* background-color: transparent; */
+        /*border-top: solid thin black !important;*/
+        border: none;
+        font-size: 2vh;
+    }
+
+    .icons_enviar {
+        width: 30px;
+        float: right;
+        /* margin-top: -1vh; */
+        position: fixed;
+        right: 2%;
+        bottom: 45px;
+    }
+
+    .img_cancel {
+        height: 15px;
+        /* position: fixed; */
+        float: right;
+        /* right: 2.5%; */
+        /* bottom: 55vh; */
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    .btn_enviar_mail_chat {
+        background-color: transparent;
+        color: #233fff;
+        text-align: center;
+        margin: 0 15px;
+        /* margin-top: -3vh; */
+        /* margin-bottom: 2vh; */
+        height: 7vh;
+        min-height: 40px;
+        float: left;
+        width: 10%;
+        min-width: 100px;
+        border: solid #233fff 2px;
+        display: block;
+        padding: 6px;
+        box-shadow: 0 0 8px 0;
+    }
+
+    .txt_mensagens_chat:focus ~ .floating-label,
+    .txt_mensagens_chat:not(:focus):valid ~ .floating-label {
+        bottom: 51px;
+        left: 5px;
+        font-size: 11px;
+        opacity: 1;
+    }
+
+    .floating-label {
+        position: absolute;
+        pointer-events: none;
+        left: 11px;
+        bottom: 34px;
+        transition: 0.2s ease all;
+    }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
