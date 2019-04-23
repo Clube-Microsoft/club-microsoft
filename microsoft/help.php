@@ -1,0 +1,72 @@
+
+		<?php  require_once "links.php"; ?>
+
+
+	<!-- Site Title -->
+	<title>About</title>
+
+	 
+</head>
+
+<body>
+
+	<?php  require_once "menu.php"; ?>
+
+
+	<!-- Start Banner Area -->
+	<section class="banner-area relative">
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center">
+				<div class="about-content col-lg-12">
+					<h1 class="text-white">
+						Ajuda em tempo real
+					</h1>
+					<p>Conhece o nosso chat bot e esclarece as tuas dúvidas.</p>
+					<div class="link-nav">
+						<span class="box">
+							<a href="index.php">Início </a>
+							<i class="lnr lnr-arrow-right"></i>
+							<a href="about.php">Ajuda em tempo real</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rocket-img">
+			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
+		</div>
+	</section>
+	<!-- End Banner Area -->
+
+
+	<!-- Start About Area -->
+	<section class="about-area section-gap">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-5 col-md-6 about-left">
+					<img class="img-fluid" src="img/about.jpg" alt="">
+				</div>
+				<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
+					<h1>
+						Bbot
+					</h1>
+					<div class="wow fadeIn" data-wow-duration="1s">
+						<p>
+							Para que seja feita a ajuda em tempo real, um dos nossos fundadores (Leandro Pereira) desenvolveu para a sua PAP (Prova de Aptidão Profissional) uma ferramenta que permite a resposta imediata por parte de um <i>bot</i>.
+							<br/>Caso não encontres o que estavas à procura podes sempre entrar em contacto.
+						</p>
+					</div>
+					<a href="contact" class="primary-btn">Contactar</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Area -->
+
+	<?php  require_once "footer.php"; ?>
+
+
+ 
+</body>
+
+</html>
