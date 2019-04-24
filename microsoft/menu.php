@@ -32,7 +32,7 @@
                </button>
                <div class="dropdown-content">
                   <a href="workshops">Workshops</a>
-                  <a href="services">Palestras</a>
+                  <a href="palestras">Palestras</a>
                   <a href="services">Aulas Digitais</a>
                   <a href="help">Ajuda em Tempo Real</a>
                </div>

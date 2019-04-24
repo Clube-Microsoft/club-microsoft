@@ -2,6 +2,9 @@
   background: url(../img/header-bg.jpg) no-repeat top center;
   background-size: cover;
 }
+ul li:hover > ul {
+    box-shadow: 0 0 7px 0!important;
+}
 @include media-breakpoint-down (sm) {
   height: 900px !important;
 }
