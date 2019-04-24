@@ -1,7 +1,7 @@
 
 	<?php  require_once "links.php"; ?>
 	<!-- Site Title -->
-	<title>Contacto</title>
+	<title>Workshops</title>
     <script src="jsx/sweetalert.js"></script>
 	<link rel="stylesheet" href="css/form-style.css">
 </head>
