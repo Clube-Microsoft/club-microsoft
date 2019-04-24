@@ -9,60 +9,12 @@
 <body>
 	<?php  
 		require_once "menu.php";
+require_once "conexao.php"; 
+			$sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estatic_curso, n_estatic_services) values (0, 0, 0, 1)";
+    mysqli_query($conn, $sql_estat);
 
-		//Define todas as variáveis iniciais
-		$nomeErr = $emailErr = "";
-		$nome = $email = "";
 
-		//Verifica se o botão do formulário é pressionado
-		if ($_SERVER["REQUEST_METHOD"] 	== "POST") {
-			
-			//Verifica se o campo "nome" está vazio
-			if (empty($_POST["nome"])) {
-				$nomeErr = "Preencha o nome";
-			} else {
-				//Lê o que foi escrito no campo "nome"
-				$nome = test_input($_POST["nome"]);
-				//Verifica se o nome não contém números ou caracteres especiais
-				if (!preg_match("/^\p{L}([- ']\p{L}|\p{L})*$/u", $nome)) {
-					$nomeErr = "Só são permitidas letras e espaços em branco";
-				}
-			}
 
-			//Verifica se o campo "email" está vazio
-			if (empty($_POST["email"])) {
-				$emailErr = "Preencha o email";
-			} else {
-				//Lê o que foi escrito no campo "email"
-				$email = test_input($_POST["email"]);
-				//Verifica se o email está bem formatado
-				if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-					$emailErr = "Formato de email inválido";
-				}
-			}
-			
-			//Verifica se nenhum erro foi ativado
-			if ($nomeErr == "" && 
-			$emailErr == "" && 
-			$generoErr == "" && 
-			$websiteErr == "" && 
-			$passwordErr == "" && 
-			$dateErr == "" && 
-			$imgErr == "") {
-				//Enviar email
-			}
-			
-		}
-
-		//Função para leitura dos dados introduzidos pelo utilizador
-		function test_input($dados) {
-			
-			$dados = trim($dados);
-			$dados = stripslashes($dados);
-			$dados = htmlspecialchars($dados);
-			return $dados;
-			
-		}	
 
 		?>
     <!-- Start Banner Area -->
@@ -110,10 +62,10 @@
 								Informação Pessoal
 							</legend>
 							<!-- Inputs -->
-							<label>Nome: <span class="error">* <?php echo $nomeErr;?></span></label>
+							<label>Nome: <span class="error">*</span></label>
 							<input placeholder="Introduza o seu nome..." type="text" name="nome" required>
 							<br/><br/>
-							<label>Email: <span class="error">* <?php echo $emailErr;?></span></label>
+							<label>Email: <span class="error">*</span></label>
 							<input placeholder="Introduza o seu email..." type="email" name="email" required>
 							<br/><br/>
 							<label>Tema: <span class="error">*</span></label>
@@ -136,7 +88,9 @@
 							<br/><br/>
 							<span class="error">* campo obrigatório</span>
 						</fieldset>
-						<input type="submit" name="submit" value="Enviar"><br/>
+						<div class="alert-msg" style="text-align: left;"></div>
+						<button type="submit" id="btn-workshops">Enviar</button>
+						<div class="loading" style="float: left;margin-left:20px;"></div>
 					</form>
 					<div class="mostrar"></div>
 				</div>
@@ -152,7 +106,7 @@
 		$('.form').submit(function(){
 			$('.loading').html("<img src='loading.gif' width='45'>");
 			$.ajax({
-				url: 'send-form.php',
+				url: 'workshops-mail.php',
 				type: 'POST',
 				data: $('.form').serialize(),
 				success: function(data){

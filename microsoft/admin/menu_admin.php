@@ -13,6 +13,7 @@
                <i class="fa fa-caret-down"></i>
                </button>
                <div class="dropdown-content">
+                  <a href="admin.php">Estatísticas</a>
                   <a href="post.php">Publicar Post</a>
                </div>
             </div>

@@ -31,10 +31,10 @@
                <i class="fa fa-caret-down"></i>
                </button>
                <div class="dropdown-content">
-                  <a href="services">Workshops</a>
+                  <a href="workshops">Workshops</a>
                   <a href="services">Palestras</a>
                   <a href="services">Aulas Digitais</a>
-                  <a href="services">Ajuda em Tempo Real</a>
+                  <a href="help">Ajuda em Tempo Real</a>
                </div>
             </div>
             <a href="blog?pag=0">Blog</a>
@@ -125,7 +125,7 @@
    border: none;
    outline: none;
    color: white;
-   padding: 5px 15px 5px 15px;
+   padding: 8px 15px 5px 15px;
    background-color: inherit;
    font-family: inherit;
    margin: 0;

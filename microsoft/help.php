@@ -10,7 +10,14 @@
 
 <body>
 
-	<?php  require_once "menu.php"; ?>
+	<?php  require_once "menu.php";
+		require_once "conexao.php"; 
+	require_once "bbot/bbot.php"; 
+
+		$sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estatic_curso, n_estatic_services) values (0, 0, 0, 1)";
+    mysqli_query($conn, $sql_estat);
+
+?>
 
 
 	<!-- Start Banner Area -->
@@ -24,9 +31,11 @@
 					<p>Conhece o nosso chat bot e esclarece as tuas dúvidas.</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Início </a>
+							<a href="index">Início </a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="about.php">Ajuda em tempo real</a>
+							<a href="services">Início </a>
+							<i class="lnr lnr-arrow-right"></i>
+							<a href="help">Ajuda em tempo real</a>
 						</span>
 					</div>
 				</div>
@@ -44,7 +53,7 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-5 col-md-6 about-left">
-					<img class="img-fluid" src="img/about.jpg" alt="">
+					<iframe src="txt_bot" style="height: 100%; width: 100%; border: none;"></iframe>
 				</div>
 				<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
 					<h1>

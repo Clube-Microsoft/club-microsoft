@@ -8,7 +8,11 @@
 
 <body>
 
-		<?php  require_once "menu.php"; ?>
+		<?php  require_once "menu.php"; 
+		require_once "conexao.php"; 
+			$sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estatic_curso, n_estatic_services) values (0, 0, 1, 0)";
+    mysqli_query($conn, $sql_estat);
+?>
 
 
 

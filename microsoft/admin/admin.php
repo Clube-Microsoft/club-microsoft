@@ -53,11 +53,18 @@ include('menu_admin.php');
                         group by  extract(MONTH from estat_index.data), extract(MONTH from estat_blog.data)
                         ORDER BY estat_index.data ASC*/
 
-                        $sql      = "SELECT DISTINCT extract(MONTH from estat_index.data)  Mes, extract(YEAR from estat_index.data)  Ano, COUNT(DISTINCT estat_index.data) AS id_estat_index
+                        /*$sql      = "SELECT DISTINCT extract(MONTH from estat_index.data)  Mes, extract(YEAR from estat_index.data)  Ano, COUNT(DISTINCT estat_index.data) AS id_estat_index
                         FROM estat_index
                         WHERE estat_index.data
                         group by  extract(MONTH from estat_index.data)
-                        ORDER BY estat_index.data ASC";
+                        ORDER BY estat_index.data ASC";*/
+
+                        $sql      = "SELECT DISTINCT extract(MONTH from DATA)  Mes, extract(YEAR from DATA)  Ano, COUNT(CASE WHEN n_estatic_blog = 1 then 0 end) Blog,COUNT(CASE WHEN n_estatic_index = 1 then 0 end) Pagprincipal, COUNT(CASE WHEN n_estatic_curso = 1 then 0 end) Cursos,COUNT(CASE WHEN n_estatic_services  = 1 then 0 end) Services
+                          FROM estatisticas
+                          WHERE data
+                          group by  extract(MONTH from data)
+                          ORDER BY data ASC";
+
 
 
                         $consulta = mysqli_query($conn, $sql);
@@ -67,13 +74,19 @@ include('menu_admin.php');
                         <tr>
                            <th>Ano</th>
                            <th>Mês</th>
+                           <th>Blog</th>
                            <th>Index</th>
+                           <th>Cursos</th>
+                           <th>Serviços</th>
                         </tr>
                         <?php while($row = $consulta->fetch_assoc()) { ?>
                         <tr>
                            <td><?php echo $row["Ano"] ?></td>
                            <td><?php echo $row["Mes"] ?></td>
-                           <td><?php echo $row["id_estat_index"] ?></td>
+                           <td><?php echo $row["Blog"] ?></td>
+                           <td><?php echo $row["Pagprincipal"] ?></td>
+                           <td><?php echo $row["Cursos"] ?></td>
+                           <td><?php echo $row["Services"] ?></td>
                         </tr>
                         <div style="clear: both;"></div>
                         <?php

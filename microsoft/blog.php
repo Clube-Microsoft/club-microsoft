@@ -10,10 +10,10 @@
 
 	<?php  
 		require_once "menu.php";
-		include('conexao.php'); 
+		require_once 'conexao.php'; 
 
-		$sql_estat_blog = "INSERT INTO estat_blog (n_estatic) values (1)";
-    	mysqli_query($conn, $sql_estat_blog);
+	$sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estatic_curso, n_estatic_services) values (0, 1, 0, 0)";
+    mysqli_query($conn, $sql_estat);
 
 
 		//numero de itens por pag
