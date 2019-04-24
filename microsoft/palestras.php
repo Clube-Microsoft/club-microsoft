@@ -1,7 +1,7 @@
 
 	<?php  require_once "links.php"; ?>
 	<!-- Site Title -->
-	<title>Workshops</title>
+	<title>Palestras</title>
     <script src="jsx/sweetalert.js"></script>
 	<link rel="stylesheet" href="css/form-style.css">
 </head>
@@ -23,7 +23,7 @@ require_once "conexao.php";
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-							Workshops
+							Palestras
 					</h1>
 					<p>
 						Envia-nos a tua ideia.
@@ -32,7 +32,7 @@ require_once "conexao.php";
 						<span class="box">
 							<a href="index">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="workshops">Workshops</a>
+							<a href="palestras">Palestras</a>
 						</span>
 					</div>
 				</div>
@@ -106,7 +106,7 @@ require_once "conexao.php";
 		$('.form').submit(function(){
 			$('.loading').html("<img src='loading.gif' width='45'>");
 			$.ajax({
-				url: 'workshops-mail.php',
+				url: 'palestras-mail.php',
 				type: 'POST',
 				data: $('.form').serialize(),
 				success: function(data){
