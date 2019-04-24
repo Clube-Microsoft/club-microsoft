@@ -1,7 +1,7 @@
 
     <?php require_once "links.php";?>
   <!-- Site Title -->
-  <title>Blog</title>
+  <title>Estatísticas</title>
 
 <style>
   #header {

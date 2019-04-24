@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row align-items-center justify-content-between d-flex">
          <div id="logo">
-            <a href="../index.php" id="img_menu_desktop"><img src="../img/logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
+            <a href="../index" id="img_menu_desktop"><img src="../img/logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
          </div>
         
          <div class="topnav" id="myTopnav">
@@ -13,8 +13,9 @@
                <i class="fa fa-caret-down"></i>
                </button>
                <div class="dropdown-content">
-                  <a href="admin.php">Estatísticas</a>
-                  <a href="post.php">Publicar Post</a>
+                  <a href="admin">Estatísticas</a>
+                  <a href="post">Publicar Post</a>
+                  <a href="courses">Cursos</a>
                </div>
             </div>
             <a href="logout.php">Sair da Administração</a>
