@@ -13,6 +13,7 @@ if($_POST){
 		$tema	 	= utf8_decode($_POST['tema']);
 		$desc 		= utf8_decode($_POST['desc']);
 		$duracao	= utf8_decode($_POST['duracao']);
+		$publico	= utf8_decode($_POST['publico']);
 		$obs 		= utf8_decode($_POST['obs']);
 		$assunto 	= 'EPB Clube Microsoft | Worksops';
 		$emailcontact = 'suporte@epbclubemicrosoft.pt';
@@ -54,6 +55,7 @@ if($_POST){
 		<strong>Tema:</strong> $tema<br />
 		<strong>Descrição:</strong> $desc<br />	
 		<strong>Duração:</strong> $duracao<br />	
+		<strong>Público-alvo:</strong> $publico<br />	
 		<strong>Observeções:</strong> $obs								
 		";
 

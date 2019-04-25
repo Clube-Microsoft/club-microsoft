@@ -9,7 +9,7 @@
 <body>
 	<?php  
 		require_once "menu.php";
-require_once "conexao.php"; 
+		require_once "conexao.php"; 
 			$sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estatic_curso, n_estatic_services) values (0, 0, 0, 1)";
     mysqli_query($conn, $sql_estat);
 
@@ -50,7 +50,8 @@ require_once "conexao.php";
 			<div class="row">
 				<div class="col-lg-4">
 					<h1>Qual a tua ideia?</h1>
-					<p>Descreve-nos a tua ideia e entraremos em contacto.</p>
+					<p>Precisas de uma atividade relacionada com a informática? Descreve-nos a tua ideia o mais detalhada possível e entraremos em contacto. <br/>Caso não tenhas encontrado o que procuras podes sempre contactar-nos.</p>
+					<a href="contact" class="primary-btn">Contactar</a>
 				</div>
 				<div class="col-lg-8 form-style-5">
 					<form action="" method="post" enctype="multipart/form-data" class="form form-area">
@@ -59,7 +60,7 @@ require_once "conexao.php";
 								<span class="number">
 									1
 								</span> 
-								Informação Pessoal
+								Informação Essencial
 							</legend>
 							<!-- Inputs -->
 							<label>Nome: <span class="error">*</span></label>
@@ -69,7 +70,7 @@ require_once "conexao.php";
 							<input placeholder="Introduza o seu email..." type="email" name="email" required>
 							<br/><br/>
 							<label>Tema: <span class="error">*</span></label>
-							<input placeholder="Define o tema..." type="text" name="tema" required>
+							<input placeholder="Qual o tema?" type="text" name="tema" required>
 							<br/><br/>
 							<label>Descrição: <span class="error">*</span></label>
 							<textarea name="desc" rows="5" cols="40" required></textarea>
@@ -83,13 +84,16 @@ require_once "conexao.php";
 							<label>Duração</label>
 							<input type="number" name="duracao">	minutos
 							<br/><br/>
+							<label>Número de participantes:</label>
+							<input type="number" name="participantes">
+							<br/><br/>
 							<label>Observações:</label>
 							<textarea name="obs" rows="5" cols="40"></textarea>
 							<br/><br/>
 							<span class="error">* campo obrigatório</span>
+						<button type="submit" class="primary-btn" style="border-radius: 5px; float: right;" id="btn-contato">Enviar</button>
 						</fieldset>
 						<div class="alert-msg" style="text-align: left;"></div>
-						<button type="submit" id="btn-workshops">Enviar</button>
 						<div class="loading" style="float: left;margin-left:20px;"></div>
 					</form>
 					<div class="mostrar"></div>
