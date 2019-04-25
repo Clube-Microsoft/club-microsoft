@@ -1,6 +1,6 @@
 <?php require_once "links.php"; ?>
 <!-- Site Title -->
-<title>Blog</title>
+<title>Sub Cursos</title>
 
 <style>
     #header {
@@ -43,7 +43,7 @@
                 <div class="wrap-login100">
 
                     <span class="login100-form-title">
-                        Adicionar Post<br>
+                        Adicionar Sub Curso<br>
                     </span>
 
                     <div class="return_table js-tilt" id="Mostrar_cursos" data-tilt style="width: 100%">
@@ -75,7 +75,7 @@
                     </div>
                     <div class="login100-form validate-form" style="width: 100%">
 
-                        <form enctype="multipart/form-data" action="add_sub_course.php" id="enviar_sub_Curso" method="Post">
+                        <form enctype="multipart/form-data" action="add_course_sub.php" id="enviar_sub_Curso" method="Post">
                             <input type="text" name="txt_Id_sub_Curso" id="txt_Id_sub_Curso" style="display: none;">
                             <div class="wrap-input100 validate-input">
                                 <?php
@@ -146,7 +146,7 @@
                 event.preventDefault();
                 const idcurso = event.target.id;
 
-                $.post('del_sub_curse.php', {
+                $.post('del_curse_sub.php', {
                     phpidcurso: idcurso
                 }, function(data) {
 

@@ -47,7 +47,7 @@ if ($consulta->num_rows >= 1) {
                 
                 $sql1 = "INSERT INTO sub_cursos (nome_sub_curso, texto_sub_curso, icon_sub_curso, id_curso) VALUES ('$Titulo', '$Texto_Pequeno', '$novoNome', '$nome_curso')";
                 mysqli_query($conn, $sql1);
-                header('Location: sub_cursos.php');
+                header('Location: courses_sub.php');
                 exit();
 
                

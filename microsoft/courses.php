@@ -127,11 +127,14 @@
 		}
 
 		.courses-list .li_cursos {
-
 			width: 100%;
 			flex: 0 45%;
 			margin: 2.5%;
+		}
 
+		.icons {
+			height: 25px;
+			margin-right: 5px;
 		}
 	</style>
 
