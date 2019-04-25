@@ -1,18 +1,21 @@
+<?php require_once "links.php"; ?>
+<!-- Site Title -->
+<title>Cursos</title>
 
-		<?php  require_once "links.php"; ?>
-	<!-- Site Title -->
-	<title>Cursos</title>
 
-	 
 </head>
 
 <body>
 
-		<?php  require_once "menu.php"; 
-		require_once "conexao.php"; 
-			$sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estatic_curso, n_estatic_services) values (0, 0, 1, 0)";
-    mysqli_query($conn, $sql_estat);
-?>
+	<?php require_once "menu.php";
+	require_once "conexao.php";
+	$sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estatic_curso, n_estatic_services) values (0, 0, 1, 0)";
+	mysqli_query($conn, $sql_estat);
+
+	$sql      = "SELECT * FROM cursos ORDER BY nome_curso ASC";
+	$consulta = mysqli_query($conn, $sql);
+
+	?>
 
 
 
@@ -45,7 +48,7 @@
 
 
 	<!-- Start Courses Area -->
-<section class="courses-area section-gap">
+	<section class="courses-area section-gap">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-5 about-right">
@@ -60,72 +63,50 @@
 				<div class="offset-lg-1 col-lg-6">
 					<div class="courses-right">
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="col-lg-12 col-md-12 col-sm-12">
 								<ul class="courses-list">
-									<li>
-										<a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".1s">
-											<img src="img/icons/github.png" class="icons"/> GitHub
-										</a>
-									</li>
-									<li>
-										<a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".3s">
-											<img src="img/icons/linkedin.png" class="icons"/> Linkedin
-										</a>
-									</li>
-									<li>
-										<a class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-											<img src="img/icons/programacao.png" class="icons"/> Programação
-										</a>
-										<ul class="dropdown">
-									        <li><a href="" style="color: black;">
-											<img src="img/icons/visualstudio.png" class="icons"/> Visual Studio</a></li>
-									        <li><a href="courses.php" style="color: black;">
-											<img src="img/icons/sql.png" class="icons"/> SQL Server</a></li>
-								      	</ul>
-									</li>
-								</ul>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12">
-								<ul class="courses-list">
-									<li>
-										<a class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
-											<img src="img/icons/office.png" class="icons"/> Office MOS
-										</a>
-										<ul class="dropdown" >
-									        <li><a href="" style="color: black;">
-												<img src="img/icons/word.png" class="icons"/> Word
-											</a></li>
-									        <li><a href="" style="color: black;">
-												<img src="img/icons/excel.png" class="icons"/> Excel
-											</a></li>
-											<li><a href="" style="color: black;">
-												<img src="img/icons/powerpoint.png" class="icons"/> PowerPoint
-											</a></li>
-											<li><a href="" style="color: black;">
-												<img src="img/icons/access.png" class="icons"/> Access
-											</a></li>
-								      	</ul>
-									</li>
-									<li>
-										<a class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-											<img src="img/icons/gaming.png" class="icons"/> Gaming
-										</a>
-										<ul class="dropdown" >
-									        <li><a href="" style="color: black;">
-												<img src="img/icons/minecraft.png" class="icons"/> Minecraft
-											</a></li>
-										</ul>
-									</li>
-									<li>
-										<a class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".7s">
-											<img src="img/icons/robotic.png" class="icons"/> Robótica
-										</a>
-										<ul class="dropdown" >
-									        <li><a href="" style="color: black;">
-												<img src="img/icons/microbit.png" class="icons"/> Micro:Bit
-											</a></li>
-										</ul>
-									</li>
+
+									<?php
+									if ($consulta->num_rows > 0) {
+										while ($row = $consulta->fetch_assoc()) {
+											echo "<li class='li_cursos'>
+														 <a class='wow fadeInRight' href='' data-wow-duration='1s' data-wow-delay='.1s'>
+															 <img src='img/courses/ " . $row["icon_curso"] . "' class='icons'/>" . $row["nome_curso"] .
+												"</a>
+													";
+
+
+											$id_curso = $row['id_curso'];
+
+											$sql1      = "SELECT * FROM sub_cursos WHERE id_curso = '$id_curso' ORDER BY sub_cursos.nome_sub_curso ASC";
+											$consulta1 = mysqli_query($conn, $sql1);
+
+											if ($consulta1->num_rows > 0) {?>
+												<ul class="dropdown" >
+											<?php	while ($row1 = $consulta1->fetch_assoc()) {
+												
+													
+													
+									      echo"  <li><a href=''style='color: black;'>
+												<img src='img/courses/ ". $row1['icon_sub_curso'] ." ' class='icons'/>". $row1['nome_sub_curso']."
+													</a></li>";
+
+
+
+												
+											}
+											?>
+											</ul>
+											<?php
+										} else {
+											echo "";
+										}
+										echo"	</li>";
+									}
+								} else {
+									echo "Sem Dados";
+								} ?>
+
 								</ul>
 							</div>
 						</div>
@@ -137,14 +118,29 @@
 	<!-- End Courses Area -->
 
 
+	<style>
+		.courses-list {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+
+		.courses-list .li_cursos {
+
+			width: 100%;
+			flex: 0 45%;
+			margin: 2.5%;
+
+		}
+	</style>
+
+
+	<?php require_once "footer.php"; ?>
 
 
 
-	<?php  require_once "footer.php"; ?>
 
-
-
- 
 </body>
 
 </html>
