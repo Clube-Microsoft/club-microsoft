@@ -8,14 +8,14 @@ if($_POST){
 			});
 			</script>';
 	}else{
-		$nome 		= utf8_decode($_POST['nome']);
-		$email 		= utf8_decode($_POST['email']);
-		$tema	 	= utf8_decode($_POST['tema']);
-		$desc 		= utf8_decode($_POST['desc']);
-		$duracao	= utf8_decode($_POST['duracao']);
-		$publico	= utf8_decode($_POST['publico']);
-		$obs 		= utf8_decode($_POST['obs']);
-		$assunto 	= 'EPB Clube Microsoft | Worksops';
+		$nome 		= $_POST['nome'];
+		$email 		= $_POST['email'];
+		$tema	 	= $_POST['tema'];
+		$desc 		= $_POST['desc'];
+		$duracao	= $_POST['duracao'];
+		$publico	= $_POST['publico'];
+		$obs 		= $_POST['obs'];
+		$assunto 	= 'EPB Clube Microsoft | Palestras';
 		$emailcontact = 'suporte@epbclubemicrosoft.pt';
 		$nomecontact = 'Suporte Clube Microsoft';
 
