@@ -1,7 +1,7 @@
 
     <?php require_once "links.php";?>
   <!-- Site Title -->
-  <title>Blog</title>
+  <title>Cursos</title>
 
 <style>
   #header {
@@ -43,7 +43,7 @@ include('menu_admin.php');
                <div class="wrap-login100">
                             
                         <span class="login100-form-title">
-                        Adicionar Post<br>
+                        Adicionar Curso<br>
                         </span>
 
                   <div class="return_table js-tilt" id="Mostrar_cursos" data-tilt style="width: 100%">

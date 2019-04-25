@@ -49,7 +49,7 @@ if($_POST){
 		$Email->Subject = utf8_decode($assunto);
 		// Define o texto da mensagem (aceita HTML)
 
-		$messagem = "<br />
+		/*$messagem = "<br />
 		<strong>Nome:</strong> $nome<br />	
 		<strong>Email:</strong> $email<br />
 		<strong>Tema:</strong> $tema<br />
@@ -59,8 +59,16 @@ if($_POST){
 		<strong>Observeções:</strong> $obs								
 		";
 
-		$Email->Body = utf8_decode($messagem);
+		$Email->Body .= utf8_decode($messagem);*/
 
+		$Email->Body .= "<br />
+		<strong>Nome:</strong> $nome<br />	
+		<strong>Email:</strong> $email<br />
+		<strong>Tema:</strong> $tema<br />
+		<strong>Descrição:</strong> $desc<br />	
+		<strong>Duração:</strong> $duracao<br />	
+		<strong>Observeções:</strong> $obs								
+		";
 		
 		// verifica se está tudo ok com oa parametros acima, se nao, avisa do erro. Se sim, envia.
 		if(!$Email->Send()){				

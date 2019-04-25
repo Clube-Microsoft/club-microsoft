@@ -16,6 +16,7 @@
                   <a href="admin">Estatísticas</a>
                   <a href="post">Publicar Post</a>
                   <a href="courses">Cursos</a>
+                  <a href="courses_sub">Sub Cursos</a>
                </div>
             </div>
             <a href="logout.php">Sair da Administração</a>
