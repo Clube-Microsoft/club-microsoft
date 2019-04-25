@@ -234,6 +234,9 @@
 					</div>
 				</div>
 			</div>
+			<div class="team-more">
+				<a href="team" class="primary-btn">Conhece toda a equipa</a>
+			</div>
 		</div>
 	</section>
 	<!-- End Faculty Area -->
