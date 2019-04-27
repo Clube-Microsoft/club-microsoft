@@ -1,12 +1,11 @@
 <?php
 	$hn = 'localhost';
-	$db = 'admin_bot';
-	$un = 'admin_botuser';
-	$pw = 'Acab67#0';
+	$db = 'epbclube_bbot';
+	$un = 'epbclube_admin';
+	$pw = 'C|M5!2018';
 
 		$conn = new mysqli($hn, $un, $pw, $db);
-	if ($conn->connect_error)
+	if ($conn->connect_error){
 	    die("Erro Fatal");
-
+	}
 ?>
-
