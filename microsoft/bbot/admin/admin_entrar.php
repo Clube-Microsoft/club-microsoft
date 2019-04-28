@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="icon" href="../imagens/Logo/pequeno.png" type="image/png">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="../Imagens/Logo/pequeno.png" type="image/png">
       <link rel="stylesheet" type="text/css" href="../Content/Style_Bot.css">
       <link rel="stylesheet" type="text/css" href="../Content/bootstrap.css">
       <link rel="stylesheet" type="text/css" href="../Content/Style_admin.css">
@@ -21,7 +21,7 @@
 		<div class="container-login100" style="height: 100vh;">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt style="width: 50%;">
-					<img src="../imagens/logo/new_logo.png" alt="Bbot Software" style="width: 100%;">
+					<img src="../Imagens/Logo/new_logo.png" alt="Bbot Software" style="width: 100%;">
 				</div>
 
 				<form class="login100-form validate-form" action="login.php" method="POST">
