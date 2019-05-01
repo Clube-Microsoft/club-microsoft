@@ -56,6 +56,7 @@
 
 
 	<!-- Start About Area -->
+	<span class="anchor" id="sobre"></span>
 	<section class="about-area section-gap">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
