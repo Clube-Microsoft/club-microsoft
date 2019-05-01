@@ -3,7 +3,7 @@
 
 
 	<!-- Site Title -->
-	<title>About</title>
+	<title>Help</title>
 
 	 
 </head>

@@ -9,12 +9,11 @@ $to = 'leandrojferreirap@gmail.com';
 $nome=$_POST['phpnome'];
 $email=$_POST['phpemail'];
 $cat=$_POST['phpcategoria'];
-$subcat=$_POST['phpsub_categoria'];
 $escolha=$_POST['phpescolha'];
 
 
-	$sql = "INSERT INTO utilizadores (Nome, Email, Categoria, SubCategoria, Ajuda)
-	VALUES ('$nome','$email','$cat','$subcat',$escolha)";
+	$sql = "INSERT INTO utilizadores (Nome, Email, Categoria, Ajuda)
+	VALUES ('$nome','$email','$cat',$escolha)";
 
 	if ($conn->query($sql) === TRUE) {
 	    echo "Obrigado";
@@ -25,18 +24,7 @@ $escolha=$_POST['phpescolha'];
 	$conn->close();
 
 	if($escolha == 1){
-		 $headers = $name . " | Ajuda " . $email . "\r\n"; // Subject
-
-    $message ='Nome: '.$name.'
-	Email: '.$email.'
-	Ajudar!';
-
-    if (@mail($to, $headers, $message))
-    {
-        echo 'A mensagem foi enviada.';
-    } else {
-        echo 'Erro.';
-    }
+		echo "feito";
 	}
 
 ?>

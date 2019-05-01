@@ -4,11 +4,10 @@
 	if ($conn->connect_error)
 		die("Erro Fatal");
 
-    $IdCategoria = $_POST["phpidcat"];
-    $link = $_POST["phplink"];
+    $idadmin = $_POST["phpidadmin"];
 
 
-    $sql = "INSERT INTO subcategoria (IdCategoria, link) VALUES ('$IdCategoria', '$link')";
+    $sql = "DELETE FROM admin WHERE Id_admin='$idadmin'";
     if (mysqli_query($conn, $sql)) {
         echo 1;
     }else{

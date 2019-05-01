@@ -23,18 +23,19 @@ if (mysqli_num_rows($consulta) == 1) {
     while ($dados = mysqli_fetch_assoc($consulta)) {
         $id_cat = $dados["IdCategoria"];
          
-        $sql1      = "SELECT NomeSubCategoria FROM subcategoria WHERE IdCategoria IN ('$id_cat')";
+        $sql1      = "SELECT link FROM subcategoria WHERE IdCategoria IN ('$id_cat')";
         $consulta1 = mysqli_query($conn, $sql1);
         if (!$consulta1) {
             echo 0;
             exit;
         }
 
-        echo"<p class='p_assistente'>";
         while ($dados1 = mysqli_fetch_assoc($consulta1)) {
-            echo $dados1["NomeSubCategoria"] . "<br>";  
+            echo "<script>
+            $('[name=txt_link]').val('" . $dados1['link'] . "');            
+            </script>";
         }
-        echo "</p><div style='clear: both'></div>";
+
     }
 } else {
     echo 0;

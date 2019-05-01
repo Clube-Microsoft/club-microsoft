@@ -4,10 +4,13 @@
 	if ($conn->connect_error)
 		die("Erro Fatal");
 
-    $idprod = $_POST["phpidprod"];
+    $idadmin = $_POST["phpidadmin"];
+    $admin = $_POST["phpadmin"];
+    $pass = $_POST["phppass"];
 
 
-    $sql = "DELETE FROM produtos WHERE IdProduto='$idprod'";
+
+    $sql = "UPDATE admin SET nome='$admin', pass=md5('$pass')  WHERE Id_admin='$idadmin'";
     if (mysqli_query($conn, $sql)) {
         echo 1;
     }else{
