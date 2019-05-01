@@ -6,6 +6,11 @@ include('conexao.php');
 $Titulo        = $_POST["txt_Titulo_Curso"];
 $Texto_Pequeno = $_POST["txt_Texto_Pequeno_Curso"];
 
+$titulo_sem_acentos = strtolower( preg_replace("[^a-zA-Z0-9-]", "-", 
+strtr(utf8_decode(trim($Titulo)), utf8_decode("áàãâéêíóôõúüñçÁÀÃÂÉÊÍÓÔÕÚÜÑÇ"),
+"aaaaeeiooouuncAAAAEEIOOOUUNC-")) );
+
+$titulo_novo = preg_replace('/[ -]+/' , '-' , $titulo_sem_acentos);
 
 $sql = "SELECT * FROM cursos WHERE nome_curso='$Titulo'";
 $consulta = mysqli_query($conn, $sql);
@@ -39,12 +44,12 @@ if ($consulta->num_rows >= 1) {
             $novoNome = uniqid(time()) . '.' . $extensao;
             
             // Concatena a pasta com o nome
-            $destino = '../img/courses/ ' . $novoNome;
+            $destino = '../img/courses/' . $novoNome;
             
             // tenta mover o arquivo para o destino
             if (move_uploaded_file($arquivo_tmp, $destino)) {
                 
-                $sql1 = "INSERT INTO cursos (nome_curso, texto_curso, icon_curso) VALUES ('$Titulo', '$Texto_Pequeno', '$novoNome')";
+                $sql1 = "INSERT INTO cursos (nome_curso, nome_clear, texto_curso, icon_curso) VALUES ('$Titulo', '$titulo_novo', '$Texto_Pequeno', '$novoNome')";
                 mysqli_query($conn, $sql1);
                 header('Location: courses.php');
                 exit();

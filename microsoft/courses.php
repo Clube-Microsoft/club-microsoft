@@ -32,9 +32,9 @@
 					</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Início</a>
+							<a href="index">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
-							<a href="courses.php">Cursos</a>
+							<a href="courses">Cursos</a>
 						</span>
 					</div>
 				</div>
@@ -70,8 +70,8 @@
 									if ($consulta->num_rows > 0) {
 										while ($row = $consulta->fetch_assoc()) {
 											echo "<li class='li_cursos'>
-														 <a class='wow fadeInRight' href='' data-wow-duration='1s' data-wow-delay='.1s'>
-															 <img src='img/courses/ " . $row["icon_curso"] . "' class='icons'/>" . $row["nome_curso"] .
+														 <a class='wow fadeInRight' href='course-details?c=" . $row["nome_clear"] . "' data-wow-duration='1s' data-wow-delay='.1s'>
+															 <img src='img/courses/" . $row["icon_curso"] . "' class='icons'/>" . $row["nome_curso"] .
 												"</a>
 													";
 
@@ -87,8 +87,8 @@
 												
 													
 													
-									      echo"  <li><a href=''style='color: black;'>
-												<img src='img/courses/ ". $row1['icon_sub_curso'] ." ' class='icons'/>". $row1['nome_sub_curso']."
+									      echo"  <li><a href='course-details?c=" . $row1["nome_sub_clear"] . "' style='color: black;'>
+												<img src='img/courses/". $row1['icon_sub_curso'] ." ' class='icons'/>". $row1['nome_sub_curso']."
 													</a></li>";
 
 

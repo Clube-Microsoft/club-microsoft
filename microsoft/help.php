@@ -57,7 +57,7 @@
 				</div>
 				<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
 					<h1>
-						Bbot
+						Bbot Software
 					</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
