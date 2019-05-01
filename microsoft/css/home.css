@@ -2,6 +2,9 @@
   background: url(../img/header-bg.jpg) no-repeat top center;
   background-size: cover;
 }
+.post-content-area .single-post .meta-details .tags li a:hover {
+    color: #39cfca!important;
+}
 .post-content-area .single-post .primary-btn {
     background: #f1f9ff;
     color: #222222 !important;
