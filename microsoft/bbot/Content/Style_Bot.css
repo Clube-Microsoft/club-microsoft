@@ -45,12 +45,12 @@
         background: white;
         bottom: 2vh;
         left: 2%;
-        height: 57vh;
+        height: 363px;
         max-height: 363px;
         max-width: 346px;
-        width: 96%;
+        width: 346px;
         border-radius: 20px;
-        box-shadow: 0px 0px 100px 1px;
+        box-shadow: 0px 0px 15px 1px;
     }
 
     .div_nome_chat {
@@ -62,7 +62,7 @@
     }
 
     .div_conversa {
-        height: 38.3vh;
+        height: 251px;
         max-height: 251px;
         overflow: auto;
         padding: 15px;
@@ -93,7 +93,7 @@
         float: right;
         /* margin-top: -1vh; */
         position: fixed;
-        left: 27%;
+        left: 340px;
         bottom: 45px;
     }
 
@@ -186,7 +186,6 @@
     }
 
     .div_chat {
-        text-align: left;
         visibility: hidden;
         opacity: 0;
         transition: visibility 0s, opacity 1s linear;
@@ -194,13 +193,12 @@
         background: white;
         bottom: 2vh;
         left: 2%;
-        height: 57vh;
+        height: 363px;
         max-height: 363px;
-        /* border: solid thin black; */
         max-width: 346px;
-        width: 96%;
+        width: 346px;
         border-radius: 20px;
-        box-shadow: 0px 0px 100px 1px;
+        box-shadow: 0px 0px 15px 1px;
     }
 
     .div_nome_chat {
@@ -212,9 +210,8 @@
     }
 
     .div_conversa {
-        height: 38.3vh;
+        height: 251px;
         max-height: 251px;
-        /* width: auto; */
         overflow: auto;
         padding: 15px;
     }
@@ -225,12 +222,6 @@
         border-radius: 0px 0px 20px 20px;
         border-top: solid thin;
     }
-    
-    .div_final {
-        height: 7vh;
-        background-color: white;
-        border-radius: 0px 0px 20px 20px;
-    }
 
     .txt_mensagens_chat {
         position: fixed;
@@ -240,7 +231,7 @@
         height: 50px;
         padding: 10px;
         /* background-color: transparent; */
-        /*border-top: solid thin black !important;*/
+        /* border-top: solid thin black !important; */
         border: none;
         font-size: 2vh;
     }
@@ -250,7 +241,7 @@
         float: right;
         /* margin-top: -1vh; */
         position: fixed;
-        left: 325px;
+        left: 340px;
         bottom: 45px;
     }
 
@@ -264,6 +255,16 @@
         margin-top: 15px;
     }
 
+    div.Desaparecer {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    div.Aparecer {
+        display: block !important;
+        visibility: visible !important;
+    }
+
     .btn_enviar_mail_chat {
         background-color: transparent;
         color: #233fff;
@@ -271,7 +272,7 @@
         margin: 0 15px;
         /* margin-top: -3vh; */
         /* margin-bottom: 2vh; */
-        height: 7vh;
+        /* height: 7vh; */
         min-height: 40px;
         float: left;
         width: 10%;

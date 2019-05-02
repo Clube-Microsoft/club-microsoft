@@ -71,7 +71,7 @@
 						<div class="col-lg-12 col-md-12">
 							<a class="posts-title" <?php echo "href='blog-post?p=" .$row['Url_Clean']."'"; ?>>
 								<div class="feature-img" style="height: 27vh;">
-									<img class="img-fluid img-blog-post"  <?php echo "src='img/blog/ ".$row['Img_Post']."'"; ?> alt="">
+									<img class="img-fluid img-blog-post"  <?php echo "src='img/blog/".$row['Img_Post']."'"; ?> alt="">
 								</div>
 								<h3 style="min-height: 60px;"><?php echo $row['Titulo']; ?></h3>
 							</a>

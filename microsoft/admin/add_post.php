@@ -48,7 +48,7 @@ if ($consulta->num_rows >= 1) {
             $novoNome = uniqid(time()) . '.' . $extensao;
             
             // Concatena a pasta com o nome
-            $destino = '../img/blog/ ' . $novoNome;
+            $destino = '../img/blog/' . $novoNome;
             
             // tenta mover o arquivo para o destino
             if (move_uploaded_file($arquivo_tmp, $destino)) {

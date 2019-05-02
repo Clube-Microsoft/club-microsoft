@@ -51,7 +51,7 @@
                   <div class="single-post row">
                      <div class="col-lg-12">
                         <div class="feature-img col-12 col-lg-8" style="float: left;">
-                           <img class="img-fluid img-blog-post-dentro"  <?php echo "src='img/blog/ ".$row['Img_Post']."'"; ?> alt="">
+                           <img class="img-fluid img-blog-post-dentro"  <?php echo "src='img/blog/".$row['Img_Post']."'"; ?> alt="">
                         </div>
                         <div class="col-12 col-lg-4" style="float: right;">
                            <h3 class="mt-20 mb-20"><?php echo $row['Titulo']; ?></h3>
