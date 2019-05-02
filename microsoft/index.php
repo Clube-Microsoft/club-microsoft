@@ -26,12 +26,6 @@
 						Com foco na aprendizagem e motivação de estudo, este clube engloba diversas mais valias e características importantes para o teu desenvolvimento como profissional.
 					</p>
 
-					<!--<div class="input-wrap">
-						<form action="" class="form-box d-flex justify-content-between">
-							<input type="text" placeholder="Pesquisar" class="form-control" name="username">
-							<button type="submit" class="btn search-btn">Pesquisar</button>
-						</form>
-					</div>-->
 					<h4 style="margin-top: 5vh;" class="text-white">Recomendados</h4>
 
 					<div class="courses pt-20">

@@ -1,6 +1,5 @@
 
 	<?php  require_once "links.php"; ?>
-	<!-- Site Title -->
 	<title>Contacto</title>
 
 	 
@@ -10,7 +9,6 @@
 	<?php  require_once "menu.php"; ?>
 
 
-	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -23,7 +21,7 @@
 					</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Início</a>
+							<a href="/">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="contact.php">Contacto</a>
 						</span>
@@ -35,9 +33,8 @@
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-	<!-- Start contact-page Area -->
+	
+	
 	<section class="contact-page-area section-gap">
 		<div class="container">
 			<div class="row">
@@ -55,15 +52,6 @@
 							</p>
 						</div>
 					</div>
-					<!--<div class="single-contact-address d-flex flex-row">
-						<div class="icon">
-							<span class="lnr lnr-phone-handset"></span>
-						</div>
-						<div class="contact-details">
-							<h5>00 (958) 9865 562</h5>
-							<p>Mon to Fri 9am to 6 pm</p>
-						</div>
-					</div>-->
 					<div class="single-contact-address d-flex flex-row">
 						<div class="icon">
 							<span class="lnr lnr-envelope"></span>

@@ -2,12 +2,12 @@
 <html lang="zxx" class="no-js">
    <head>
       <?php  require_once "links.php"; ?>
-      <!-- Site Title -->
+	  
       <title>Segurança na Internet - Evento</title>
    </head>
    <body>
       <?php  require_once "menu.php"; ?>
-      <!-- Start Banner Area -->
+	  
       <section class="banner-area relative">
          <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
@@ -32,8 +32,8 @@
             <img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
          </div>
       </section>
-      <!-- End Banner Area -->
-      <!-- Start post-content Area -->
+	  
+	  
       <section class="post-content-area single-post-area">
          <div class="container">
             <div class="row">
@@ -63,11 +63,6 @@
                         <p>
                            Esta é uma iniciativa <strong>Clube Microsoft</strong> que como tal será apresentada pelos respetivos fundadores <em>Leandro Pereira</em>, <em>Rúben Príncipe</em> e <em>Rui Pereira</em>, alunos finalistas do curso de Gestão e Programação de Sistemas Informáticos.
                         </p>
-                        <!--<div class="quotes">
-                           MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-                           on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has
-                           the willpower to actually sit through a self-imposed MCSE training.
-                           </div>-->
                         <div class="meta-details">
                            <ul class="tags">
                               <li><a href="#">Eventos</a></li>
@@ -91,7 +86,6 @@
             </div>
          </div>
       </section>
-      <!-- End post-content Area -->
       <?php  require_once "footer.php"; ?>
       <script>
          linkedin = function (event, s, a){

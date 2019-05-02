@@ -1,5 +1,4 @@
 <?php require_once "links.php"; ?>
-<!-- Site Title -->
 <title>Cursos</title>
 
 
@@ -17,9 +16,6 @@
 
 	?>
 
-
-
-	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -32,7 +28,7 @@
 					</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Início</a>
+							<a href="/">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="courses.php">Cursos</a>
 						</span>
@@ -44,10 +40,8 @@
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-
-	<!-- Start Courses Area -->
+	
+	
 	<section class="courses-area section-gap">
 		<div class="container">
 			<div class="row align-items-center">
@@ -115,7 +109,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Courses Area -->
 
 
 	<style>

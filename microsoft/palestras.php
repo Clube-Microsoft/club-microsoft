@@ -1,6 +1,5 @@
 
 	<?php  require_once "links.php"; ?>
-	<!-- Site Title -->
 	<title>Palestras</title>
     <script src="jsx/sweetalert.js"></script>
 	<link rel="stylesheet" href="css/form-style.css">
@@ -17,7 +16,6 @@
 
 
 		?>
-    <!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -30,7 +28,7 @@
 					</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index">Início</a>
+							<a href="/">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="palestras">Palestras</a>
 						</span>
@@ -42,9 +40,9 @@
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-	<!-- Start contact-page Area -->
+	
+	
+	
 	<section class="contact-page-area section-gap">
 		<div class="container">
 			<div class="row">
@@ -101,7 +99,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- End contact-page Area -->
 
 	<?php  require_once "footer.php"; ?>
 	

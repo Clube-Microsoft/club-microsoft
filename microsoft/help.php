@@ -1,8 +1,6 @@
 
 		<?php  require_once "links.php"; ?>
 
-
-	<!-- Site Title -->
 	<title>Help</title>
 
 	 
@@ -19,8 +17,6 @@
 
 ?>
 
-
-	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -31,9 +27,7 @@
 					<p>Conhece o nosso chat bot e esclarece as tuas dúvidas.</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index">Início </a>
-							<i class="lnr lnr-arrow-right"></i>
-							<a href="services">Início </a>
+							<a href="/">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="help">Ajuda em tempo real</a>
 						</span>
@@ -45,10 +39,9 @@
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-
-	<!-- Start About Area -->
+	
+	
+	
 	<section class="about-area section-gap">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
@@ -70,7 +63,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- End About Area -->
+	
 
 	<?php  require_once "footer.php"; ?>
 

@@ -1,8 +1,6 @@
 
 		<?php  require_once "links.php"; ?>
 
-
-	<!-- Site Title -->
 	<title>About</title>
 
 	 
@@ -12,8 +10,6 @@
 
 	<?php  require_once "menu.php"; ?>
 
-
-	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -37,10 +33,8 @@
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-
-	<!-- Start About Area -->
+	
+	
 	<section class="about-area section-gap">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
@@ -63,10 +57,9 @@
 			</div>
 		</div>
 	</section>
-	<!-- End About Area -->
-
-
-	<!-- Start Faculty Area -->
+	
+	
+	
 	<section class="faculty-area section-gap">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -160,10 +153,8 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Faculty Area -->
-
-
-	<!-- Start Testimonials Area -->
+	
+	
 	<section class="testimonials-area section-gap">
 		<div class="container">
 			<div class="testi-slider owl-carousel" data-slider-id="1">

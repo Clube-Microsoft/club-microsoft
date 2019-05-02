@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="pt-pt" class="no-js">
    <?php 
          require_once "conexao.php";
 
@@ -29,7 +29,7 @@
                   <p><?php echo $row['Texto_Pequeno']; ?></p>
                   <div class="link-nav">
                      <span class="box">
-                     <a href="index">Início </a>
+                     <a href="/">Início</a>
                      <i class="lnr lnr-arrow-right"></i>
                      <a href="blog?pag=0">Blog</a>
                      <i class="lnr lnr-arrow-right"></i>

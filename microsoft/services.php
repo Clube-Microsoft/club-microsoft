@@ -1,6 +1,5 @@
 
 		<?php  require_once "links.php"; ?>
-	<!-- Site Title -->
 	<title>Serviços</title>
 
 	 
@@ -14,8 +13,6 @@ $sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estat
     mysqli_query($conn, $sql_estat);
 	 ?>
 
-
-	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -25,7 +22,7 @@ $sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estat
 					</h1>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index.php">Início</a>
+							<a href="/">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="about.php">Serviços</a>
 						</span>
@@ -37,10 +34,8 @@ $sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estat
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
 
 
-	<!-- Start Services Area -->
 	<section class="feature-area">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -98,7 +93,6 @@ $sql_estat = "INSERT INTO estatisticas (n_estatic_index, n_estatic_blog, n_estat
 			</div>
 		</div>
 	</section>
-	<!-- End Services Area -->
 
 
 	<?php  require_once "footer.php"; ?>

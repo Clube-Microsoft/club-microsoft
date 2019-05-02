@@ -7,14 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="shortcut icon" href="img/logo/logo.png">
 	<meta name="author" content="Clube Microsoft">
-	<meta name="description" content="">
+	<meta name="description" content="Com foco na aprendizagem e motivação de estudo, este clube engloba diversas mais valias e características importantes para o teu desenvolvimento como profissional">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="keywords" content="clube, microsoft, epb, clube microsoft, microsoft club, development, learning, educação">
-	<meta name="description" content="Com foco na aprendizagem e motivação de estudo, este clube engloba diversas mais valias e características importantes para o teu desenvolvimento como profissional">
-
-	<meta name="robots" content="index,follow">
 
 	<meta property="og:title" content="Clube Microsoft">
 	<meta property="og:type" content="website">

@@ -1,6 +1,6 @@
 
 		<?php  require_once "links.php"; ?>
-	<!-- Site Title -->
+		
 	<title>Contact</title>
 
 	 

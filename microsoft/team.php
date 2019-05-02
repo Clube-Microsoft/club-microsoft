@@ -1,13 +1,11 @@
 
 	<?php  require_once "links.php"; ?>
-	<!-- Site Title -->
 	<title>Equipa</title>
     <script src="jsx/sweetalert.js"></script>
 </head>
 
 <body>
 	<?php  require_once "menu.php"; ?>
-    <!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -20,7 +18,7 @@
 					</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index">Início</a>
+							<a href="/">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="team">Equipa</a>
 						</span>
@@ -32,9 +30,9 @@
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-	<!-- Start Faculty Area -->
+	
+	
+	
 	<section class="faculty-area section-gap">
 		<span class="anchor" id="equipa"></span>
 		<div class="container">
@@ -53,11 +51,6 @@
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s">Leandro Pereira</h4>
 						<p class="designation">Fundador | Desenvolvedor Web</p>
-						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-							<p>
-								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
-							</p>
-						</div>--> 
 
 						<div class="align-items-center justify-content-center d-flex">
 							<a href="https://www.linkedin.com/in/leandrojfpereira/" target="blank"><i class="fa fa-linkedin" target="blank"></i></a>
@@ -74,11 +67,6 @@
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Rúben Príncipe</h4>
 						<p class="designation">Fundador | Web Designer</p>
-						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-							<p>
-								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
-							</p>
-						</div>--> 
 
 						<div class="align-items-center justify-content-center d-flex">
 							<a href=" https://www.linkedin.com/in/ruben-principe/" target="blank"><i class="fa fa-linkedin"></i></a>
@@ -92,11 +80,7 @@
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Rui Pereira</h4>
 						<p class="designation">Fundador | Consultor</p>
-						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-							<p>
-								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
-							</p>
-						</div>--> 
+						
 						<div class="align-items-center justify-content-center d-flex">
 							<a href="https://www.linkedin.com/in/rmbp-rui/" target="blank"><i class="fa fa-linkedin"></i></a>
 						</div>

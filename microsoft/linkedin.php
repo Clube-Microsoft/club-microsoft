@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="pt-pt" class="no-js">
    <head>
       <?php  require_once "links.php"; ?>
-      <!-- Site Title -->
-      <title>Exame MOS - Evento</title>
+	  
+      <title>LinkedIn - Evento</title>
    </head>
    <body>
       <?php  require_once "menu.php"; ?>
-      <!-- Start Banner Area -->
+	  
       <section class="banner-area relative">
          <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
@@ -52,11 +52,6 @@
                         <p class="excert-dentro">
                          Nos próximos dias 13 e 20 de março será realizado um Workshop sobre Linkedin que irá dotar os alunos de conhecimentos e competências para a utilização eficaz desta ferramenta profissional. No final os alunos serão capazes de construir o seu perfil de maneira a efetuar a sua candidatura às ofertas de emprego, usando o computador e/ou dispositivos móveis.
                         </p>
-                        <!--<div class="quotes">
-                           MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-                           on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has
-                           the willpower to actually sit through a self-imposed MCSE training.
-                           </div>-->
                         <div class="meta-details">
                            <ul class="tags">
                               <li><a href="#">Eventos</a></li>
@@ -77,7 +72,6 @@
             </div>
          </div>
       </section>
-      <!-- End post-content Area -->
       <?php  require_once "footer.php"; ?>
       <script>
          linkedin = function (event, s, a){

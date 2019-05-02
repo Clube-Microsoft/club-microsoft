@@ -1,7 +1,6 @@
 <?php require_once "links.php"; ?>
-<!-- Site Title -->
-<title>Cursos</title>
 
+<title>Cursos</title>
 
 </head>
 
@@ -17,9 +16,6 @@
 
 	?>
 
-
-
-	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -32,7 +28,7 @@
 					</p>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index">Início</a>
+							<a href="/">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="courses">Cursos</a>
 						</span>
@@ -44,10 +40,9 @@
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-
-	<!-- Start Courses Area -->
+	
+	
+	
 	<section class="courses-area section-gap">
 		<div class="container">
 			<div class="row align-items-center">
@@ -58,7 +53,6 @@
 							Os cursos desenvolvidos pelo Clube Microsoft estão relacionados com informática nas suas mais diversas ferramentas, e visam preparar os alunos para aquisição de competências nesta área. De referir que, as tecnologias de informação são hoje em dia uma mais valia ao nível da geração de empregos e oportunidades de trabalho, por isso vem aprender connosco!
 						</p>
 					</div>
-					<!--<a href="courses.php" class="primary-btn">Saber Mais</a>-->
 				</div>
 				<div class="offset-lg-1 col-lg-6">
 					<div class="courses-right">
@@ -115,8 +109,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Courses Area -->
-
 
 	<style>
 		.courses-list {
@@ -140,8 +132,6 @@
 
 
 	<?php require_once "footer.php"; ?>
-
-
 
 
 </body>

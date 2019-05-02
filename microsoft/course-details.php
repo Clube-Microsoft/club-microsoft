@@ -20,7 +20,7 @@ if ($consulta->num_rows > 0) {
 
       <body>
          <?php require_once "menu.php"; ?>
-         <!-- Start Banner Area -->
+		 
          <section class="banner-area relative">
             <div class="container">
                <div class="row d-flex align-items-center justify-content-center">
@@ -31,7 +31,7 @@ if ($consulta->num_rows > 0) {
                      <p>Subtítulo Curso</p>
                      <div class="link-nav">
                         <span class="box">
-                           <a href="index">Início </a>
+                           <a href="/">Início</a>
                            <i class="lnr lnr-arrow-right"></i>
                            <a href="courses">Cursos</a>
                            <i class="lnr lnr-arrow-right"></i>
@@ -45,8 +45,9 @@ if ($consulta->num_rows > 0) {
                <img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
             </div>
          </section>
-         <!-- End Banner Area -->
-         <!-- Start post-content Area -->
+		 
+		 
+		 
          <section class="post-content-area single-post-area">
             <div class="container">
                <div class="row">
@@ -70,7 +71,6 @@ if ($consulta->num_rows > 0) {
                </div>
             </div>
          </section>
-         <!-- End post-content Area -->
 
       <?php
    }
@@ -93,13 +93,11 @@ if ($consulta->num_rows > 0) {
 
                   <head>
                      <?php require_once "links.php"; ?>
-                     <!-- Site Title -->
                      <title><?php echo $row['nome_sub_curso']; ?></title>
                   </head>
 
                   <body>
                      <?php require_once "menu.php"; ?>
-                     <!-- Start Banner Area -->
                      <section class="banner-area relative">
                         <div class="container">
                            <div class="row d-flex align-items-center justify-content-center">
@@ -110,7 +108,7 @@ if ($consulta->num_rows > 0) {
                                  <p><?php echo $row['nome_sub_curso']; ?></p>
                                  <div class="link-nav">
                                     <span class="box">
-                                       <a href="index">Início </a>
+                                       <a href="/">Início</a>
                                        <i class="lnr lnr-arrow-right"></i>
                                        <a href="courses">Cursos</a>
                                        <i class="lnr lnr-arrow-right"></i>
@@ -126,8 +124,8 @@ if ($consulta->num_rows > 0) {
                            <img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
                         </div>
                      </section>
-                     <!-- End Banner Area -->
-                     <!-- Start post-content Area -->
+					 
+					 
                      <section class="post-content-area single-post-area">
                         <div class="container">
                            <div class="row">
@@ -151,7 +149,6 @@ if ($consulta->num_rows > 0) {
                            </div>
                         </div>
                      </section>
-                     <!-- End post-content Area -->
 
                   <?php
                }

@@ -1,5 +1,4 @@
 <?php require_once "links.php"; ?>
-<!-- Site Title -->
 <title>Blog</title>
 
 
@@ -26,9 +25,6 @@
 
 	?>
 
-
-
-	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center">
@@ -38,7 +34,7 @@
 					</h1>
 					<div class="link-nav">
 						<span class="box">
-							<a href="index">Início </a>
+							<a href="/">Início</a>
 							<i class="lnr lnr-arrow-right"></i>
 							<a href="blog?pag=0">Blog</a>
 						</span>
@@ -50,9 +46,6 @@
 			<img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-	<!-- Start post-content Area -->
 
 	<section class="post-content-area" style="padding-top: 10vh;">
 		<div class="container">
@@ -160,7 +153,6 @@
 		</div>
 	</section>
 
-	<!-- End post-content Area -->
 
 	<?php require_once "footer.php"; ?>
 
