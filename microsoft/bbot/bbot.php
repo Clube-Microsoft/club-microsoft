@@ -44,7 +44,7 @@
                <input type="submit" name="txt_nao" value="Não" Class="btn_enviar_mail_chat" />
             </form>
          </div>
-         <p style="position: fixed;bottom: 2.5vh;left: 19.7%;">Powered by <a href="https://www.bbot.pt/" target="_blank">B-Bot</a></p>
+         <p style="position: fixed;bottom: 2.5vh;left: 240px;">Powered by <a href="https://www.bbot.pt/" target="_blank">B-Bot</a></p>
       </div>
      
 

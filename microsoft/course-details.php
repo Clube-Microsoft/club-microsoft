@@ -5,7 +5,7 @@ require_once "conexao.php";
 
 $Url_Clean = $_GET['c'];
 
-$sql      = "SELECT id_curso, nome_curso, nome_clear, nome_curso, icon_curso, texto_curso  FROM cursos where nome_clear='$Url_Clean'";
+$sql      = "SELECT id_curso, nome_curso, nome_clear, nome_curso, icon_curso, texto_curso, imagem_curso  FROM cursos where nome_clear='$Url_Clean'";
 $consulta = mysqli_query($conn, $sql);
 
 if ($consulta->num_rows > 0) {
@@ -54,7 +54,7 @@ if ($consulta->num_rows > 0) {
                      <div class="single-post row">
                         <div class="col-lg-12">
                            <div class="feature-img col-12 col-lg-8" style="float: left;">
-                              <img class="img-fluid img-blog-post-dentro" src="img/blog/linkedin_blog.jpg" alt="">
+                              <img class="img-fluid img-blog-post-dentro" <?php echo "src='img/img-course/".$row['imagem_curso']."'"; ?> <?php echo "alt='".$row['nome_curso']."'"; ?>>
                            </div>
                            <div class="col-12 col-lg-4" style="float: right;">
                               <h3 class="mt-20 mb-20"><?php echo $row['nome_curso']; ?></h3>
@@ -75,7 +75,7 @@ if ($consulta->num_rows > 0) {
       <?php
    }
 } else {
-   $sql1      = "SELECT id_sub_curso, nome_sub_curso, nome_sub_clear, icon_sub_curso, texto_sub_curso, id_curso  FROM sub_cursos where nome_sub_clear='$Url_Clean'";
+   $sql1      = "SELECT id_sub_curso, nome_sub_curso, nome_sub_clear, icon_sub_curso, texto_sub_curso, id_curso, imagem_sub_curso  FROM sub_cursos where nome_sub_clear='$Url_Clean'";
    $consulta1 = mysqli_query($conn, $sql1);
    
 
@@ -84,7 +84,7 @@ if ($consulta->num_rows > 0) {
 
          $id_curso =  $row['id_curso'];
 
-         $sql2      = "SELECT id_curso, nome_curso, nome_clear, icon_curso, texto_curso  FROM cursos where id_curso='$id_curso'";
+         $sql2      = "SELECT id_curso, nome_curso, nome_clear, icon_curso, texto_curso, imagem_curso  FROM cursos where id_curso='$id_curso'";
          $consulta2 = mysqli_query($conn, $sql2);
 
          if ($consulta2->num_rows > 0) {
@@ -135,7 +135,7 @@ if ($consulta->num_rows > 0) {
                                  <div class="single-post row">
                                     <div class="col-lg-12">
                                        <div class="feature-img col-12 col-lg-8" style="float: left;">
-                                          <img class="img-fluid img-blog-post-dentro" <?php echo "src='img/maintenance.jpg".$row['imagem_curso']."'"; ?> alt="">
+                                          <img class="img-fluid img-blog-post-dentro" <?php echo "src='img/img-course/".$row['imagem_sub_curso']."'"; ?>  <?php echo "alt='".$row['nome_curso']."'"; ?>>
                                        </div>
                                        <div class="col-12 col-lg-4" style="float: right;">
                                           <h3 class="mt-20 mb-20"><?php echo $row['nome_sub_curso']; ?></h3>
