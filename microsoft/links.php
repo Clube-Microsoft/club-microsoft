@@ -1,22 +1,30 @@
 <?php ob_start();
 ?>
 <!DOCTYPE html>
-<html lang="zxx" class="no-js"> <head>
-	<!-- Mobile Specific Meta -->
+<html lang="pt-pt" class="no-js">
+<head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
 	<link rel="shortcut icon" href="img/logo/logo.png">
-	<!-- Author Meta -->
-	<meta name="author" content="codepixer">
-	<!-- Meta Description -->
+	<meta name="author" content="Clube Microsoft">
 	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="keywords" content="clube, microsoft, epb, clube microsoft, microsoft club, development, learning, educação">
+	<meta name="description" content="Com foco na aprendizagem e motivação de estudo, este clube engloba diversas mais valias e características importantes para o teu desenvolvimento como profissional">
+
+	<meta name="robots" content="index,follow">
+
+	<meta property="og:title" content="Clube Microsoft">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://www.epbclubemicrosoft.pt/">
+	<meta property="og:image" content="http://www.epbclubemicrosoft.pt/img/logo/LogoName.png">
+	<meta property="og:site_name" content="Clube Microsoft">
+	<meta property="og:description" content="Com foco na aprendizagem e motivação de estudo, este clube engloba diversas mais valias e características importantes para o teu desenvolvimento como profissional">
 
 	<!--
-			Google Font
+			Fonts
 			============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500i" rel="stylesheet">

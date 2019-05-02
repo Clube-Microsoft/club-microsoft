@@ -82,7 +82,7 @@
 								</div>
 								<h3 style="min-height: 60px;"><?php echo $row['Titulo']; ?></h3>
 							</a>
-							<p class="date col-lg-12 col-md-12 col-6"><a href="#"><?php echo $row['Data']; ?></a> <span class="lnr lnr-calendar-full"></span></p>
+							<p class="date col-lg-12 col-md-12 col-6"><a><?php echo $row['Data']; ?></a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="excert" style="min-height: 120px;">
                   				<?php echo $row['Texto_Pequeno']; ?>
                   				</p>

@@ -4,24 +4,6 @@
          <div id="logo">
             <a href="/" id="img_menu_desktop"><img src="img/logo/LogoName.png"  alt="" title="" class="img_menu"/></a>
          </div>
-         <!--<nav id="nav-menu-container">
-            <ul class="nav-menu">
-              <li><a href="index.php">Início</a></li>
-              <li><a href="courses.php">Cursos</a></li>
-              <li class="menu-has-children">
-                <a>Serviços</a>
-                <ul class="nav-dropdown">
-                  <li><a href="services.php">Workshops</a></li>
-                  <li><a href="services.php">Palestras</a></li>
-                  <li><a href="services.php">Aulas Digitais</a></li>
-                  <li><a href="services.php">Ajuda em Tempo Real</a></li>
-                </ul>
-              </li>
-              <li><a href="blog-home.php">Blog</a></li>
-              <li><a href="contact.php">Contacto</a></li>
-            </ul>
-            </nav>-->
-            <!-- #nav-menu-container -->
          <div class="topnav" id="myTopnav">
             <a href="/" style="background: none; display: none;" id="img_menu"><img src="img/logo/LogoName.png" alt="" title="" class="img_menu"/></a>
             <a href="/">Início</a>

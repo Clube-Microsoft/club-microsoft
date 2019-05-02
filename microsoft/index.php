@@ -1,7 +1,6 @@
  	
-		<?php  require_once "links.php"; ?>
+	<?php  require_once "links.php"; ?>
 
-	<!-- Site Title -->
 	<title>Clube Microsoft</title>
 
 </head>
@@ -18,8 +17,6 @@
 
 	?>
 
-
-	<!-- Start Banner Area -->
 	<section class="home-banner-area relative">
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-center banner">
@@ -52,10 +49,9 @@
 			<img src="img/rocket.png" alt="">
 		</div>
 	</section>
-	<!-- End Banner Area -->
-
-
-	<!-- Start About Area -->
+	
+	
+	
 	<span class="anchor" id="sobre"></span>
 	<section class="about-area section-gap">
 		<div class="container">
@@ -77,9 +73,9 @@
 			</div>
 		</div>
 	</section>
-	<!-- End About Area -->
-
-	<!-- Start Missão Area -->
+	
+	
+	
 	<span class="anchor" id="missao"></span>
 	<section class="about-area section-gap section-gap1">
 		<span class="anchor" id="missao"></span>
@@ -103,9 +99,9 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Missão Area -->
-
-	<!-- Start Services Area -->
+	
+	
+	
 	<section class="feature-area">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -163,10 +159,9 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Services Area -->
-
-
-	<!-- Start Faculty Area -->
+	
+	
+	
 	<section class="faculty-area section-gap">
 		<span class="anchor" id="equipa"></span>
 		<div class="container">
@@ -185,11 +180,6 @@
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s">Leandro Pereira</h4>
 						<p class="designation">Fundador | Desenvolvedor Web</p>
-						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-							<p>
-								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
-							</p>
-						</div>--> 
 
 						<div class="align-items-center justify-content-center d-flex">
 							<a href="https://www.linkedin.com/in/leandrojfpereira/" target="blank"><i class="fa fa-linkedin" target="blank"></i></a>
@@ -206,11 +196,6 @@
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Rúben Príncipe</h4>
 						<p class="designation">Fundador | Web Designer</p>
-						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-							<p>
-								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
-							</p>
-						</div>--> 
 
 						<div class="align-items-center justify-content-center d-flex">
 							<a href=" https://www.linkedin.com/in/ruben-principe/" target="blank"><i class="fa fa-linkedin"></i></a>
@@ -224,11 +209,6 @@
 					<div class="meta-text text-center">
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Rui Pereira</h4>
 						<p class="designation">Fundador | Consultor</p>
-						<!-- <div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-							<p>
-								If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
-							</p>
-						</div>--> 
 						<div class="align-items-center justify-content-center d-flex">
 							<a href="https://www.linkedin.com/in/rmbp-rui/" target="blank"><i class="fa fa-linkedin"></i></a>
 						</div>
@@ -240,126 +220,8 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Faculty Area -->
-
-
-	<!-- Start Testimonials Area -->
-	<!-- <section class="testimonials-area section-gap">
-		<div class="container">
-			<div class="testi-slider owl-carousel" data-slider-id="1">
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="owl-thumbs d-flex justify-content-center" data-slider-id="1">
-				<div class="owl-thumb-item">
-					<div>
-						<img class="img-fluid" src="img/testimonial/t1.jpg" alt="">
-					</div>
-					<div class="overlay overlay-grad"></div>
-				</div>
-				<div class="owl-thumb-item">
-					<div>
-						<img class="img-fluid" src="img/testimonial/t2.jpg" alt="">
-					</div>
-					<div class="overlay overlay-grad"></div>
-				</div>
-				<div class="owl-thumb-item">
-					<div>
-						<img class="img-fluid" src="img/testimonial/t3.jpg" alt="">
-					</div>
-					<div class="overlay overlay-grad"></div>
-				</div>
-				<div class="owl-thumb-item">
-					<div>
-						<img class="img-fluid" src="img/testimonial/t4.jpg" alt="">
-					</div>
-					<div class="overlay overlay-grad"></div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- End Testimonials Area -->
-
 
 	<?php  require_once "footer.php"; ?>
-
-	 
-
-	
 
 <script>
 	$(function() {

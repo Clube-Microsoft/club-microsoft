@@ -43,8 +43,7 @@
             <img src="img/rocket.png" alt="" style="margin-bottom:-8px;">
          </div>
       </section>
-      <!-- End Banner Area -->
-      <!-- Start post-content Area -->
+	  
       <section class="post-content-area single-post-area">
          <div class="container">
             <div class="row">
@@ -56,7 +55,7 @@
                         </div>
                         <div class="col-12 col-lg-4" style="float: right;">
                            <h3 class="mt-20 mb-20"><?php echo $row['Titulo']; ?></h3>
-                           <p class="date"><a href="#"><?php echo $row['Data']; ?></a> <span class="lnr lnr-calendar-full"></span></p>
+                           <p class="date"><a><?php echo $row['Data']; ?></a> <span class="lnr lnr-calendar-full"></span></p>
                         </div>
                      </div>
                      <div class="col-12" style="position: unset;">
@@ -100,7 +99,6 @@
             </div>
          </div>
       </section>
-      <!-- End post-content Area -->
       
       <?php
          }
