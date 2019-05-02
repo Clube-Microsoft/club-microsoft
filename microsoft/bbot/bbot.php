@@ -119,19 +119,7 @@
             });
 
             $("#div_msgs").delay(1200).queue(function (next) {
-                  $(this).append("<p class='p_assistente'><?php
-                     $sql = 'SELECT * FROM categoria'; $consulta = mysqli_query($conn, $sql);
-
-                     if ($consulta -> num_rows > 0) {
-                        while ($row = $consulta -> fetch_assoc()) {
-                           echo $row['NomeCategoria'].
-                           '<br>';
-                        }
-                     } else {
-                        echo 'Sem Dados';
-                     }
-
-                     ?></p><div style='clear: both'></div > ");
+                  $(this).append("<p class='p_assistente'>Exemplos:<br />Contacto, Equipa, Sobre...</p>");
                      next();
                   });
 
@@ -205,6 +193,8 @@
 
             $("#button_sim").css("display", "none");
             $("#button_nao").css("display", "none");
+            $("#txt_msg_cat").val('');
+			$("#enviar_cat").css("display", "block");
 
             const nome = $('#txt_msg_nome').val();
             const email = $('#txt_msg_email').val();
@@ -220,7 +210,7 @@
             $("#div_msgs").append("<p class='p_cliente'>Não</p>");
 
             $("#div_msgs").delay(800).queue(function (next) {
-               $(this).append("<p class='p_assistente'>Obrigado por nos contactar!</p>");
+               $(this).append("<p class='p_assistente'>Tente novamente!</p>");
                next();
             });
             $(".div_conversa").stop().animate({
