@@ -135,7 +135,7 @@ if ($consulta->num_rows > 0) {
                                  <div class="single-post row">
                                     <div class="col-lg-12">
                                        <div class="feature-img col-12 col-lg-8" style="float: left;">
-                                          <img class="img-fluid img-blog-post-dentro" src="img/blog/linkedin_blog.jpg" alt="">
+                                          <img class="img-fluid img-blog-post-dentro" <?php echo "src='img/maintenance.jpg".$row['imagem_curso']."'"; ?> alt="">
                                        </div>
                                        <div class="col-12 col-lg-4" style="float: right;">
                                           <h3 class="mt-20 mb-20"><?php echo $row['nome_sub_curso']; ?></h3>
