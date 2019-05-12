@@ -204,7 +204,10 @@
 						<h4 class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Rui Pereira</h4>
 						<p class="designation">Fundador | Consultor</p>
 						<div class="align-items-center justify-content-center d-flex">
-							<a href="https://www.linkedin.com/in/rmbp-rui/" target="blank"><i class="fa fa-linkedin"></i></a>
+							<a href="https://www.linkedin.com/in/rmbprui/" target="blank"><i class="fa fa-linkedin"></i></a>
+							<a href="https://www.instagram.com/rmbprui" target="blank"><i class="fa fa-instagram"></i></a>
+							<a href="https://twitter.com/rmbprui" target="blank"><i class="fa fa-twitter" target="blank"></i></a>
+							<a href="https://www.facebook.com/rmbprui.pereira" target="blank"><i class="fa fa-facebook"></i></a>
 						</div>
 					</div>
 				</div>
