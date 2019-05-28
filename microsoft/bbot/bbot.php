@@ -226,9 +226,6 @@
             $("#button_sim").css("display", "none");
             $("#button_nao").css("display", "none");
 
-
-
-
             const nome = $('#txt_msg_nome').val();
             const email = $('#txt_msg_email').val();
             const categoria = $('#txt_msg_cat').val();
